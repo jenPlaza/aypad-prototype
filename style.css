@@ -47,7 +47,7 @@ label {
   color: #432e41;
 }
 p {
-  font: normal normal normal 16px/1.4 'Darker Grotesque', sans-serif;
+  font: normal normal normal 16px/1.2 'Darker Grotesque', sans-serif;
   color: #000;
 }
 /*-----------------------HEADER ----*/
@@ -66,6 +66,9 @@ header {
 .logo {
   width: 6.5rem;
   height: 6.5rem;
+  position: relative;
+  top: -13px;
+  left: 10px;
 }
 nav ul {
   display: flex;
@@ -134,7 +137,7 @@ nav a h5:hover {
   position: relative;
 }
 .parallex {
-  height: 900px;
+  height: 750px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,6 +164,7 @@ nav a h5:hover {
     rgba(255, 255, 255, 0.4),
     rgba(0, 0, 0, 0.2)
   );
+  height: 2750px;
 }
 /*-----------------------PARALEX end ----*/
 .divider {
@@ -198,7 +202,52 @@ nav a h5:hover {
 #partners {
   position: relative;
 }
-
+/*-----------------------Gallery ----*/
+#gallery {
+  width: 100%;
+  padding: 2% 3%;
+}
+.row {
+  display: flex;
+}
+.col {
+  padding: 1% 1% 0 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.col img {
+  border-radius: 49px;
+}
+.nopadding {
+  padding: 1% 0% 0 0%;
+}
+.flex {
+  display: flex;
+}
+.align_right {
+  text-align: end;
+}
+.align-self_center {
+  align-self: center;
+}
+.align-self_end {
+  align-self: end;
+}
+.line-Height_xs {
+  line-height: 1 !important;
+}
+#gallery .row:nth-child(2) .col.align-self_center {
+  height: 115px;
+}
+#gallery .row:nth-child(3) .row2.align-self_end.align_right,
+#gallery .row:nth-child(3) .col:nth-child(2) .row2:last-child,
+#gallery .row:nth-child(3) .col:nth-child(3) .row2:last-child {
+  width: 65%;
+}
+#gallery .row:nth-child(3) .col:nth-child(3) .row2:first-child img {
+  object-fit: cover;
+}
 /*-----------------------Partners ----*/
 #partners {
   width: 100%;
