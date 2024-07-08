@@ -80,6 +80,7 @@ nav a {
 nav a h5 {
   text-decoration: none;
   color: #d2d2d2;
+  filter: drop-shadow(2px 4px 6px black);
 }
 nav a h5:active {
   color: #fe9933;
