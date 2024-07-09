@@ -161,7 +161,7 @@ nav a h5:hover {
 #parallex-set-1 {
   /*---breaking throughthe limits ----*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../images/doug-linstedt-jEEYZsaxbH4-unsplash.jpg');
+    url('../images/parallex/doug-linstedt-jEEYZsaxbH4-unsplash.jpg');
 }
 #parallex-set-2 {
   background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.2));
