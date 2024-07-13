@@ -9,9 +9,8 @@
 body {
   overflow-x: hidden;
   width: 100%;
+  height: 100%;
   position: relative;
-}
-body {
   font: normal small-caps normal 16px / 1.4 'Darker Grotesque', sans-serif;
 }
 h1 {
@@ -396,25 +395,31 @@ form input[type='submit'] {
 /*-----------------------Footer ----*/
 footer {
   width: 100%;
-  height: 100%;
+  height: 185px;
   background-color: #432e41;
-  padding: 5%;
+  padding: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 footer div {
   display: flex;
-  padding-bottom: 9%;
+  margin-bottom: -5%;
 }
 footer img {
   width: 50px;
   height: 50px;
   margin-right: 15px;
+  margin-top: -8px;
 }
 footer h4 em {
   color: #d2d2d2;
   font-size: 20px;
 }
 .social_media {
-  width: 100%;
+  width: 60%;
+  align-self: center;
 }
 .social_media ul {
   display: flex;
@@ -422,6 +427,19 @@ footer h4 em {
 }
 .social_media li {
   list-style: none;
+}
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+.map a {
+  text-decoration: none;
+}
+.map a h5 {
+  color: #dcdcdc !important;
 }
 .social_media img {
   width: 30px;
@@ -449,7 +467,7 @@ footer h4 em {
     padding-top: 5%;
   }
   footer div {
-    padding-bottom: 5%;
+    margin-bottom: -4%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -493,10 +511,16 @@ footer h4 em {
     order: inherit;
   }
   footer {
-    padding: 3%;
+    padding: 0%;
+    flex-direction: row;
+    align-items: center;
+    height: 125px;
   }
   footer div {
     padding-bottom: 3%;
+  }
+  .map {
+    width: 30%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -572,10 +596,18 @@ footer h4 em {
     flex-wrap: nowrap;
   }
   footer div {
-    padding-top: 35px;
+    padding-top: 0px;
+    width: 35%;
+  }
+  footer div h4 {
+    line-height: 0.5;
+  }
+  .map {
+    width: 25%;
+    padding-right: 3%;
   }
   .social_media {
-    width: 40%;
+    width: 32%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -665,9 +697,6 @@ footer h4 em {
     height: 225px;
     border-radius: 49px;
   }
-  footer div {
-    padding-top: 45px;
-  }
   .social_media {
     width: 20%;
   }
@@ -679,7 +708,7 @@ footer h4 em {
   #main_slider img {
     object-position: right 0px top -215px;
   }
-  footer div {
-    padding-top: 59px;
+  .map {
+    width: 20%;
   }
 }
