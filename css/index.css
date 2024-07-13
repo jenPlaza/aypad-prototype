@@ -703,10 +703,10 @@ footer h4 em {
 }
 @media screen and (min-width: 1600px) {
   #main_slider {
-    height: 60vh;
+    height: 75vh;
   }
   #main_slider img {
-    object-position: right 0px top -215px;
+    object-position: right 0px top -175px;
   }
   .map {
     width: 20%;
