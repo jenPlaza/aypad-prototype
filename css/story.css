@@ -3,6 +3,8 @@
   height: auto;
   padding-bottom: 16%;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 #story_banner div {
   width: 100%;
@@ -14,6 +16,9 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+section#story_banner figure img {
+  object-fit: cover;
 }
 #story_banner div h1 {
   color: #dcdcdc;
@@ -92,8 +97,47 @@ section#projects_gallery ul > li article figure figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
   background-color: rgba(0, 0, 0, 0.4);
+}
+section#projects_gallery ul > li article figure figcaption h5 {
   font-size: 1.25rem;
-  color: white;
+  color: white !important;
+}
+@media screen and (min-width: 576px) {
+  #story_banner {
+    height: 445px;
+    width: 100vw;
+  }
+  section#story_banner figure {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#story_banner div {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #story_banner {
+    height: 50vh;
+    margin-bottom: -5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #story_banner {
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #story_banner {
+    height: 60vh;
+    margin-bottom: -8%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #story_banner {
+    height: 65vh;
+    margin-bottom: -10%;
+  }
 }

@@ -83,7 +83,7 @@ for (var i = 0; i < imageList.length; i++) {
   newGallery +=
     '<img src="' + imageList[i].img + '" alt="' + imageList[i].caption + '"/>';
   newGallery +=
-    '<figcaption ><h5>' + imageList[i].caption + '</h5></figcaption>';
+    '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
   newGallery += '</figure></article></li>';
 }
 newGallery += '</ul>';
