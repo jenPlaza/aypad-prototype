@@ -434,7 +434,10 @@ footer h4 em {
     height: 50px;
   }
   #main_slider {
-    height: 50vh;
+    height: 36vh;
+  }
+  #main_slider img {
+    object-position: right 0px top -45px;
   }
   #story header h2 {
     margin: 7% 7% 0 7%;
@@ -450,6 +453,9 @@ footer h4 em {
   }
 }
 @media screen and (min-width: 768px) {
+  #main_slider {
+    height: 45vh;
+  }
   #story header {
     width: 90%;
     padding: 2% 3% 0% 3%;
@@ -573,8 +579,14 @@ footer h4 em {
   }
 }
 @media screen and (min-width: 1200px) {
+  #main_slider {
+    height: 50vh;
+  }
   #main_slider img {
-    object-position: right 0px top -127px;
+    object-position: right 0px top -150px;
+  }
+  .social_media {
+    width: 25%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -582,10 +594,10 @@ footer h4 em {
     font: normal normal bold 72px/1.4 'Fraunces', serif;
   }
   #main_slider {
-    height: 20vh;
+    height: 56.5vh;
   }
   #main_slider img {
-    object-position: right 0px top -289px;
+    object-position: right 0px top -163px;
   }
   .parallex1 {
     background-position: right 0px bottom 0px;
@@ -652,5 +664,22 @@ footer h4 em {
     width: 250px;
     height: 225px;
     border-radius: 49px;
+  }
+  footer div {
+    padding-top: 45px;
+  }
+  .social_media {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #main_slider {
+    height: 60vh;
+  }
+  #main_slider img {
+    object-position: right 0px top -215px;
+  }
+  footer div {
+    padding-top: 59px;
   }
 }
