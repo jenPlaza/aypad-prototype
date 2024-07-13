@@ -35,20 +35,20 @@ h3 {
   color: #432e41;
 }
 h3 em {
-  font: normal small-caps 600 48px/1.4 'Darker Grotesque', sans-serif;
+  font: normal small-caps 600 48px/1.2 'Darker Grotesque', sans-serif;
   color: #432e41;
 }
 h4 {
-  font: normal normal normal 34px/1.4 'Fraunces', serif;
+  font: normal normal normal 34px/1 'Fraunces', serif;
   color: #432e41;
 }
 h4 em {
-  font: normal normal normal 26px/1.4 'Fraunces', serif;
+  font: normal normal normal 26px/1 'Fraunces', serif;
   color: #432e41;
 }
 h5,
 label {
-  font: normal small-caps normal 20px/1.4 'Fraunces', serif;
+  font: normal small-caps normal 20px/1 'Fraunces', serif;
   color: #432e41;
 }
 p {
@@ -103,11 +103,10 @@ nav a h5:hover {
 #main_slider {
   width: 100%;
   height: 100%;
-  background-position: right -14px bottom 369px;
   position: relative;
 }
 #main_slider img {
-  background-position: right 0px top 0px;
+  object-position: right 0px top -16px;
 }
 #mission {
   width: 100%;
@@ -202,6 +201,7 @@ nav a h5:hover {
 #story header h1,
 #story header h3 {
   display: flex;
+  padding-right: 3%;
 }
 #story header h1 em {
   font-size: 62px;
@@ -428,11 +428,13 @@ footer h4 em {
   height: 30px;
   margin: 0 auto;
 }
-
 @media screen and (min-width: 576px) {
   .logo {
     width: 50px;
     height: 50px;
+  }
+  #main_slider {
+    height: 50vh;
   }
   #story header h2 {
     margin: 7% 7% 0 7%;
@@ -447,7 +449,6 @@ footer h4 em {
     padding-bottom: 5%;
   }
 }
-
 @media screen and (min-width: 768px) {
   #story header {
     width: 90%;
@@ -455,6 +456,9 @@ footer h4 em {
   }
   #gallery {
     padding: 2% 3%;
+  }
+  #gallery .text {
+    padding: 3%;
   }
   #gallery .row:nth-child(1) .col:nth-child(1) img,
   #gallery .row:nth-child(2) .col:nth-child(2) img,
@@ -471,6 +475,7 @@ footer h4 em {
   .partners_layout {
     align-self: center;
     flex-wrap: inherit;
+    padding-top: 0%;
   }
   #freya img,
   #trueTalk img {
@@ -488,13 +493,16 @@ footer h4 em {
     padding-bottom: 3%;
   }
 }
-
 @media screen and (min-width: 992px) {
+  #main_slider img {
+    object-position: right 0px top -95px;
+  }
   #story header {
-    height: 40vh;
+    height: 30vh;
   }
   #story header h2 {
-    margin: 0% 7% 0 7%;
+    margin: 0% auto 0 auto;
+    order: inherit;
   }
   .row {
     flex-wrap: inherit;
@@ -502,6 +510,17 @@ footer h4 em {
   .col img {
     width: 45vw;
     padding-top: 3%;
+  }
+  #gallery .text {
+    padding: 1%;
+    margin-top: 3%;
+  }
+  #gallery .row:nth-child(2) .col:nth-child(1).col.padding-0.paddingTB,
+  #gallery .row:nth-child(2) .col:nth-child(2).col.padding-0.paddingTB {
+    width: 50%;
+  }
+  #gallery .row:nth-child(2) .col:nth-child(2) img {
+    width: 35vw;
   }
   #gallery .row:nth-child(1) .col:nth-child(4),
   #gallery .row:nth-child(3) .col:nth-child(3) {
@@ -553,10 +572,17 @@ footer h4 em {
     width: 40%;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  #main_slider img {
+    object-position: right 0px top -127px;
+  }
+}
 @media screen and (min-width: 1400px) {
   h2 {
     font: normal normal bold 72px/1.4 'Fraunces', serif;
+  }
+  #main_slider {
+    height: 20vh;
   }
   #main_slider img {
     object-position: right 0px top -289px;
@@ -584,9 +610,9 @@ footer h4 em {
   .col img {
     width: 25vw;
   }
+
   #gallery .row:nth-child(2) .col:first-child.padding-0.paddingTB img {
     width: 25vw;
-    border: 1px solid red;
   }
   #gallery .row:nth-child(3) .col:first-child .row2:first-child {
     order: 1;
