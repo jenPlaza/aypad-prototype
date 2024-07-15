@@ -68,23 +68,40 @@ var imageList = [
   {
     id: '14',
     img: 'images/photo_gallery/placeholder.png',
-    caption: 'Lorem Ipsium',
+    caption: 'Lorem Ipsium Project',
   },
   {
     id: '15',
     img: 'images/photo_gallery/placeholder2.png',
-    caption: 'Lorem Ipsium',
+    caption: 'Lorem Ipsium Project',
   },
 ];
 
 var newGallery = '<ul>';
 for (var i = 0; i < imageList.length; i++) {
-  newGallery += '<li><article><a href="./story_event_prgm.html"><figure>';
-  newGallery +=
-    '<img src="' + imageList[i].img + '" alt="' + imageList[i].caption + '"/>';
-  newGallery +=
-    '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
-  newGallery += '</figure></a></article></li>';
+  if (imageList[i].caption.indexOf('Project')) {
+    newGallery += '<li><article><a href="./story_event_prjct.html"><figure>';
+    newGallery +=
+      '<img src="' +
+      imageList[i].img +
+      '" alt="' +
+      imageList[i].caption +
+      '"/>';
+    newGallery +=
+      '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
+    newGallery += '</figure></a></article></li>';
+  } else if (!imageList[i].caption.indexOf('Project')) {
+    newGallery += '<li><article><a href="./story_event_prgm.html"><figure>';
+    newGallery +=
+      '<img src="' +
+      imageList[i].img +
+      '" alt="' +
+      imageList[i].caption +
+      '"/>';
+    newGallery +=
+      '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
+    newGallery += '</figure></a></article></li>';
+  }
 }
 newGallery += '</ul>';
 document.getElementById('projects_gallery').innerHTML = newGallery;
