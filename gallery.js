@@ -79,7 +79,7 @@ var imageList = [
 
 var newGallery = '<ul>';
 for (var i = 0; i < imageList.length; i++) {
-  if (imageList[i].caption.indexOf('Project')) {
+  if (imageList[i].caption.includes('Project')) {
     newGallery += '<li><article><a href="./story_event_prjct.html"><figure>';
     newGallery +=
       '<img src="' +
@@ -90,7 +90,7 @@ for (var i = 0; i < imageList.length; i++) {
     newGallery +=
       '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
     newGallery += '</figure></a></article></li>';
-  } else if (!imageList[i].caption.indexOf('Project')) {
+  } else if (!imageList[i].caption.includes('Project')) {
     newGallery += '<li><article><a href="./story_event_prgm.html"><figure>';
     newGallery +=
       '<img src="' +
