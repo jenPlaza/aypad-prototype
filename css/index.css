@@ -11,26 +11,26 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  font: normal small-caps normal 16px / 1.4 'Darker Grotesque', sans-serif;
+  font: normal small-caps normal 16px / 1.2 'Darker Grotesque', sans-serif;
 }
 h1 {
-  font: normal small-caps bold 100px/1.4 'Fraunces', serif;
+  font: normal small-caps bold 100px/1.2 'Fraunces', serif;
   color: #eeb847;
 }
 h1 em {
-  font: normal normal 300 100px/1.4 'Darker Grotesque', sans-serif;
+  font: normal normal 300 100px/1 'Darker Grotesque', sans-serif;
   color: #d2d2d2;
 }
 h2 {
-  font: normal normal bold 56px/1.4 'Fraunces', serif;
+  font: normal normal bold 56px/1.2 'Fraunces', serif;
   color: #eeb847;
 }
 h2 em {
-  font: normal normal 300 85px/1.4 'Fraunces', serif;
+  font: normal normal 300 85px/1.2 'Fraunces', serif;
   color: #d2d2d2;
 }
 h3 {
-  font: normal normal 300 48px/1.4 'Darker Grotesque', sans-serif;
+  font: normal normal 300 48px/1.2 'Darker Grotesque', sans-serif;
   color: #432e41;
 }
 h3 em {
@@ -101,7 +101,8 @@ nav a h5:hover {
 /*-----------------------MAIN ----*/
 #main_slider {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  height: 50vh;
   position: relative;
 }
 #main_slider img {
@@ -452,7 +453,7 @@ footer h4 em {
     height: 50px;
   }
   #main_slider {
-    height: 36vh;
+    /* height: 36vh; */
   }
   #main_slider img {
     object-position: right 0px top -45px;
@@ -472,7 +473,7 @@ footer h4 em {
 }
 @media screen and (min-width: 768px) {
   #main_slider {
-    height: 45vh;
+    height: 400px;
   }
   #story header {
     width: 90%;

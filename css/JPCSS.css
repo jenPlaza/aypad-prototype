@@ -1,6 +1,13 @@
+
 /*-----------------------Not Specific ----*/
 .border {
   border: 2px solid red;
+}
+.w100{
+  width:100%;
+}
+.h100{
+  height:100%;
 }
 /*-----------------------padding 1% ----*/
 .padding-0 {
@@ -81,10 +88,15 @@
   margin-right: 1% !important;
   margin-left: 1% !important;
 }
-/*-----------------------ALIGNMENT ----*/
+/*-----------------------FLEX ----*/
 .flex {
   display: flex;
 }
+.flexwrap {
+  /*----change ----*/
+  flex-wrap: wrap;
+}
+/*-----------------------ALIGNMENT ----*/
 .align-right {
   text-align: end;
 }
@@ -103,10 +115,28 @@
 .justify-content-center {
   justify-content: center !important;
 }
+
+/*-----------------------object fit ----*/
+.object-fill{
+  object-fit: fill!important;
+}
+
+.object-contain {
+  object-fit: contain!important;
+}
+
+.object-cover {
+  object-fit: cover!important;
+}
+
+.object-fit-none {
+  object-fit: none!important;
+}
+.object-scale-down {
+  object-fit: scale-down !important;
+}
 /*-----------------------misc ----*/
 .line-Height_xs {
   line-height: 1 !important;
 }
-.object-fit-cover {
-  object-fit: cover !important;
-}
+
