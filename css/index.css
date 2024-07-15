@@ -101,8 +101,7 @@ nav a h5:hover {
 /*-----------------------MAIN ----*/
 #main_slider {
   width: 100%;
-  /* height: 100%; */
-  height: 50vh;
+  height: 100%;
   position: relative;
 }
 #main_slider img {
@@ -122,10 +121,10 @@ nav a h5:hover {
 #upcoming_events,
 #true_talk_articles {
   width: 100%;
-  height: 425px;
+  height: auto;
   position: relative;
   background-color: #fff;
-  padding: 2% 0 2% 7%;
+  padding: 10% 0 10% 7%;
 }
 #events,
 #articles {
@@ -453,7 +452,7 @@ footer h4 em {
     height: 50px;
   }
   #main_slider {
-    /* height: 36vh; */
+    height: 400px;
   }
   #main_slider img {
     object-position: right 0px top -45px;
@@ -502,6 +501,9 @@ footer h4 em {
     flex-wrap: inherit;
     padding-top: 0%;
   }
+  #partners {
+    padding: 3% 3% 7% 3%;
+  }
   #freya img,
   #trueTalk img {
     width: 250px;
@@ -522,6 +524,12 @@ footer h4 em {
   }
   .map {
     width: 30%;
+  }
+  #upcoming_events {
+    padding: 5% 0 7% 7%;
+  }
+  #true_talk_articles {
+    padding: 10% 0 5% 7%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -566,6 +574,9 @@ footer h4 em {
     top: 45.5%;
     width: 35%;
     text-align: end;
+  }
+  #partners {
+    padding: 3% 3% 5% 3%;
   }
   #partners h2 {
     padding-bottom: 0;
@@ -620,6 +631,15 @@ footer h4 em {
   }
   .social_media {
     width: 25%;
+  }
+  #upcoming_events {
+    padding: 3% 0 5% 7%;
+  }
+  #true_talk_articles {
+    padding: 7% 0 2% 7%;
+  }
+  #partners {
+    padding: 3% 3% 4% 3%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -687,6 +707,9 @@ footer h4 em {
     object-fit: contain;
     height: 100%;
     width: 27vw;
+  }
+  #partners {
+    padding: 3%;
   }
   .partners_layout {
     width: 1000px;

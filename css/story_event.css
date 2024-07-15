@@ -51,6 +51,9 @@ figure {
   #event {
     padding: 2% 5%;
   }
+  #story h2 {
+    margin-top: 3%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -92,6 +95,9 @@ figure {
   #event {
     margin-top: -2%;
   }
+  #slider {
+    height: 635px;
+  }
 }
 @media screen and (min-width: 1200px) {
   #event div.event_info {
@@ -100,14 +106,30 @@ figure {
   #event {
     padding: 0 5% 2% 5%;
   }
+  #slider {
+    height: 735px;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   #event .social_media {
     width: 20%;
+  }
+  #slider {
+    margin-top: 5%;
+  }
+  #story h2 {
+    margin-top: -7%;
   }
 }
 @media screen and (min-width: 1600px) {
   #event .social_media {
     width: 18%;
+  }
+  #slider {
+    height: 800px;
+    margin-top: 8%;
+  }
+  #story h2 {
+    margin-top: -11%;
   }
 }

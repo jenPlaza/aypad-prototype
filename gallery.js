@@ -79,12 +79,12 @@ var imageList = [
 
 var newGallery = '<ul>';
 for (var i = 0; i < imageList.length; i++) {
-  newGallery += '<li><article><figure>';
+  newGallery += '<li><article><a href="./story_event_prgm.html"><figure>';
   newGallery +=
     '<img src="' + imageList[i].img + '" alt="' + imageList[i].caption + '"/>';
   newGallery +=
     '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
-  newGallery += '</figure></article></li>';
+  newGallery += '</figure></a></article></li>';
 }
 newGallery += '</ul>';
 document.getElementById('projects_gallery').innerHTML = newGallery;

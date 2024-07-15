@@ -37,6 +37,9 @@ section#story_banner figure img {
   text-align: center;
   color: #db3739;
 }
+section#partners_gallery {
+  padding: 0 0 5% 7%;
+}
 #partners_gallery section {
   display: flex;
   justify-content: center;
@@ -120,6 +123,9 @@ section#projects_gallery ul > li article figure figcaption h5 {
   section#story_banner div {
     width: 80%;
   }
+  section#story_banner figure {
+    height: 300px;
+  }
 }
 @media screen and (min-width: 992px) {
   #story_banner {
@@ -140,10 +146,16 @@ section#projects_gallery ul > li article figure figcaption h5 {
     /* height: 60vh; */
     margin-bottom: -8%;
   }
+  #story {
+    margin-top: 2.5%;
+  }
 }
 @media screen and (min-width: 1600px) {
   #story_banner {
     /* height: 65vh; */
     margin-bottom: -10%;
+  }
+  #story {
+    margin-top: 5.5%;
   }
 }
