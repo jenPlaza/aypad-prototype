@@ -1,77 +1,77 @@
 //alert('js file');
 var imageList = [
   {
-    id: '01',
+    id: 'snail',
     img: 'images/photo_gallery/snail.png',
     caption: 'Snail Farming Project',
   },
   {
-    id: '02',
+    id: 'waste',
     img: 'images/photo_gallery/wasteMgmt.JPG',
     caption: 'Waste Management Project',
   },
   {
-    id: '03',
+    id: 'piggery',
     img: 'images/photo_gallery/piggery.JPG',
     caption: 'Piggery Project',
   },
   {
-    id: '04',
+    id: 'culture',
     img: 'images/photo_gallery/culture.png',
     caption: 'Cultural Program',
   },
   {
-    id: '05',
+    id: 'edu',
     img: 'images/photo_gallery/edu.png',
     caption: 'Basic Education Project',
   },
   {
-    id: '06',
+    id: 'arts',
     img: 'images/photo_gallery/arts.png',
     caption: 'Art and Craft Project',
   },
   {
-    id: '07',
+    id: 'tree',
     img: 'images/photo_gallery/tree.png',
     caption: 'Tree Planting Project',
   },
   {
-    id: '08',
+    id: 'beauty',
     img: 'images/photo_gallery/beautification.JPG',
     caption: 'Beautification Project',
   },
   {
-    id: '09',
+    id: 'sports',
     img: 'images/photo_gallery/soccer.png',
     caption: 'Sports Program',
   },
   {
-    id: '10',
+    id: 'skills',
     img: 'images/photo_gallery/study.png',
     caption: 'Skills Training Center',
   },
   {
-    id: '11',
+    id: 'children',
     img: 'images/photo_gallery/children.png',
     caption: 'Street Children Program',
   },
   {
-    id: '12',
+    id: 'hockey',
     img: 'images/photo_gallery/hockey.png',
     caption: 'Hockey Project',
   },
   {
-    id: '13',
+    id: 'micro_credit',
     img: 'images/photo_gallery/microCredit.png',
     caption: 'Micro-Credit Project',
   },
   {
-    id: '14',
+    id: 'lorem',
     img: 'images/photo_gallery/placeholder.png',
     caption: 'Lorem Ipsium Project',
   },
   {
-    id: '15',
+    id: 'ipsium',
     img: 'images/photo_gallery/placeholder2.png',
     caption: 'Lorem Ipsium Project',
   },
@@ -79,29 +79,17 @@ var imageList = [
 
 var newGallery = '<ul>';
 for (var i = 0; i < imageList.length; i++) {
-  if (imageList[i].caption.includes('Project')) {
-    newGallery += '<li><article><a href="./story_event_prjct.html"><figure>';
-    newGallery +=
-      '<img src="' +
-      imageList[i].img +
-      '" alt="' +
-      imageList[i].caption +
-      '"/>';
-    newGallery +=
-      '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
-    newGallery += '</figure></a></article></li>';
-  } else if (!imageList[i].caption.includes('Project')) {
-    newGallery += '<li><article><a href="./story_event_prgm.html"><figure>';
-    newGallery +=
-      '<img src="' +
-      imageList[i].img +
-      '" alt="' +
-      imageList[i].caption +
-      '"/>';
-    newGallery +=
-      '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
-    newGallery += '</figure></a></article></li>';
-  }
+  newGallery +=
+    '<li><article><a ' +
+    imageList[i].id +
+    ' href="./story_event_prjct.html?id=' +
+    imageList[i].id +
+    '"><figure>';
+  newGallery +=
+    '<img src="' + imageList[i].img + '" alt="' + imageList[i].caption + '"/>';
+  newGallery +=
+    '<figcaption><h5>' + imageList[i].caption + '</h5></figcaption>';
+  newGallery += '</figure></a></article></li>';
 }
 newGallery += '</ul>';
 document.getElementById('projects_gallery').innerHTML = newGallery;

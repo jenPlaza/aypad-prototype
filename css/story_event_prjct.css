@@ -6,6 +6,39 @@
 #story_banner {
   height: 350px;
 }
+div#slider ul.pagination li {
+  list-style: none;
+}
+#prev {
+  position: absolute;
+  top: 600px;
+  left: 0;
+  background-color: transparent;
+  height: 5px;
+  width: 100px;
+  border: none;
+}
+#nex {
+  position: absolute;
+  top: 600px;
+  right: 0;
+  background-color: transparent;
+  height: 5px;
+  border: none;
+  width: 100px;
+}
+#prev img,
+#nex img {
+  width: 40%;
+}
+#prev img:hover,
+#nex img:hover {
+  width: 40%;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3%;
+}
 @media screen and (min-width: 576px) {
   #story_banner {
     height: 300px;
@@ -18,6 +51,12 @@
   section#story_banner div.project {
     width: 100%;
   }
+  #prev {
+    left: 1%;
+  }
+  #nex {
+    right: 1%;
+  }
 }
 @media screen and (min-width: 992px) {
   #story_banner {
@@ -26,9 +65,45 @@
   #slider {
     margin-top: 8%;
   }
+  #prev {
+    left: 2%;
+  }
+  #nex {
+    right: 2%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #prev,
+  #nex {
+    top: 700px;
+  }
+  #prev {
+    left: 2%;
+  }
+  #nex {
+    right: 2%;
+  }
 }
 @media screen and (min-width: 1400px) {
   #slider {
     margin-top: 10%;
+  }
+  #prev {
+    left: 3%;
+  }
+  #nex {
+    right: 3%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #prev,
+  #nex {
+    top: 750px;
+  }
+  #prev {
+    left: 4%;
+  }
+  #nex {
+    right: 4%;
   }
 }
