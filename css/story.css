@@ -11,7 +11,7 @@
   height: 200px;
   background-color: #432e41;
   position: absolute;
-  top: 195px;
+  top: 120px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,7 +26,8 @@ section#story_banner figure img {
 #story {
   display: flex;
   flex-direction: column;
-  padding:3%;
+  padding: 3%;
+  margin-top: 10%;
 }
 #story h2 {
   text-align: center;
@@ -83,7 +84,6 @@ section#projects_gallery ul > li article {
   position: relative;
   margin: 2%;
   min-height: 10vh;
-
 }
 section#projects_gallery ul > li article figure {
   width: 100%;
@@ -114,17 +114,24 @@ section#projects_gallery ul > li article figure figcaption h5 {
     height: 400px;
     width: 100vw;
   }
+  #story_banner div {
+    top: 145px;
+  }
   section#story_banner figure {
     width: 100%;
     height: 100%;
   }
-  #story h2 {
-    margin-top: 8%;
+  #story {
+    margin-top: 0%;
   }
 }
 @media screen and (min-width: 768px) {
+  #story_banner {
+    height: 420px;
+  }
   section#story_banner div {
     width: 80%;
+    top: 195px;
   }
   section#story_banner figure {
     height: 300px;
@@ -135,17 +142,30 @@ section#projects_gallery ul > li article figure figcaption h5 {
     height: 450px;
     margin-bottom: -5%;
   }
-  #story h2 {
-    margin-top: 5%;
+  #story_banner {
+    height: 475px;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  #story {
+    padding: 0 3%;
+  }
+  #story h2 {
+    margin-top: 3%;
+  }
+}
 @media screen and (min-width: 1400px) {
   #story_banner {
     margin-bottom: -8%;
   }
   #story {
     margin-top: 2.5%;
+  }
+  #story h2 {
+    margin-top: 4%;
+  }
+  #story_banner:has(> div.project) {
+    height: 300px;
   }
 }
 @media screen and (min-width: 1600px) {

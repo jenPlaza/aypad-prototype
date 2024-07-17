@@ -54,11 +54,24 @@ figure {
   #story h2 {
     margin-top: 3%;
   }
+  #story_banner div.program {
+    top: 125px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   #story_banner div.program {
+    height: 180px;
+  }
+  #story_banner:has(> div.program) {
+    height: 300px;
+  }
+  section#story_banner figure.prgm {
     height: 200px;
+  }
+
+  #story_banner div.program {
+    top: 115px;
   }
   #story h2 {
     margin-top: 0;
@@ -85,6 +98,9 @@ figure {
   }
 }
 @media screen and (min-width: 992px) {
+  #story_banner:has(> div.program) {
+    height: 325px;
+  }
   #story h2 {
     margin-top: -5%;
   }
@@ -106,12 +122,18 @@ figure {
   #event {
     padding: 0 5% 2% 5%;
   }
-  #slider {
-    height: 735px;
+  #story_banner:has(> div.program) {
+    height: 445px;
+  }
+  section#story_banner figure.prgm {
+    height: 280px;
+  }
+  #story_banner div.program {
+    height: 280px;
   }
   #upcoming_events {
     padding: 0% 0 5% 7%;
-}
+  }
 }
 @media screen and (min-width: 1400px) {
   #event .social_media {

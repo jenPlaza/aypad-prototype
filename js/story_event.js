@@ -9,7 +9,7 @@ if (projectList[a].name.includes('Project')) {
   newProject += '<h1><em>' + projectList[a].name + '</em></h1>';
   newProject += '</div>';
 } else {
-  newProject += '<figure>';
+  newProject += '<figure class="prgm">';
   newProject +=
     '<img src="./images/banner_slider/soccerPrgm.png" width="100%" height="100%" />';
   newProject += '</figure><div class="program">';
