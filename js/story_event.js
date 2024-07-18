@@ -110,7 +110,8 @@ function next() {
   let newImages;
   //replacing newProject figure code
   for (var ii = 0; ii < projectList[a].img.length; ii++) {
-    console.log(projectList[a].img[ii]);
+    // console.log(projectList[a].img.length);
+    // console.log(projectList[a].img[ii]);
     newImages =
       '<img src="' +
       projectList[a].img[ii] +

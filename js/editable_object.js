@@ -181,8 +181,8 @@ var projectList = [
     banner: './images/banner_slider/soccerPrgm.png',
     img: [
       'images/photo_gallery/soccer.png',
-      'images/banner_slider/soccerTeam.png',
       'images/photo_gallery/image_placeholder.png',
+      'images/photo_gallery/soccerTeam.png',
     ],
     name: 'Sports Program',
     mission:
