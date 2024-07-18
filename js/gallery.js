@@ -82,7 +82,7 @@ for (var i = 0; i < imageList.length; i++) {
   newGallery +=
     '<li><article><a ' +
     imageList[i].id +
-    ' href="./story_event_prjct.html?id=' +
+    ' href="./story_event.html?id=' +
     imageList[i].id +
     '"><figure>';
   newGallery +=

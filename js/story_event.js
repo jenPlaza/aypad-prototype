@@ -11,9 +11,9 @@ if (projectList[a].name.includes('Project')) {
 } else {
   newProject += '<figure class="prgm">';
   newProject +=
-    '<img src="./images/banner_slider/soccerPrgm.png" width="100%" height="100%" />';
+    '<img src="' + projectList[a].banner + '" width="100%" height="100%" />';
   newProject += '</figure><div class="program">';
-  newProject += '<h1><em>Sports Program</em></h1>';
+  newProject += '<h1><em>' + projectList[a].name + '</em></h1>';
   newProject += '</div>';
 }
 newProject += '</section>'; //story banner end

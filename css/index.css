@@ -561,6 +561,7 @@ footer h4 em {
   #gallery .row:nth-child(2) .col:nth-child(2) img {
     width: 35vw;
   }
+  #gallery .row:nth-child(1) .col:nth-child(3),
   #gallery .row:nth-child(1) .col:nth-child(4),
   #gallery .row:nth-child(3) .col:nth-child(3) {
     display: none;
@@ -684,6 +685,9 @@ footer h4 em {
   }
   #gallery .row:nth-child(3) .col:first-child .row2:last-child {
     order: 2;
+  }
+  #gallery .row:nth-child(1) .col:nth-child(3) {
+    display: flex;
   }
   #gallery .row:nth-child(1) .col:nth-child(4),
   #gallery .row:nth-child(3) .col:nth-child(3) {

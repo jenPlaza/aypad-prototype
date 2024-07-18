@@ -68,7 +68,7 @@ var projectList = [
   },
   {
     id: '03',
-    banner: '',
+    banner: './images/banner_slider/annie-spratt-Sn04BHfa2AY-unsplash.jpg',
     img: [
       'images/photo_gallery/culture.png',
       'images/photo_gallery/image_placeholder.png',
@@ -178,7 +178,7 @@ var projectList = [
   },
   {
     id: '08',
-    banner: '',
+    banner: './images/banner_slider/soccerPrgm.png',
     img: [
       'images/photo_gallery/soccer.png',
       'images/photo_gallery/image_placeholder.png',
