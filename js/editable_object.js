@@ -200,7 +200,7 @@ var projectList = [
   },
   {
     id: '09',
-    banner: '',
+    banner: './images/banner_slider/suits.png',
     img: [
       'images/photo_gallery/study.png',
       'images/photo_gallery/image_placeholder.png',
@@ -220,10 +220,9 @@ var projectList = [
       contact_email: 'larry@nomail.com',
     },
   },
-  ,
   {
     id: '10',
-    banner: '',
+    banner: './images/banner_slider/children_banner.png',
     img: [
       'images/photo_gallery/children.png',
       'images/photo_gallery/image_placeholder.png',
