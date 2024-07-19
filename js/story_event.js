@@ -1,6 +1,5 @@
 const newId = (projectId = id);
 const a = x;
-var i;
 
 var newProject = '<section id="story_banner">';
 //page title
@@ -20,9 +19,7 @@ newProject += '</section>'; //story banner end
 //slider
 newProject += '<div id="slider"><figure id="rotator">';
 newProject +=
-  '<img class="imagenes" src="' +
-  projectList[a].img[0] +
-  '" alt="image of youth soccer team"/>';
+  '<img class="imagenes" src="./images/photo_gallery/soccer.png" alt="image of youth soccer team"/>';
 newProject += '</figure>';
 //pagination
 newProject += '<ul class="pagination">';
@@ -109,12 +106,12 @@ function next() {
   // //alert('goforward');
   let newImages;
   //replacing newProject figure code
-  for (var ii = 0; ii < projectList[a].img.length; ii++) {
-    // console.log(projectList[a].img.length);
-    // console.log(projectList[a].img[ii]);
+  for (var i = 0; i < projectList[a].img.length; i++) {
+    console.log(projectList[a].img.length);
+    console.log([i] + ' ' + projectList[a].img[i]);
     newImages =
       '<img src="' +
-      projectList[a].img[ii] +
+      projectList[a].img[i] +
       '" alt="image of youth soccer team"/>';
   }
   document.getElementById('rotator').innerHTML = newImages;
