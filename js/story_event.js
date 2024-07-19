@@ -1,6 +1,6 @@
 const newId = (projectId = id);
 const a = x;
-
+var i = 0;
 var newProject = '<section id="story_banner">';
 //page title
 if (projectList[a].name.includes('Project')) {
@@ -19,7 +19,9 @@ newProject += '</section>'; //story banner end
 //slider
 newProject += '<div id="slider"><figure id="rotator">';
 newProject +=
-  '<img class="imagenes" src="./images/photo_gallery/soccer.png" alt="image of youth soccer team"/>';
+  '<img class="imagenes" src="' +
+  projectList[a].img[i] +
+  '" alt="image of youth soccer team"/>';
 newProject += '</figure>';
 //pagination
 newProject += '<ul class="pagination">';
