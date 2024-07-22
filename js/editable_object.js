@@ -1,4 +1,5 @@
 //alert('array');
+//PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
 var projectList = [
   {
     id: 'snail',
@@ -25,7 +26,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -55,7 +56,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -86,7 +87,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -116,7 +117,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -146,7 +147,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -176,7 +177,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -206,7 +207,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -236,7 +237,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -271,7 +272,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -301,7 +302,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -331,7 +332,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -361,7 +362,7 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
@@ -391,13 +392,14 @@ var projectList = [
     event_information: {
       name: 'text',
       address: 'text',
-      contact_name: 'text',
+      contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
     },
   },
 ];
 
+//ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format)
 let projectId = id;
 let x;
 if (projectId == 'snail') {
@@ -426,8 +428,71 @@ if (projectId == 'snail') {
   x = 11;
 } else if (projectId == 'micro_credit') {
   x = 12;
-} else if (projectId == 'lorem') {
-  x = 13;
-} else if (projectId == 'ipsium') {
-  x = 14;
 }
+
+//CONTACT FORM
+//to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
+var formArray = [
+  {
+    label_name: 'Event Name',
+    paragraph_body: projectList[x].event_information.name,
+  },
+  {
+    label_name: 'Event Address',
+    paragraph_body: projectList[x].event_information.address,
+  },
+  {
+    label_name: 'Contact Name',
+    paragraph_body: projectList[x].event_information.contact_name,
+  },
+  {
+    label_name: 'Contact Phone',
+    paragraph_body: projectList[x].event_information.contact_phone,
+  },
+  {
+    label_name: 'Contact Email',
+    paragraph_body: projectList[x].event_information.contact_email,
+  },
+];
+
+//SOCIAL MEDIA & CONTACT LINKS
+//to add more social media links...VERY IMPORTANT!!!!!! follow same format
+//icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow/gray color hex's #EEB847 / #dcdcdc).
+var contactArray = [
+  {
+    //by email
+    link_href: '/',
+    img_src: './images/socialMedia/message_yellow.png',
+    img_alt: 'email icon',
+  },
+  {
+    //by phone
+    link_href: '/',
+    img_src: './images/socialMedia/phone_yellow.png',
+    img_alt: 'phone icon',
+  },
+  {
+    //by linkedIn
+    link_href: '/',
+    img_src: './images/socialMedia/linkedin_yellow.png',
+    img_alt: 'linkedIn icon',
+  },
+  {
+    //by facebook
+    link_href: '/',
+    img_src: './images/socialMedia/facebook_yellow.png',
+    img_alt: 'facebook icon',
+  },
+  {
+    //by instagram
+    link_href: '/',
+    img_src: './images/socialMedia/instagram_yellow.png',
+    img_alt: 'instagram icon',
+  },
+  {
+    //by youtube
+    link_href: '/',
+    img_src: './images/socialMedia/youtube_yellow.png',
+    img_alt: 'youtube icon',
+  },
+];

@@ -28,12 +28,21 @@ newProject +=
 newProject += '</figure>';
 //pagination
 newProject += '<ul class="pagination">';
-newProject += '<li><button id="prev" onclick="prev()">';
-newProject += '<img src="./images/arrow_left.png" alt="arrow icon" />';
-newProject += '</button></li>';
-newProject += '<li><button id="nex" onclick="next()">';
-newProject += '<img src="./images/arrow_right.png" alt="arrow icon" />';
-newProject += '</button></li>';
+for (var btn = 0; btn < btnArray.length; btn++) {
+  newProject +=
+    '<li><button id="' +
+    btnArray[btn].btn_id +
+    '" onclick="' +
+    btnArray[btn].btn_function +
+    '">';
+  newProject +=
+    '<img src="' +
+    btnArray[btn].btn_imgSrc +
+    '" ' +
+    btnArray[btn].btn_imgAlt +
+    '" />';
+  newProject += '</button></li>';
+}
 newProject += '</ul>';
 newProject += '</div>'; //slider end
 //mission
@@ -49,84 +58,26 @@ newProject +=
 newProject += '</section>';
 //event information
 newProject += '<section id="event"><div class="event_info">';
-newProject += '<div><label>Event Name: </label>';
-newProject +=
-  '<p><b>&nbsp;' + projectList[a].event_information.name + '</b></p></div>';
-newProject += '<div><label>Event Address: </label>';
-newProject +=
-  '<p><b>&nbsp;' + projectList[a].event_information.address + '</b></p></div>';
-newProject += '<div><label>Contact Name: </label>';
-newProject +=
-  '<p><b>&nbsp;' +
-  projectList[a].event_information.contact_name +
-  '</b></p></div>';
-newProject += '<div><label>Contact Phone: </label>';
-newProject +=
-  '<p><b>&nbsp;' +
-  projectList[a].event_information.contact_phone +
-  '</b></p></div>';
-newProject += '<div><label>Contact Email: </label>';
-newProject +=
-  '<p><b>&nbsp;' +
-  projectList[a].event_information.contact_email +
-  '</b></p></div>';
+for (var fa = 0; fa < formArray.length; fa++) {
+  newProject += '<div><label>' + formArray[fa].label_name + '</label>';
+  newProject +=
+    '<p><b>&nbsp;' + formArray[fa].paragraph_body + '</b></p></div>';
+}
 newProject += '</div>';
 //social media
 newProject += '<section class="social_media"><h5>Social Media</h5>';
 newProject += '<ul>';
-newProject +=
-  '<li><a href="/" target="blank"><figure><img src="./images/socialMedia/message_yellow.png" alt="email icon" /></figure></a></li>';
-newProject +=
-  '<li><a href="/" target="blank"><figure><img src="./images/socialMedia/phone_yellow.png" alt="phone icon"/></figure></a></li>';
-newProject +=
-  '<li><a href="/" target="blank"><figure><img src="./images/socialMedia/linkedin_yellow.png" alt="linkedIn icon" /></figure></a></li>';
-newProject +=
-  '<li><a href="/" target="blank"><figure><img src="./images/socialMedia/facebook_yellow.png" alt="facebook icon"/></figure></a></li>';
-newProject +=
-  '<li><a href="/" target="blank"><figure><img src="./images/socialMedia/instagram_yellow.png" alt="instgram icon" /></figure></a></li>';
-newProject +=
-  '<li><a href="/" target="blank"><figure><imgsrc="./images/socialMedia/youtube_yellow.png"alt="you tube icon"/></figure></a></li>';
+for (var ca = 0; ca < contactArray.length; ca++) {
+  newProject +=
+    '<li><a href="' +
+    contactArray[ca].link_href +
+    '" target="blank"><figure><img src="' +
+    contactArray[ca].img_src +
+    '" alt="' +
+    contactArray[ca].img_alt +
+    '" /></figure></a></li>';
+}
 newProject += '</ul></section></section>';
 newProject += '</section>'; //event end
 
 document.getElementById('inAction').innerHTML = newProject;
-
-function prev() {
-  imageIndex--;
-  //replacing newProject figure code
-  let newImages = '<figure>';
-  if (projectList[a].img[imageIndex] === undefined) {
-    imageIndex = projectList[a].img.length + 1 + imageIndex;
-  } else {
-    newImages +=
-      '<img class="imagenes" src="' +
-      projectList[a].img[imageIndex].imgSrc +
-      '" alt="' +
-      projectList[a].img[imageIndex].imgAlt +
-      '"/>';
-  }
-  newImages += '</figure>';
-  document.getElementById('rotator').innerHTML = newImages;
-}
-
-function next() {
-  //testing
-  //console.log('imageIndex: ' + imageIndex + ' projectList[a].img[imageIndex]: ' + projectList[a].img[imageIndex]+ ' projectList[a].img.length: ' +projectList[a].img.length);
-
-  imageIndex++;
-  //replacing newProject figure code
-  let newImages = '<figure>';
-  if (projectList[a].img[imageIndex] === undefined) {
-    imageIndex = -1;
-  } else {
-    newImages +=
-      '<img class="imagenes" src="' +
-      projectList[a].img[imageIndex].imgSrc +
-      '" alt="' +
-      projectList[a].img[imageIndex].imgAlt +
-      '"/>';
-  }
-
-  newImages += '</figure>';
-  document.getElementById('rotator').innerHTML = newImages;
-}
