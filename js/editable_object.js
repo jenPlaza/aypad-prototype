@@ -1,11 +1,19 @@
 //alert('array');
 var projectList = [
   {
-    id: '00',
+    id: 'snail',
+    cover: 'images/photo_gallery/snail.png',
+    caption: 'Snail Farming Project',
     banner: '',
     img: [
-      'images/photo_gallery/snail.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/snail.png',
+        imgAlt: 'photo of snail community in a wooden box',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Snail Farming Project',
     mission:
@@ -23,11 +31,19 @@ var projectList = [
     },
   },
   {
-    id: '01',
+    id: 'waste',
+    cover: 'images/photo_gallery/wasteMgmt.JPG',
+    caption: 'Waste Management Project',
     banner: '',
     img: [
-      'images/photo_gallery/wasteMgmt.JPG',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/wasteMgmt.JPG',
+        imgAlt: 'photo of waste managment team active at an event',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Waste Management Project',
     mission:
@@ -45,11 +61,20 @@ var projectList = [
     },
   },
   {
-    id: '02',
+    id: 'piggery',
+    cover: 'images/photo_gallery/piggery.JPG',
+    caption: 'Piggery Project',
     banner: '',
     img: [
-      'images/photo_gallery/piggery.JPG',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/piggery.JPG',
+        imgAlt:
+          'photo of woman showing other women the process of feeding a pig',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Piggery Project',
     mission:
@@ -67,11 +92,19 @@ var projectList = [
     },
   },
   {
-    id: '03',
+    id: 'culture',
+    cover: 'images/photo_gallery/culture.png',
+    caption: 'Cultural Program',
     banner: './images/banner_slider/annie-spratt-Sn04BHfa2AY-unsplash.jpg',
     img: [
-      'images/photo_gallery/culture.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/culture.png',
+        imgAlt: 'two young adult men dressed in cultural outfits',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Cultural Program',
     mission:
@@ -89,11 +122,19 @@ var projectList = [
     },
   },
   {
-    id: '04',
+    id: 'edu',
+    cover: 'images/photo_gallery/edu.png',
+    caption: 'Basic Education Project',
     banner: '',
     img: [
-      'images/photo_gallery/edu.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/edu.png',
+        imgAlt: 'children in a classroom',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Basic Education Project',
     mission:
@@ -111,11 +152,19 @@ var projectList = [
     },
   },
   {
-    id: '05',
+    id: 'arts',
+    cover: 'images/photo_gallery/arts.png',
+    caption: 'Arts and Crafts Project',
     banner: '',
     img: [
-      'images/photo_gallery/arts.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/arts.png',
+        imgAlt: 'an individual weaving a basket',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Art and Craft Project',
     mission:
@@ -133,11 +182,19 @@ var projectList = [
     },
   },
   {
-    id: '06',
+    id: 'tree',
+    cover: 'images/photo_gallery/tree.png',
+    caption: 'Tree Planting Project',
     banner: '',
     img: [
-      'images/photo_gallery/tree.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/tree.png',
+        imgAlt: 'individuals planting trees',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Tree Planting Project',
     mission:
@@ -155,11 +212,19 @@ var projectList = [
     },
   },
   {
-    id: '07',
+    id: 'beauty',
+    cover: 'images/photo_gallery/beautification.JPG',
+    caption: 'Beautification Project',
     banner: '',
     img: [
-      'images/photo_gallery/beautification.JPG',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/beautification.JPG',
+        imgAlt: 'women at a Beautification Project event dancing and rejoicing',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Beautification Project',
     mission:
@@ -177,12 +242,24 @@ var projectList = [
     },
   },
   {
-    id: '08',
+    id: 'sports',
+    cover: 'images/photo_gallery/soccer.png',
+    caption: 'Sports Program',
     banner: './images/banner_slider/soccerPrgm.png',
     img: [
-      'images/photo_gallery/soccer.png',
-      'images/photo_gallery/image_placeholder.png',
-      'images/photo_gallery/soccerTeam.png',
+      {
+        imgSrc: 'images/photo_gallery/soccer.png',
+        imgAlt: 'soccer team photo of young boy athletes before tournament',
+      },
+      {
+        imgSrc: 'images/photo_gallery/soccerTeam.png',
+        imgAlt:
+          'soccer team photo of young adult athletes, in uniform, before tournament',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Sports Program',
     mission:
@@ -200,11 +277,19 @@ var projectList = [
     },
   },
   {
-    id: '09',
+    id: 'skills',
+    cover: 'images/photo_gallery/study.png',
+    caption: 'Skills Training Center',
     banner: './images/banner_slider/suits.png',
     img: [
-      'images/photo_gallery/study.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/study.png',
+        imgAlt: 'two young adults sitting in front of a computer',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Skills Training Center',
     mission:
@@ -222,11 +307,19 @@ var projectList = [
     },
   },
   {
-    id: '10',
+    id: 'children',
+    cover: 'images/photo_gallery/children.png',
+    caption: 'Street Children Program',
     banner: './images/banner_slider/children_banner.png',
     img: [
-      'images/photo_gallery/children.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/children.png',
+        imgAlt: 'photo of children laughing and smiling',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Street Children Program',
     mission:
@@ -244,11 +337,19 @@ var projectList = [
     },
   },
   {
-    id: '11',
+    id: 'hockey',
+    cover: 'images/photo_gallery/hockey.png',
+    caption: 'Hockey Project',
     banner: '',
     img: [
-      'images/photo_gallery/hockey.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/hockey.png',
+        imgAlt: 'teamof hockey players practicing',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Hockey Project',
     mission:
@@ -266,61 +367,25 @@ var projectList = [
     },
   },
   {
-    id: '12',
+    id: 'micro_credit',
+    cover: 'images/photo_gallery/microCredit.png',
+    caption: 'Micro-Credit Project',
     banner: '',
     img: [
-      'images/photo_gallery/microCredit.png',
-      'images/photo_gallery/image_placeholder.png',
+      {
+        imgSrc: 'images/photo_gallery/microCredit.png',
+        imgAlt: 'photo of micro-credit team associates',
+      },
+      {
+        imgSrc: 'images/photo_gallery/image_placeholder.png',
+        imgAlt: 'image placeholder',
+      },
     ],
     name: 'Micro-Credit Project',
     mission:
       'The Micro-credit Project main thrust is to effect a revolving micro-credit scheme for womenmembers of AYPAD as a means of enchaining their economic empowerment. Obsessed with the desire to positively transform the lives and living conditions of vulnerable children (boy & girls) and women, AYPAD has been undertaken series of research and documentation of experiences together with suggested recommendations of street children and commercial sex workers, most of whom have subsequently been absorbed into AYPAD’s membership, and gradually acquired coping mechanism skills. AYPAD holds the view that women’s empowerment lies with that economic power and decision making abilities, which would also reflect positively on their lives and their families around them. The rationale of this request is to enhance the economic empowerment of the women members of AYPAD through the provision of revolving Micro-Credit scheme.',
     pdf: {
       title: 'Micro-Creditprofile',
-      link: 'https://www.sportencommun.org/wp-content/uploads/2020/08/aypad-profile.pdf',
-    },
-    event_information: {
-      name: 'text',
-      address: 'text',
-      contact_name: 'text',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
-  },
-  {
-    id: '13',
-    banner: '',
-    img: [
-      'images/photo_gallery/placeholder.png',
-      'images/photo_gallery/image_placeholder.png',
-    ],
-    name: 'Lorem Ipsium Project',
-    mission:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like',
-    pdf: {
-      title: 'Lorem Ipsium profile',
-      link: 'https://www.sportencommun.org/wp-content/uploads/2020/08/aypad-profile.pdf',
-    },
-    event_information: {
-      name: 'text',
-      address: 'text',
-      contact_name: 'text',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
-  },
-  {
-    id: '14',
-    banner: '',
-    img: [
-      'images/photo_gallery/placeholder2.png',
-      'images/photo_gallery/image_placeholder.png',
-    ],
-    name: 'Lorem Ipsium Project',
-    mission:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like',
-    pdf: {
-      title: 'Lorem Ipsium profile',
       link: 'https://www.sportencommun.org/wp-content/uploads/2020/08/aypad-profile.pdf',
     },
     event_information: {

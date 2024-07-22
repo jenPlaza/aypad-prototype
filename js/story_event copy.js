@@ -1,7 +1,6 @@
 const newId = (projectId = id);
 const a = x;
-var i = 0; //index starts at position 0
-let imageIndex = 0; //index starts at position 0
+var i = 0;
 var newProject = '<section id="story_banner">';
 //page title
 if (projectList[a].name.includes('Project')) {
@@ -21,10 +20,8 @@ newProject += '</section>'; //story banner end
 newProject += '<div id="slider"><figure id="rotator">';
 newProject +=
   '<img class="imagenes" src="' +
-  projectList[a].img[i].imgSrc +
-  '" alt="' +
-  projectList[a].img[i].imgAlt +
-  '"/>';
+  projectList[a].img[i] +
+  '" alt="image of youth soccer team"/>';
 newProject += '</figure>';
 //pagination
 newProject += '<ul class="pagination">';
@@ -92,41 +89,32 @@ newProject += '</section>'; //event end
 document.getElementById('inAction').innerHTML = newProject;
 
 function prev() {
-  imageIndex--;
+  // //testing
+  // //alert('gobackwards');
+  let newImages;
   //replacing newProject figure code
-  let newImages = '<figure>';
-  if (projectList[a].img[imageIndex] === undefined) {
-    imageIndex = projectList[a].img.length + 1 + imageIndex;
-  } else {
-    newImages +=
-      '<img class="imagenes" src="' +
-      projectList[a].img[imageIndex].imgSrc +
-      '" alt="' +
-      projectList[a].img[imageIndex].imgAlt +
-      '"/>';
+  for (let ii = projectList[a].img.length - 1; ii >= 0; ii--) {
+    console.log(projectList[a].img[ii]);
+    newImages =
+      '<img src="' +
+      projectList[a].img[ii] +
+      '" alt="image of youth soccer team"/>';
   }
-  newImages += '</figure>';
   document.getElementById('rotator').innerHTML = newImages;
 }
 
 function next() {
-  //testing
-  //console.log('imageIndex: ' + imageIndex + ' projectList[a].img[imageIndex]: ' + projectList[a].img[imageIndex]+ ' projectList[a].img.length: ' +projectList[a].img.length);
-
-  imageIndex++;
+  // //testing
+  // //alert('goforward');
+  let newImages;
   //replacing newProject figure code
-  let newImages = '<figure>';
-  if (projectList[a].img[imageIndex] === undefined) {
-    imageIndex = -1;
-  } else {
-    newImages +=
-      '<img class="imagenes" src="' +
-      projectList[a].img[imageIndex].imgSrc +
-      '" alt="' +
-      projectList[a].img[imageIndex].imgAlt +
-      '"/>';
+  for (var i = 0; i < projectList[a].img.length; i++) {
+    console.log(projectList[a].img.length);
+    console.log([i] + ' ' + projectList[a].img[i]);
+    newImages =
+      '<img src="' +
+      projectList[a].img[i] +
+      '" alt="image of youth soccer team"/>';
   }
-
-  newImages += '</figure>';
   document.getElementById('rotator').innerHTML = newImages;
 }

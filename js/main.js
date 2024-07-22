@@ -1,4 +1,3 @@
-//testing
 //finding the windows' url
 //console.log('href: ', window.location.href);
 var href = window.location.href;
