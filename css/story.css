@@ -20,6 +20,7 @@
 section#story_banner figure img {
   object-fit: cover;
 }
+
 #story_banner div h1 {
   color: #dcdcdc;
 }
@@ -29,6 +30,7 @@ section#story_banner figure img {
   padding: 3%;
   margin-top: 10%;
 }
+
 #story h2 {
   text-align: center;
 }

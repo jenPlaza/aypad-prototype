@@ -1,3 +1,13 @@
+section#story_banner div.project h1 em,
+section#story_banner div.program h1 em {
+  font-size: 75px;
+  line-height: 0.8;
+}
+#story_banner div h1 {
+  line-height: 0.8;
+  width: 90%;
+  margin-top: 3%;
+}
 #story_banner div.project {
   height: 100%;
   top: 0;

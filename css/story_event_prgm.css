@@ -2,6 +2,12 @@
   padding: 3%;
   text-align: center;
   height: 300px;
+  top: 100px;
+  align-items: unset;
+}
+#story_banner div.program:has(h1 em[class='culture']),
+#story_banner div.program:has(h1 em[class='sports']) {
+  height: 250px;
 }
 #slider {
   width: 100%;
@@ -16,7 +22,18 @@ figure {
   height: 100%;
   object-fit: cover;
 }
-#story,
+main#inAction:has(#story_banner div.program h1 em[class='culture'])
+  div#slider
+  > figure#rotator
+  img.imagenes {
+  object-position: left 50% top 85px;
+}
+main#inAction:has(#story_banner div.program h1 em[class='skills'])
+  div#slider
+  > figure#rotator
+  img.imagenes {
+  object-position: left 40% top 165px;
+}
 #event {
   padding: 5%;
 }

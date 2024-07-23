@@ -13,7 +13,12 @@ if (projectList[a].name.includes('Project')) {
   newProject +=
     '<img src="' + projectList[a].banner + '" width="100%" height="100%" />';
   newProject += '</figure><div class="program">';
-  newProject += '<h1><em>' + projectList[a].name + '</em></h1>';
+  newProject +=
+    '<h1><em class="' +
+    projectList[a].id +
+    '">' +
+    projectList[a].name +
+    '</em></h1>';
   newProject += '</div>';
 }
 newProject += '</section>'; //story banner end
