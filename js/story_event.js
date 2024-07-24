@@ -59,9 +59,9 @@ newProject += '<p>' + projectList[a].mission + '</p>';
 newProject += '<br /><br />';
 newProject +=
   '<a href="' +
-  projectList[a].pdf.title +
+  projectList[a].pdf[i].link +
   '" target="_blank" > ' +
-  projectList[a].pdf.link +
+  projectList[a].pdf[i].title +
   '</a>';
 newProject += '</section>';
 //event information
