@@ -31,6 +31,7 @@ newProject +=
   projectList[a].img[i].imgAlt +
   '"/>';
 newProject += '</figure>';
+newProject += '</div>'; //slider end
 //pagination
 newProject += '<ul class="pagination">';
 for (var btn = 0; btn < btnArray.length; btn++) {
@@ -49,7 +50,7 @@ for (var btn = 0; btn < btnArray.length; btn++) {
   newProject += '</button></li>';
 }
 newProject += '</ul>';
-newProject += '</div>'; //slider end
+
 //mission
 newProject += '<section id="story"><h2>Mission</h2><br />';
 newProject += '<p>' + projectList[a].mission + '</p>';

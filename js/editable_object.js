@@ -78,49 +78,49 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '01',
+        imgId: 'imagenes',
         imgSrc: 'images/photo_gallery/piggery.JPG',
         imgAlt:
           'photo of woman showing other women the process of feeding a pig',
       },
       {
-        imgId: '02',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_planing-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - planning the build',
       },
       {
-        imgId: '03',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_planing_2-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - gathering materials',
       },
       {
-        imgId: '04',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_building-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - building',
       },
       {
-        imgId: '05',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_children_companionship-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - children gathering',
       },
       {
-        imgId: '06',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_children_companionship_2-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - children playing',
       },
       {
-        imgId: '07',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_children_helpers-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - children helpers',
       },
       {
-        imgId: '08',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_days_end-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - days end of building',
@@ -132,21 +132,21 @@ var projectList = [
           'AYPAD Piggery Project event video - facility construction in progress',
       },
       {
-        imgId: '09',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets-min.jpeg',
         imgAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
       },
       {
-        imgId: '10',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets_2-min.jpg',
         imgAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
       },
       {
-        imgId: '11',
+        imgId: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets_3-min.jpeg',
         imgAlt:
@@ -162,13 +162,18 @@ var projectList = [
     video: [
       {
         videoClass: 'video',
-        videoSrc: 'https://youtube.com/shorts/qNjlSO-emcA?feature=share',
+        videoSrc: 'https://www.youtube.com/embed/ScMzIvxBSi4?autoplay=1&mute=1',
+        videoAlt: 'placeholder video',
+      },
+      {
+        videoClass: 'video',
+        videoSrc: 'https://youtube.com/embed/qNjlSO-emcA?autoplay=1&mute=1',
         videoAlt:
           'AYPAD Piggery Project event video - facility construction in progress',
       },
       {
         videoClass: 'video',
-        videoSrc: 'https://youtube.com/shorts/cmyvUF52Cq8',
+        videoSrc: 'https://youtube.com/embed/cmyvUF52Cq8?autoplay=1&mute=1',
         videoAlt:
           'AYPAD Piggery Project event video - mama pig and piglets feeding',
       },
