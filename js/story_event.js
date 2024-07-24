@@ -25,7 +25,9 @@ newProject += '</section>'; //story banner end
 //slider
 newProject += '<div id="slider"><figure id="rotator">';
 newProject +=
-  '<img class="imagenes" src="' +
+  '<img class="' +
+  projectList[a].img[i].imgClass +
+  '" src="' +
   projectList[a].img[i].imgSrc +
   '" alt="' +
   projectList[a].img[i].imgAlt +

@@ -35,25 +35,27 @@ function next() {
   if (projectList[a].img[imageIndex] === undefined) {
     imageIndex = -1;
   } else {
-    if (projectList[a].img[imageIndex].imgId === 'video') {
-      videoIndex = 0;
-      videoIndex++;
-      let projectVideo =
-        '<iframe width="100%" height="100%" src="' +
-        projectList[a].video[videoIndex].videoSrc +
-        '" alt="' +
-        projectList[a].video[videoIndex].videoAlt +
-        '" frameborder="0" allowfullscreen></iframe>';
-      document.getElementById('slider').innerHTML = projectVideo;
-    } else {
-      newImages +=
-        '<img class="imagenes" src="' +
-        projectList[a].img[imageIndex].imgSrc +
-        '" alt="' +
-        projectList[a].img[imageIndex].imgAlt +
-        '"/>';
-      document.getElementById('rotator').innerHTML = newImages;
-    }
+    // if (projectList[a].img[imageIndex].imgId === 'video') {
+    //   videoIndex = 0;
+    //   videoIndex++;
+    //   let projectVideo =
+    //     '<iframe width="100%" height="100%" src="' +
+    //     projectList[a].video[videoIndex].videoSrc +
+    //     '" alt="' +
+    //     projectList[a].video[videoIndex].videoAlt +
+    //     '" frameborder="0" allowfullscreen></iframe>';
+    //   document.getElementById('slider').innerHTML = projectVideo;
+    // } else {
+    newImages +=
+      '<img class="' +
+      projectList[a].img[imageIndex].imgClass +
+      '" src="' +
+      projectList[a].img[imageIndex].imgSrc +
+      '" alt="' +
+      projectList[a].img[imageIndex].imgAlt +
+      '"/>';
+    document.getElementById('rotator').innerHTML = newImages;
+    //}
   }
 }
 

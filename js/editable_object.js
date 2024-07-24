@@ -8,12 +8,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/snail.png',
         imgAlt: 'photo of snail community in a wooden box',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -43,12 +43,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/wasteMgmt.JPG',
         imgAlt: 'photo of waste managment team active at an event',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -78,82 +78,76 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/piggery.JPG',
         imgAlt:
           'photo of woman showing other women the process of feeding a pig',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_planing-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - planning the build',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_planing_2-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - gathering materials',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_building-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - building',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_children_companionship-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - children gathering',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_children_companionship_2-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - children playing',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_children_helpers-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - children helpers',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_builders_days_end-min.jpeg',
         imgAlt: 'AYPAD Piggery Project event photo - days end of building',
       },
       {
-        imgId: 'video',
-        imgSrc: 'images/photo_gallery/image_placeholder.png',
-        imgAlt:
-          'AYPAD Piggery Project event video - facility construction in progress',
-      },
-      {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets-min.jpeg',
         imgAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets_2-min.jpg',
         imgAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
       },
       {
-        imgId: 'imagenes',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets_3-min.jpeg',
         imgAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
       },
       {
-        imgId: 'video',
+        imgClass: 'video',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt:
           'AYPAD Piggery Project event video - mama pig and piglets feeding',
@@ -202,12 +196,12 @@ var projectList = [
     banner: './images/banner_slider/annie-spratt-Sn04BHfa2AY-unsplash.jpg',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/culture.png',
         imgAlt: 'two young adult men dressed in cultural outfits',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -237,61 +231,61 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/edu.png',
         imgAlt: 'children in a classroom',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_school_planning_start-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - walls building planning',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_school_foundation-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - planning school foundation',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_laying_a_foundation-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - laying school foundation',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_gathering_materials-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - gathering materials',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_gathering_materials_2-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - gathering materials',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_getting_the_walls_up-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - building the walls up',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_getting_the_walls_up_2-min.jpeg',
         imgAlt:
           'AYPAD Basic Education Project event photo - building the walls up',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/basicEdu/basicEducationProject_getting_the_walls_up_3-min.jpeg',
         imgAlt:
@@ -323,12 +317,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/arts.png',
         imgAlt: 'an individual weaving a basket',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -358,12 +352,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/tree.png',
         imgAlt: 'individuals planting trees',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -393,12 +387,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/beautification.JPG',
         imgAlt: 'women at a Beautification Project event dancing and rejoicing',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -428,18 +422,18 @@ var projectList = [
     banner: './images/banner_slider/soccerPrgm.png',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/soccer.png',
         imgAlt: 'soccer team photo of young boy athletes before tournament',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/soccerTeam.png',
         imgAlt:
           'soccer team photo of young adult athletes, in uniform, before tournament',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -469,12 +463,12 @@ var projectList = [
     banner: './images/banner_slider/suits.png',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/study.png',
         imgAlt: 'two young adults sitting in front of a computer',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -504,12 +498,12 @@ var projectList = [
     banner: './images/banner_slider/children_banner.png',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/children.png',
         imgAlt: 'photo of children laughing and smiling',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -539,12 +533,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/hockey.png',
         imgAlt: 'teamof hockey players practicing',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -574,12 +568,12 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/microCredit.png',
         imgAlt: 'photo of micro-credit team associates',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
@@ -609,42 +603,42 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/henry-perks-aOTBPSDjgj0-unsplash-min.jpg',
         imgAlt: 'photo of corn crop',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/youthFarming/youthFarmingProjectGathering_meeting-min.jpeg',
         imgAlt: 'AYPAD Youth Farming Project event photo - event gathering',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/youthFarming/youthFarmingProjectGathering_taking_a_break-min.jpeg',
         imgAlt: 'AYPAD Basic Education Project event photo - mini break',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/youthFarming/youthFarmingProject_sowing-min.jpeg',
         imgAlt: 'AYPAD Basic Education Project event photo - sowing the fields',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/youthFarming/youthFarmingProject_planting-min.jpeg',
         imgAlt: 'AYPAD Basic Education Project event photo - growing crops',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/youthFarming/youthFarmingProject_fruit_harvesting-min.jpeg',
         imgAlt: 'AYPAD Basic Education Project event photo - harvesting fruit',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/story_event/youthFarming/youthFarmingProject_walking_the_fields-min.jpeg',
         imgAlt:
@@ -676,13 +670,13 @@ var projectList = [
     banner: '',
     img: [
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc:
           'images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg',
         imgAlt: 'photo of school of fish in a pool',
       },
       {
-        imgId: '',
+        imgClass: 'imagenes',
         imgSrc: 'images/photo_gallery/image_placeholder.png',
         imgAlt: 'image placeholder',
       },
