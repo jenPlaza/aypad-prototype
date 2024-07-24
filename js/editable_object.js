@@ -79,7 +79,7 @@ var projectList = [
         elementClass: 'imagenes',
         elementSrc: 'images/photo_gallery/piggery.JPG',
         elementAlt:
-          '0-photo of woman showing other women the process of feeding a pig',
+          'photo of woman showing other women the process of feeding a pig',
       },
       {
         elementClass: 'imagenes',
@@ -130,6 +130,12 @@ var projectList = [
           'AYPAD Piggery Project event video - facility construction in progress',
       },
       {
+        elementClass: 'video',
+        elementSrc: 'https://youtube.com/embed/cmyvUF52Cq8?autoplay=1&mute=1',
+        elementAlt:
+          'AYPAD Piggery Project event video - mama pig and piglets feeding',
+      },
+      {
         elementClass: 'imagenes',
         elementSrc:
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets-min.jpeg',
@@ -149,12 +155,6 @@ var projectList = [
           'images/story_event/piggery/piggeryProject_mama_pig_and_piglets_3-min.jpeg',
         elementAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
-      },
-      {
-        elementClass: 'video',
-        elementSrc: 'https://youtube.com/embed/cmyvUF52Cq8?autoplay=1&mute=1',
-        elementAlt:
-          'AYPAD Piggery Project event video - mama pig and piglets feeding',
       },
     ],
     name: 'Piggery Project',
