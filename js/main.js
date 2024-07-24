@@ -9,17 +9,19 @@ id.shift();
 
 //PAGINATION FUNCTIONS
 function prev() {
-  imageIndex--;
+  elementIndex--;
   //replacing newProject figure code
   let newImages = '<figure>';
-  if (projectList[a].img[imageIndex] === undefined) {
-    imageIndex = projectList[a].img.length + 1 + imageIndex;
+  if (projectList[a].flow_element[elementIndex] === undefined) {
+    elementIndex = projectList[a].flow_element.length + 1 + elementIndex;
   } else {
     newImages +=
-      '<img class="imagenes" src="' +
-      projectList[a].img[imageIndex].imgSrc +
+      '<img class="' +
+      projectList[a].flow_element[elementIndex].elementClass +
+      '" src="' +
+      projectList[a].flow_element[elementIndex].elementSrc +
       '" alt="' +
-      projectList[a].img[imageIndex].imgAlt +
+      projectList[a].flow_element[elementIndex].elementAlt +
       '"/>';
   }
   newImages += '</figure>';
@@ -27,35 +29,38 @@ function prev() {
 }
 function next() {
   //testing
-  //console.log('imageIndex: ' + imageIndex + ' projectList[a].img[imageIndex]: ' + projectList[a].img[imageIndex]+ ' projectList[a].img.length: ' +projectList[a].img.length);
+  console.log(
+    'elementIndex: ' +
+      elementIndex +
+      'elementClass: ' +
+      projectList[a].flow_element[elementIndex].elementClass
+  );
 
-  imageIndex++;
-  //replacing newProject figure code
+  elementIndex++;
+  //replacing newProject figure code with conditional depending if the flow element is either video / image
   let newImages = '';
-  if (projectList[a].img[imageIndex] === undefined) {
-    imageIndex = -1;
+  if (projectList[a].flow_element[elementIndex] === undefined) {
+    elementIndex = -1;
   } else {
-    // if (projectList[a].img[imageIndex].imgId === 'video') {
-    //   videoIndex = 0;
-    //   videoIndex++;
-    //   let projectVideo =
-    //     '<iframe width="100%" height="100%" src="' +
-    //     projectList[a].video[videoIndex].videoSrc +
-    //     '" alt="' +
-    //     projectList[a].video[videoIndex].videoAlt +
-    //     '" frameborder="0" allowfullscreen></iframe>';
-    //   document.getElementById('slider').innerHTML = projectVideo;
-    // } else {
-    newImages +=
-      '<img class="' +
-      projectList[a].img[imageIndex].imgClass +
-      '" src="' +
-      projectList[a].img[imageIndex].imgSrc +
-      '" alt="' +
-      projectList[a].img[imageIndex].imgAlt +
-      '"/>';
-    document.getElementById('rotator').innerHTML = newImages;
-    //}
+    if (projectList[a].flow_element[elementIndex].elementClass === 'video') {
+      let projectVideo =
+        '<iframe width="100%" height="100%" src="' +
+        projectList[a].flow_element[elementIndex].elementSrc +
+        '" alt="' +
+        projectList[a].flow_element[elementIndex].elementAlt +
+        '" frameborder="0" allowfullscreen></iframe>';
+      document.getElementById('rotator').innerHTML = projectVideo;
+    } else {
+      newImages +=
+        '<img class="' +
+        projectList[a].flow_element[elementIndex].elementClass +
+        '" src="' +
+        projectList[a].flow_element[elementIndex].elementSrc +
+        '" alt="' +
+        projectList[a].flow_element[elementIndex].elementAlt +
+        '"/>';
+      document.getElementById('rotator').innerHTML = newImages;
+    }
   }
 }
 

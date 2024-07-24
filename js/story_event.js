@@ -1,7 +1,7 @@
 const newId = (projectId = id);
 const a = x;
 var i = 0; //index starts at position 0
-let imageIndex = 0; //index starts at position 0
+let elementIndex = 0; //index starts at position 0
 var newProject = '<section id="story_banner">';
 //page title
 if (projectList[a].name.includes('Project')) {
@@ -26,11 +26,11 @@ newProject += '</section>'; //story banner end
 newProject += '<div id="slider"><figure id="rotator">';
 newProject +=
   '<img class="' +
-  projectList[a].img[i].imgClass +
+  projectList[a].flow_element[i].elementClass +
   '" src="' +
-  projectList[a].img[i].imgSrc +
+  projectList[a].flow_element[i].elementSrc +
   '" alt="' +
-  projectList[a].img[i].imgAlt +
+  projectList[a].flow_element[i].elementAlt +
   '"/>';
 newProject += '</figure>';
 newProject += '</div>'; //slider end
