@@ -282,7 +282,7 @@ var projectList = [
     pdf: [
       {
         title: 'Basic Education - Profile (pdf)',
-        link: 'https://drive.google.com/file/d/1iKaUkU4zOOxuV45BRPY8NGGrEG6WGT3N/view?usp=sharing',
+        link: 'pdf/AYPAD_SCHOOL_PROJECT.pdf',
       },
     ],
     event_information: {

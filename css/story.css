@@ -1,6 +1,6 @@
 #story_banner {
   width: 100%;
-  height: 100%;
+  height: 300px;
   padding-bottom: 16%;
   position: relative;
   display: flex;
@@ -16,6 +16,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+section#story_banner figure {
+  height: 150px;
+  width: 100%;
 }
 section#story_banner figure img {
   object-fit: cover;
@@ -84,7 +88,6 @@ section#projects_gallery ul > li article {
   width: 100%;
   height: 100%;
   position: relative;
-  margin: 2%;
   min-height: 10vh;
 }
 section#projects_gallery ul > li article figure {
