@@ -4,9 +4,12 @@ var i = 0; //index starts at position 0
 let elementIndex = 0; //index starts at position 0
 var newProject = '<section id="story_banner">';
 //page title
-if (projectList[a].name.includes('Project')) {
+if (
+  projectList[a].page_title.includes('Project') ||
+  projectList[a].page_title.includes('Fundraiser')
+) {
   newProject += '<div class="project">';
-  newProject += '<h1><em>' + projectList[a].name + '</em></h1>';
+  newProject += '<h1><em>' + projectList[a].page_title + '</em></h1>';
   newProject += '</div>';
 } else {
   newProject += '<figure class="prgm">';
@@ -17,7 +20,7 @@ if (projectList[a].name.includes('Project')) {
     '<h1><em class="' +
     projectList[a].id +
     '">' +
-    projectList[a].name +
+    projectList[a].page_title +
     '</em></h1>';
   newProject += '</div>';
 }
@@ -54,15 +57,40 @@ for (var btn = 0; btn < btnArray.length; btn++) {
 newProject += '</ul>';
 
 //mission
-newProject += '<section id="story"><h2>Mission</h2><br />';
-newProject += '<p>' + projectList[a].mission + '</p>';
-newProject += '<br /><br />';
-newProject +=
-  '<a href="' +
-  projectList[a].pdf[i].link +
-  '" target="_blank" > ' +
-  projectList[a].pdf[i].title +
-  '</a>';
+newProject += '<section id="story">';
+if (projectList[a].page_title.includes('Fundraiser')) {
+  newProject += '<h2>Project Goal</h2><br />';
+  newProject += '<section id="fundraise">';
+  newProject +=
+    '<p><b>' +
+    projectList[a].caption +
+    '</b>: ' +
+    projectList[a].projectGoal +
+    '</p>';
+  newProject += '<br /><br />';
+  newProject +=
+    '<div><h3><em>Raised: $' +
+    projectList[a].monies[0].raised +
+    ' (USD)</em></h3>';
+  newProject +=
+    '<h4><em>Goal: $' +
+    projectList[a].monies[0].goal +
+    ' (USD)</em></h4></div>';
+  newProject +=
+    '<div><button>' +
+    projectList[a].button_donate +
+    '</button></div></section>';
+} else {
+  newProject += '<h2>Mission</h2><br />';
+  newProject += '<p>' + projectList[a].mission + '</p>';
+  newProject += '<br /><br />';
+  newProject +=
+    '<a href="' +
+    projectList[a].pdf[i].link +
+    '" target="_blank" > ' +
+    projectList[a].pdf[i].title +
+    '</a>';
+}
 newProject += '</section>';
 //event information
 newProject += '<section id="event"><div class="event_info">';
