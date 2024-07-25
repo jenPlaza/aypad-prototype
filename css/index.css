@@ -413,7 +413,7 @@ footer {
 }
 footer div {
   display: flex;
-  /* margin-bottom: -5%; */
+  margin-bottom: -4%;
 }
 footer img {
   width: 50px;
@@ -469,6 +469,9 @@ footer h4 em {
   #main_slider img {
     object-position: right 0px top -45px;
   }
+  #story h2 {
+    margin-top: 0;
+  }
   #story header h2 {
     margin: 7% 7% 0 7%;
   }
@@ -481,8 +484,8 @@ footer h4 em {
   #donate {
     height: 400px;
   }
-  footer div {
-    margin-bottom: -2%;
+  .social_media {
+    width: 55%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -621,7 +624,7 @@ footer h4 em {
 
   footer {
     height: 70px;
-    padding: 0 1%;
+    padding: 0 1% 1% 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -656,9 +659,13 @@ footer h4 em {
   .map {
     width: 20%;
   }
+  footer {
+    padding: 1%;
+  }
   footer div {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
   }
   .social_media {
     width: 25%;
@@ -761,7 +768,10 @@ footer h4 em {
     border-radius: 49px;
   }
   .social_media {
-    width: 25%;
+    width: 30%;
+  }
+  .social_media ul {
+    width: 70%;
   }
 }
 @media screen and (min-width: 1600px) {

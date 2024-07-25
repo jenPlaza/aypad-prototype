@@ -49,32 +49,48 @@ div#slider ul.pagination li {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 3%;
 }
+
 @media screen and (min-width: 576px) {
-  #story_banner {
+  #story_banner:has(> div.project) {
     height: 300px;
+  }
+  #story_banner:has(> div.project) h1 {
+    width: 95%;
+  }
+  main#inAction:has(#story_banner div.project) #story h2 {
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  #story_banner:has(> div.project) {
-    height: 250px;
-  }
   section#story_banner div.project {
     width: 100%;
     height: 250px;
   }
+  #story_banner:has(> div.project) {
+    height: 235px;
+  }
+  #story_banner:has(> div.project) h1 {
+    width: 95%;
+    margin-top: 0;
+  }
+  main#inAction:has(#story_banner div.project) #story {
+    padding: 0 3% 3% 3%;
+  }
   #prev {
     left: 1%;
+    top: 535px;
   }
   #nex {
     right: 1%;
+    top: 535px;
+  }
+  footer div {
+    margin-bottom: -2%;
   }
 }
 @media screen and (min-width: 992px) {
-  #story_banner {
-    height: 270px;
-  }
   #story_banner:has(> div.project) {
-    height: 285px;
+    height: 275px;
   }
   #slider {
     margin-top: 8%;
@@ -87,29 +103,39 @@ div#slider ul.pagination li {
   }
 }
 @media only screen and (min-width: 1200px) {
+  section#story_banner div.project {
+    height: 235px;
+  }
   #story_banner:has(> div.project) {
-    height: 295px;
+    height: 265px;
   }
-  #slider {
-    margin-top: 11%;
-  }
-  #prev,
-  #nex {
-    top: 700px;
+  main#inAction:has(#story_banner div.project) #slider {
+    height: 800px;
   }
   #prev {
     left: 2%;
+    top: 635px;
   }
   #nex {
     right: 2%;
+    top: 635px;
+  }
+  main#inAction:has(#story_banner div.project) #event {
+    margin-top: 2%;
+  }
+  main#inAction:has(#story_banner div.project) #event .social_media {
+    flex-direction: column;
+  }
+  footer div {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1400px) {
   #story_banner:has(> div.project) {
-    height: 420px;
+    height: 280px;
   }
-  section#story_banner div.project {
-    height: 350px;
+  main#inAction:has(#story_banner div.project) #story {
+    margin-top: 0;
   }
   #slider {
     margin-top: 10%;
@@ -120,16 +146,38 @@ div#slider ul.pagination li {
   #nex {
     right: 3%;
   }
+  main#inAction:has(#story_banner div.project) #event .social_media {
+    width: 35%;
+  }
 }
 @media only screen and (min-width: 1600px) {
-  #prev,
-  #nex {
-    top: 750px;
+  #story_banner:has(> div.project) {
+    height: 270px;
+  }
+  main#inAction:has(#story_banner div.project) #slider {
+    margin-top: 123px;
+    /* height: 950px; */
+  }
+  main#inAction:has(#story_banner div.project) #story {
+    padding: 0 3% 2% 3%;
   }
   #prev {
     left: 4%;
   }
   #nex {
     right: 4%;
+  }
+  main#inAction:has(#story_banner div.project) #event .social_media ul {
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  main#inAction:has(#story_banner div.project) #slider {
+    margin-top: 115px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  main#inAction:has(#story_banner div.project) #slider {
+    margin-top: 95px;
   }
 }
