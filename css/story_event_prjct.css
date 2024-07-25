@@ -49,6 +49,9 @@ div#slider ul.pagination li {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 3%;
 }
+main#inAction:has(#story_banner div.project) + section#upcoming_events {
+  background-color: transparent;
+}
 
 @media screen and (min-width: 576px) {
   #story_banner:has(> div.project) {
