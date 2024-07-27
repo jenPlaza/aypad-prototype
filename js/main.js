@@ -58,13 +58,13 @@ var btnArray = [
   {
     btn_id: 'prev',
     btn_function: 'prev()',
-    btn_imgSrc: './images/arrow_left.png',
+    btn_imgSrc: './assets/images/icons/slider/arrow_left.png',
     btn_imgAlt: 'left pointing arrow icon',
   },
   {
     btn_id: 'nex',
     btn_function: 'next()',
-    btn_imgSrc: './images/arrow_right.png',
+    btn_imgSrc: './assets/images/icons/slider/arrow_right.png',
     btn_imgAlt: 'right pointing arrow icon',
   },
 ];

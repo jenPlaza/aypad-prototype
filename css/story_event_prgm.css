@@ -9,19 +9,7 @@
 #story_banner div.program:has(h1 em[class='sports']) {
   height: 250px;
 }
-#slider {
-  width: 100%;
-  height: 535px;
-}
-figure {
-  width: 100%;
-  height: 100%;
-}
-#slider figure > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 main#inAction:has(#story_banner div.program h1 em[class='culture'])
   div#slider
   > figure#rotator
@@ -34,39 +22,10 @@ main#inAction:has(#story_banner div.program h1 em[class='skills'])
   img.imagenes {
   object-position: left 40% top 165px;
 }
-#event {
-  padding: 5%;
-}
-#story section.event {
-  display: flex;
-  flex-wrap: wrap;
-}
-#event div.event_info {
-  font-size: smaller;
-  margin-bottom: 5%;
-}
-#event div.event_info div {
-  display: flex;
-  width: 100%;
-}
-#event div.event_info div label {
-  width: 145px;
-}
-#event div.event_info div p {
-  width: calc(100% - 150px);
-  border-bottom: 1px solid #dcdcdc;
-  margin-bottom: 2%;
-}
-#event h5 {
-  padding: 3% 0;
-}
 
 @media screen and (min-width: 576px) {
   #story_banner div.program {
     height: 280px;
-  }
-  #event {
-    padding: 2% 5%;
   }
   #story h2 {
     margin-top: 3%;
@@ -93,26 +52,6 @@ main#inAction:has(#story_banner div.program h1 em[class='skills'])
   #story h2 {
     margin-top: 0;
   }
-  #slider {
-    margin-top: 3%;
-    padding: 3%;
-  }
-  #slider figure > img {
-    border-radius: 49px;
-    border: 0.2px solid #dcdcdc;
-  }
-  #event {
-    display: flex;
-    align-items: start;
-  }
-  #event div.event_info {
-    width: 60%;
-    padding-right: 5%;
-  }
-  #event .social_media {
-    width: 40%;
-    align-self: start;
-  }
 }
 @media screen and (min-width: 992px) {
   #story_banner:has(> div.program) {
@@ -121,24 +60,8 @@ main#inAction:has(#story_banner div.program h1 em[class='skills'])
   #story h2 {
     margin-top: -5%;
   }
-  #event .social_media {
-    width: 30%;
-    align-self: start;
-  }
-  #event {
-    margin-top: -2%;
-  }
-  #slider {
-    height: 635px;
-  }
 }
 @media screen and (min-width: 1200px) {
-  #event div.event_info {
-    width: 750px;
-  }
-  #event {
-    padding: 0 5% 2% 5%;
-  }
   #story_banner:has(> div.program) {
     height: 445px;
   }
@@ -156,9 +79,6 @@ main#inAction:has(#story_banner div.program h1 em[class='skills'])
   #event .social_media {
     width: 20%;
   }
-  #slider {
-    margin-top: 5%;
-  }
   #story h2 {
     margin-top: -7%;
   }
@@ -166,10 +86,6 @@ main#inAction:has(#story_banner div.program h1 em[class='skills'])
 @media screen and (min-width: 1600px) {
   #event .social_media {
     width: 18%;
-  }
-  #slider {
-    height: 800px;
-    margin-top: 8%;
   }
   #story h2 {
     margin-top: -11%;

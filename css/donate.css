@@ -1,0 +1,122 @@
+/*-----------------------MAIN ----*/
+main {
+  height: 1225px;
+  position: relative;
+}
+div#top_banner {
+  height: 500px;
+  position: relative;
+}
+div#top_banner figure:not(div#top_banner section li article figure) {
+  background: url('./../assets/images/banner/shane-rounce-DNkoNXQti3c-unsplash.jpg')
+    no-repeat top center / 100% 100%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+div#top_banner section {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  padding: 3%;
+  /* text-align: center;
+  justify-content: center;
+  align-items: center; */
+}
+div#top_banner section h2 {
+  position: absolute;
+  top: 100px;
+  line-height: 1.2;
+  filter: drop-shadow(2px 4px 6px black);
+  text-align: center;
+}
+div#top_banner section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  list-style: none;
+  column-gap: 3px;
+  row-gap: 10px;
+  /* row-gap: 3px; */
+  position: relative;
+}
+div#top_banner section li {
+  border: 0.5px solid #dcdcdc;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+div#top_banner section li article {
+  /* width: 385px;*/
+  height: 215px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+div#top_banner section li article figure {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+div#top_banner section li article h4 em {
+  font-size: 30px;
+}
+/*-----------------------ABOUT ----*/
+section#about {
+  position: relative;
+  height: 100%;
+  margin-bottom: 10%;
+}
+section#about h2:first-child {
+  font: normal normal 300 26px/1 'Fraunces', serif;
+  color: #432e41;
+  padding: 0 3%;
+  position: relative;
+}
+section#about h2:first-child ~ h2 {
+  padding: 3%;
+  position: relative;
+}
+section#about div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+section#about div figure {
+  background: url('./../assets/images/edson-diogo-Z9FZQMwCPpk-unsplash.jpg')
+    no-repeat top center / 100% 100%;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  order: -1;
+}
+
+button.donateBtn {
+  margin-top: 8%;
+  background-color: #db3739;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 26px;
+  position: relative;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+/*-----------------------DONATE GALLERY ----*/
+section#donate_gallery h2:first-child {
+  font-weight: 300;
+  padding: 3%;
+  margin: 3% 0;
+}
+section#donate_gallery figure {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 3%;
+}
+section#donate_gallery figure img {
+  object-fit: cover;
+}

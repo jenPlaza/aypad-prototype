@@ -1,118 +1,10 @@
-@-ms-viewport {
-  width: device-width;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  font: normal small-caps normal 16px / 1.2 'Darker Grotesque', sans-serif;
-}
-h1 {
-  font: normal small-caps bold 100px/1.2 'Fraunces', serif;
-  color: #eeb847;
-}
-h1 em {
-  font: normal normal 300 100px/1 'Darker Grotesque', sans-serif;
-  color: #d2d2d2;
-}
-h2 {
-  font: normal normal bold 56px/1.2 'Fraunces', serif;
-  color: #eeb847;
-}
-h2 em {
-  font: normal normal 300 85px/1.2 'Fraunces', serif;
-  color: #d2d2d2;
-}
-h3 {
-  font: normal normal 300 45px/1.2 'Darker Grotesque', sans-serif;
-  color: #432e41;
-}
-h3 em {
-  font: normal small-caps 600 48px/1.2 'Darker Grotesque', sans-serif;
-  color: #432e41;
-}
-h4 {
-  font: normal normal normal 34px/0.5 'Fraunces', serif;
-  color: #432e41;
-}
-h4 em {
-  font: normal normal normal 26px/1 'Fraunces', serif;
-  color: #432e41;
-}
-h5,
-label {
-  font: normal small-caps normal 20px/1 'Fraunces', serif;
-  color: #432e41;
-}
-p {
-  font: normal normal normal 16px/1.2 'Darker Grotesque', sans-serif;
-  color: #000;
-}
-/*-----------------------HEADER ----*/
-body > header {
-  background-color: rgba(36, 17, 8, 0.4);
-}
-header {
-  width: 100%;
-  height: 4rem;
-  position: absolute;
-  top: 0;
-  padding-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 1;
-}
-.logo {
-  width: auto;
-  height: auto;
-  position: relative;
-  top: -13px;
-  left: 5px;
-  display: none;
-}
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: end;
-}
-nav ul {
-  display: flex;
-  text-align: center;
-  margin-right: 7%;
-}
-nav li {
-  list-style: none;
-  width: 5.5rem;
-}
-nav a {
-  text-decoration: none;
-}
-nav a h5 {
-  text-decoration: none;
-  color: #d2d2d2;
-  filter: drop-shadow(2px 4px 6px black);
-  min-width: 80px;
-}
-nav a h5:active {
-  color: #fe9933;
-}
-nav a h5:hover {
-  color: #eeb847;
-}
 /*-----------------------MAIN ----*/
-#main_slider {
+div#top_banner figure {
+  background: url('./../assets/images/banner/martin-bekerman-2KxyxmXOjPs-unsplash.jpg')
+    no-repeat top center / 100% 100%;
+  background-size: cover;
   width: 100%;
   height: 100%;
-  position: relative;
-}
-#main_slider img {
-  object-position: right 0px top -16px;
 }
 #mission {
   width: 100%;
@@ -123,9 +15,13 @@ nav a h5:hover {
 #mission h2 {
   text-align: center;
   line-height: 1;
-  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
-#upcoming_events,
+/*------Upcoming Events ----*/
+#upcoming_events {
+  background-color: #fff;
+}
+/*------True talk articales ----*/
 #true_talk_articles {
   width: 100%;
   height: auto;
@@ -133,13 +29,11 @@ nav a h5:hover {
   background-color: #fff;
   padding: 10% 0 10% 7%;
 }
-#events,
 #articles {
   display: flex;
   grid-gap: 10px;
   padding: 1% 0;
 }
-#events article,
 #articles article {
   width: 385px;
   height: 205px;
@@ -176,31 +70,18 @@ nav a h5:hover {
 #parallex-set-1 {
   /*---breaking throughthe limits ----*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../images/parallex/doug-linstedt-jEEYZsaxbH4-unsplash.jpg');
+    url('../assets/images/parallex/doug-linstedt-jEEYZsaxbH4-unsplash.jpg');
 }
 #parallex-set-2 {
   background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.2));
   background-color: white;
-}
-/*-----------------------DIVIDER ----*/
-.divider {
-  background: url('../images/africanColorBorder.JPG') no-repeat top center /
-    100% 100%;
-  background-size: cover;
-  width: 100%;
-  height: 1.75rem;
-  position: relative;
-}
-#main_slider .divider {
-  position: absolute;
-  bottom: 0px;
 }
 /*-----------------------STORY ----*/
 #story header {
   width: 100%;
   height: 100%;
   flex-wrap: wrap;
-  padding: 2% 3%;
+  padding: 10% 3% 2% 3%;
   position: relative;
   display: flex;
 }
@@ -300,6 +181,7 @@ nav a h5:hover {
   padding-top: 10%;
   align-self: center;
   display: flex;
+  margin-bottom: 10%;
 }
 .partners_layout div {
   padding: 2% 3%;
@@ -331,25 +213,10 @@ nav a h5:hover {
 #partners a h4 em {
   color: #db3739;
 }
-/*-----------------------DONATE ----*/
-#donate {
-  background-image: linear-gradient(rgba(84, 41, 80, 0.74), rgba(0, 0, 0, 0.4)),
-    url('../images/shane-rounce-DNkoNXQti3c-unsplash.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 500px;
-  position: relative;
-  background-position: right 0px bottom 0px;
-  background-repeat: no-repeat;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.partners_layout h4 {
+  line-height: normal;
 }
-#donate h2 {
-  line-height: 1.2;
-  color: #d2d2d2;
-}
+/*-----------------------CONTACT ----*/
 #contact {
   width: 100%;
   position: relative;
@@ -399,75 +266,10 @@ form input[type='submit'] {
   height: 50px;
   justify-self: center;
 }
-/*-----------------------Footer ----*/
-footer {
-  width: 100%;
-  height: 185px;
-  background-color: #432e41;
-  padding: 0 5%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-evenly;
-  bottom: 0;
-}
-footer div {
-  display: flex;
-  margin-bottom: -4%;
-}
-footer img {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
-  margin-top: -8px;
-}
-footer h4 em {
-  color: #d2d2d2;
-  font-size: 20px;
-}
-.social_media {
-  width: 75%;
-  align-self: center;
-}
-.social_media ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-.social_media li {
-  list-style: none;
-}
-.map {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 50%;
-  margin: 0 auto;
-}
-.map a {
-  text-decoration: none;
-}
-.map a h5 {
-  color: #dcdcdc !important;
-}
-.social_media img {
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-}
+
 @media screen and (min-width: 576px) {
-  .logo {
-    width: 80px;
-    height: 80px;
-    display: block;
-  }
-  nav {
-    width: 35%;
-  }
-  #main_slider {
-    height: 400px;
-  }
-  #main_slider img {
-    object-position: right 0px top -45px;
+  div#top_banner figure {
+    background-position: right 0px top -45px;
   }
   #story h2 {
     margin-top: 0;
@@ -481,24 +283,10 @@ footer h4 em {
   .partners_layout {
     padding-top: 5%;
   }
-  #donate {
-    height: 400px;
-  }
-  .social_media {
-    width: 55%;
-  }
 }
 @media screen and (min-width: 768px) {
-  .logo {
-    width: 90px;
-    height: 90px;
-  }
-  #main_slider {
-    height: 400px;
-  }
-  #story header {
-    width: 90%;
-    padding: 2% 3% 0% 3%;
+  div#top_banner figure {
+    background-position: right 0px top -75px;
   }
   #gallery {
     padding: 2% 3%;
@@ -535,28 +323,13 @@ footer h4 em {
   .truTalk div {
     order: inherit;
   }
-  footer {
-    padding: 1% 3%;
-    flex-direction: row;
-    align-items: center;
-    height: 125px;
-  }
-  .map {
-    width: 27%;
-  }
-  .social_media {
-    width: 50%;
-  }
-  #upcoming_events {
-    padding: 5% 0 7% 7%;
-  }
   #true_talk_articles {
     padding: 10% 0 5% 7%;
   }
 }
 @media screen and (min-width: 992px) {
-  #main_slider img {
-    object-position: right 0px top -95px;
+  div#top_banner {
+    height: 500px;
   }
   #story header {
     height: 30vh;
@@ -598,18 +371,6 @@ footer h4 em {
     width: 35%;
     text-align: end;
   }
-  #partners {
-    padding: 3% 3% 5% 3%;
-  }
-  #partners h2 {
-    padding-bottom: 0;
-  }
-  .partners_layout {
-    width: auto;
-    height: 35%;
-    flex-wrap: nowrap;
-    padding-top: 3%;
-  }
   #contact figure {
     width: 50%;
     height: auto;
@@ -617,90 +378,49 @@ footer h4 em {
   #contact img {
     object-fit: cover;
   }
-
   #contact .form {
     width: 50%;
   }
-
-  footer {
-    height: 70px;
-    padding: 0 1% 1% 1%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .partners_layout {
+    width: auto;
+    height: 35%;
     flex-wrap: nowrap;
-  }
-  footer div {
-    width: 35%;
-    margin: 0;
-    padding: 0;
-  }
-  footer img {
-    margin-top: 0px;
-  }
-  footer div h4 {
-    line-height: 0.5;
-  }
-  .map {
-    width: 25%;
-    padding-right: 3%;
-  }
-  .social_media {
-    width: 32%;
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  #main_slider {
-    height: 50vh;
-  }
-  #main_slider img {
-    object-position: right 0px top -150px;
-  }
-  .map {
-    width: 20%;
-  }
-  footer {
-    padding: 1%;
-  }
-  footer div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
-  }
-  .social_media {
-    width: 25%;
-    display: flex;
-    justify-content: end;
-  }
-  .social_media ul {
-    width: 85%;
-  }
-  #upcoming_events {
-    padding: 3% 0 5% 7%;
+  div#top_banner figure {
+    background-position: right 0px top -150px;
   }
   #true_talk_articles {
     padding: 7% 0 2% 7%;
   }
-  #partners {
-    padding: 3% 3% 4% 3%;
+  #story header {
+    padding: 6% 3% 2% 3%;
+  }
+  #mission {
+    padding: 4% 3% 2% 3%;
+  }
+  #mission h2 {
+    margin-bottom: 2%;
   }
 }
 @media screen and (min-width: 1400px) {
   h2 {
-    font: normal normal bold 72px/1.4 'Fraunces', serif;
+    font: normal normal bold 70px/1.4 'Fraunces', serif;
   }
-  #main_slider {
-    height: 56.5vh;
+  div#top_banner {
+    height: 600px;
   }
-  #main_slider img {
-    object-position: right 0px top -163px;
+  div#top_banner figure {
+    background-position: right 0px top -183px;
   }
   .parallex1 {
     background-position: right 0px bottom 0px;
   }
   #story header {
     width: 90%;
-    height: 25vh;
+    height: 340px;
   }
   #story header h1 em {
     order: 2;
@@ -754,34 +474,22 @@ footer h4 em {
     height: 100%;
     width: 27vw;
   }
-  #partners {
-    padding: 3%;
-  }
-  .partners_layout {
-    width: 1000px;
-    height: 225px;
-  }
   #freya img,
   #trueTalk img {
     width: 250px;
     height: 225px;
     border-radius: 49px;
   }
-  .social_media {
-    width: 30%;
-  }
-  .social_media ul {
-    width: 70%;
+  .partners_layout {
+    width: 1000px;
+    height: 225px;
   }
 }
 @media screen and (min-width: 1600px) {
-  #main_slider {
-    height: 75vh;
+  div#top_banner {
+    height: 650px;
   }
-  #main_slider img {
-    object-position: right 0px top -175px;
-  }
-  .map {
-    width: 17%;
+  div#top_banner figure {
+    background-position: right 0px top -210px;
   }
 }

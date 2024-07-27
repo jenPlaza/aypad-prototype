@@ -1,7 +1,9 @@
+/*-----------------------BANNER ----*/
 section#story_banner div.project h1 em,
 section#story_banner div.program h1 em {
   font-size: 75px;
   line-height: 0.8;
+  color: #dcdcdc;
 }
 #story_banner div h1 {
   line-height: 0.8;
@@ -9,12 +11,27 @@ section#story_banner div.program h1 em {
   margin-top: 3%;
 }
 #story_banner div.project {
+  width: 100%;
   height: 100%;
   top: 0;
   text-align: center;
 }
 #story_banner:has(> div.project) {
-  height: 350px;
+  height: 100%;
+}
+/*-----------------------SLIDER ----*/
+#slider {
+  width: 100%;
+  height: 535px;
+}
+figure {
+  width: 100%;
+  height: 100%;
+}
+#slider figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 div#slider ul.pagination li {
   list-style: none;
@@ -49,8 +66,38 @@ div#slider ul.pagination li {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 3%;
 }
-main#inAction:has(#story_banner div.project) + section#upcoming_events {
-  background-color: transparent;
+/*-----------------------STORY ----*/
+section#story {
+  margin-top: 0;
+  padding: 0 3% 3% 3%;
+}
+/*-----------------------EVENTS ----*/
+#event {
+  padding: 5%;
+  margin: 10% 0;
+}
+#story section.event {
+  display: flex;
+  flex-wrap: wrap;
+}
+#event div.event_info {
+  font-size: smaller;
+  margin-bottom: 5%;
+}
+#event div.event_info div {
+  display: flex;
+  width: 100%;
+}
+#event div.event_info div label {
+  width: 145px;
+}
+#event div.event_info div p {
+  width: calc(100% - 150px);
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 2%;
+}
+#event h5 {
+  padding: 3% 0;
 }
 /*-----------------------FUNDRAISE ----*/
 
@@ -101,17 +148,20 @@ section#fundraise h4 em {
   section#fundraise div {
     margin-bottom: 4%;
   }
-  #story_banner:has(> div.project) {
-    height: 300px;
-  }
   #story_banner:has(> div.project) h1 {
     width: 95%;
   }
   main#inAction:has(#story_banner div.project) #story h2 {
     margin-top: 0;
   }
+  #event {
+    margin: 0% 0 8% 0;
+  }
 }
 @media screen and (min-width: 768px) {
+  div#top_banner {
+    height: 225px;
+  }
   section#fundraise div {
     align-items: end;
     justify-content: space-between;
@@ -125,66 +175,80 @@ section#fundraise h4 em {
   section#fundraise button {
     height: 60px;
   }
-  section#story_banner div.project {
-    width: 100%;
-    height: 250px;
-  }
-  #story_banner:has(> div.project) {
-    height: 235px;
-  }
   #story_banner:has(> div.project) h1 {
     width: 95%;
     margin-top: 0;
   }
-  main#inAction:has(#story_banner div.project) #story {
-    padding: 0 3% 3% 3%;
+  #slider {
+    padding: 4% 3% 0 3%;
+  }
+  #slider figure > img {
+    border-radius: 49px;
+    border: 0.2px solid #dcdcdc;
   }
   #prev {
     left: 1%;
-    top: 535px;
+    top: 500px;
   }
   #nex {
     right: 1%;
-    top: 535px;
+    top: 500px;
   }
   footer div {
     margin-bottom: -2%;
   }
+  #event {
+    display: flex;
+    align-items: start;
+    margin: 0;
+  }
+  #event div.event_info {
+    width: 60%;
+    padding-right: 5%;
+  }
+  #event .social_media {
+    width: 40%;
+    align-self: start;
+  }
 }
 @media screen and (min-width: 992px) {
-  #story_banner:has(> div.project) {
+  div#top_banner {
     height: 275px;
   }
   #slider {
-    margin-top: 8%;
+    height: 635px;
   }
   #prev {
     left: 2%;
+    top: 600px;
   }
   #nex {
     right: 2%;
+    top: 600px;
+  }
+  #event .social_media {
+    width: 30%;
+    align-self: start;
+  }
+  #event {
+    margin-top: -2%;
+    padding: 4% 5% 0 5%;
   }
 }
 @media only screen and (min-width: 1200px) {
   section#fundraise div {
     height: 60px;
   }
-  section#story_banner div.project {
-    height: 235px;
-  }
-  #story_banner:has(> div.project) {
-    height: 265px;
-  }
-  main#inAction:has(#story_banner div.project) #slider {
+  #slider {
     height: 800px;
   }
   #prev {
     left: 2%;
-    top: 635px;
+    top: 700px;
   }
   #nex {
     right: 2%;
-    top: 635px;
+    top: 700px;
   }
   main#inAction:has(#story_banner div.project) #event {
     margin-top: 2%;
@@ -192,19 +256,19 @@ section#fundraise h4 em {
   main#inAction:has(#story_banner div.project) #event .social_media {
     flex-direction: column;
   }
+  #event div.event_info {
+    width: 750px;
+  }
+  #event {
+    padding: 0 5% 2% 5%;
+  }
   footer div {
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1400px) {
-  #story_banner:has(> div.project) {
-    height: 280px;
-  }
-  main#inAction:has(#story_banner div.project) #story {
+  section#story {
     margin-top: 0;
-  }
-  #slider {
-    margin-top: 10%;
   }
   #prev {
     left: 3%;
@@ -217,33 +281,21 @@ section#fundraise h4 em {
   }
 }
 @media only screen and (min-width: 1600px) {
-  #story_banner:has(> div.project) {
-    height: 270px;
-  }
-  main#inAction:has(#story_banner div.project) #slider {
-    margin-top: 123px;
-    /* height: 950px; */
-  }
-  main#inAction:has(#story_banner div.project) #story {
+  section#story {
     padding: 0 3% 2% 3%;
+  }
+  #slider {
+    height: 950px;
   }
   #prev {
     left: 4%;
+    top: 750px;
   }
   #nex {
     right: 4%;
+    top: 750px;
   }
   main#inAction:has(#story_banner div.project) #event .social_media ul {
     width: 55%;
-  }
-}
-@media only screen and (min-width: 2000px) {
-  main#inAction:has(#story_banner div.project) #slider {
-    margin-top: 115px;
-  }
-}
-@media only screen and (min-width: 2400px) {
-  main#inAction:has(#story_banner div.project) #slider {
-    margin-top: 95px;
   }
 }

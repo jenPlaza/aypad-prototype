@@ -1,13 +1,12 @@
-
 /*-----------------------Not Specific ----*/
 .border {
   border: 2px solid red;
 }
-.w100{
-  width:100%;
+.w100 {
+  width: 100%;
 }
-.h100{
-  height:100%;
+.h100 {
+  height: 100%;
 }
 /*-----------------------padding 1% ----*/
 .padding-0 {
@@ -103,6 +102,9 @@
 .align-center {
   text-align: center;
 }
+.align-justify {
+  text-align: justify;
+}
 .align-self_center {
   align-self: center;
 }
@@ -117,20 +119,20 @@
 }
 
 /*-----------------------object fit ----*/
-.object-fill{
-  object-fit: fill!important;
+.object-fill {
+  object-fit: fill !important;
 }
 
 .object-contain {
-  object-fit: contain!important;
+  object-fit: contain !important;
 }
 
 .object-cover {
-  object-fit: cover!important;
+  object-fit: cover !important;
 }
 
 .object-fit-none {
-  object-fit: none!important;
+  object-fit: none !important;
 }
 .object-scale-down {
   object-fit: scale-down !important;
@@ -139,4 +141,3 @@
 .line-Height_xs {
   line-height: 1 !important;
 }
-

@@ -2,7 +2,7 @@ const newId = (projectId = id);
 const a = x;
 var i = 0; //index starts at position 0
 let elementIndex = 0; //index starts at position 0
-var newProject = '<section id="story_banner">';
+var newProject = '<div id="top_banner"><section id="story_banner">';
 //page title
 if (
   projectList[a].page_title.includes('Project') ||
@@ -24,7 +24,7 @@ if (
     '</em></h1>';
   newProject += '</div>';
 }
-newProject += '</section>'; //story banner end
+newProject += '</section></div>'; //story banner end
 //slider
 newProject += '<div id="slider"><figure id="rotator">';
 newProject +=
@@ -86,9 +86,9 @@ if (projectList[a].page_title.includes('Fundraiser')) {
   newProject += '<br /><br />';
   newProject +=
     '<a href="' +
-    projectList[a].pdf[i].link +
+    projectList[a].pdf.link +
     '" target="_blank" > ' +
-    projectList[a].pdf[i].title +
+    projectList[a].pdf.title +
     '</a>';
 }
 newProject += '</section>';

@@ -1,30 +1,25 @@
-#story_banner {
-  width: 100%;
-  height: 300px;
-  padding-bottom: 16%;
-  position: relative;
-  display: flex;
-  justify-content: center;
+main {
+  margin-bottom: 0;
 }
 #story_banner div {
   width: 100%;
-  height: 200px;
+  height: 180px;
   background-color: #432e41;
   position: absolute;
-  top: 120px;
+  /* top: 120px; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 section#story_banner figure {
-  height: 150px;
+  background: url('./../assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys.jpg')
+    no-repeat top center / 100% 100%;
+  background-size: cover;
   width: 100%;
+  height: 150px;
 }
-section#story_banner figure img {
-  object-fit: cover;
-}
-
+/*-----------------------STORY ----*/
 #story_banner div h1 {
   color: #dcdcdc;
 }
@@ -45,34 +40,13 @@ section#story_banner figure img {
   text-align: center;
   color: #db3739;
 }
-section#partners_gallery {
-  padding: 0 0 5% 7%;
-}
-#partners_gallery section {
-  display: flex;
-  justify-content: center;
-}
-#partners_gallery #events article {
-  width: 45%;
-  height: 45%;
-  border-radius: 5px;
-  border: 1px solid #dcdcdc;
-  display: flex;
-  justify-content: center;
-  width: auto;
-}
-#partners_gallery #events article figure {
-  width: 60px;
-  height: 60px;
-}
-#partners_gallery #events article img {
-  object-fit: cover;
-}
+/*-----------------------GALLERY ----*/
 #projects_gallery {
   width: 100%;
   height: 100%;
   position: relative;
   background-color: #fff;
+  margin-bottom: 12%;
 }
 section#projects_gallery ul {
   display: grid;
@@ -114,79 +88,44 @@ section#projects_gallery ul > li article figure figcaption h5 {
   font-size: 1.25rem;
   color: white !important;
 }
-html body > div {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(0, 0, 0, 0.15)
-  );
-}
-body section#upcoming_events {
-  background-color: transparent;
-}
 @media screen and (min-width: 576px) {
-  #story_banner {
-    height: 400px;
-    width: 100vw;
-  }
-  #story_banner div {
-    top: 145px;
-  }
-  section#story_banner figure {
-    width: 100%;
-    height: 100%;
-  }
   #story {
     margin-top: 0%;
   }
 }
 @media screen and (min-width: 768px) {
   #story_banner {
-    height: 420px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
   section#story_banner div {
     width: 80%;
-    top: 195px;
+    top: 150px;
+    height: 200px;
   }
   section#story_banner figure {
-    height: 300px;
+    height: 250px;
+    background-position: right 0px top -150px;
   }
-}
-@media screen and (min-width: 992px) {
-  #story_banner {
-    height: 450px;
-    margin-bottom: -5%;
+  #story {
+    padding-top: 0;
   }
-  #story_banner {
-    height: 475px;
+  #projects_gallery {
+    margin-bottom: 5%;
   }
 }
 @media screen and (min-width: 1200px) {
   #story {
     padding: 0 3%;
   }
-  #story h2 {
-    margin-top: 3%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  #story_banner {
-    margin-bottom: -8%;
-  }
-  #story {
-    margin-top: 2.5%;
-  }
-  #story h2 {
-    margin-top: 4%;
-  }
-  #story_banner:has(> div.project) {
-    height: 300px;
+  #projects_gallery {
+    margin-bottom: 3%;
   }
 }
 @media screen and (min-width: 1600px) {
-  #story_banner {
-    margin-bottom: -10%;
-  }
-  #story {
-    margin-top: 5.5%;
+  #projects_gallery {
+    margin-bottom: 4%;
   }
 }
