@@ -77,7 +77,9 @@ if (projectList[a].page_title.includes('Fundraiser')) {
     projectList[a].monies[0].goal +
     ' (USD)</em></h4></div>';
   newProject +=
-    '<div><button>' +
+    '<div><button onclick="window.location.href=' +
+    projectList[a].donate.href +
+    '" target="_blank">' +
     projectList[a].button_donate +
     '</button></div></section>';
 } else {
