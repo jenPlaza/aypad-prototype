@@ -1,21 +1,21 @@
 //alert('gallery js file');
 var optionList = [
   {
-    imgSrc: 'assets/images/icons/donation/piggy-bank-min.jpg',
+    imgSrc: 'assets/images/icons/donation/piggy-bank.png',
     imgAlt: 'mustard color piggy bank icon',
     cardTitle: 'Give a Donation',
     cardText:
       'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
   },
   {
-    imgSrc: './assets/images/icons/donation/handshake-min.jpg',
+    imgSrc: './assets/images/icons/donation/handshake.png',
     imgAlt: 'white color handshake icon',
     cardTitle: 'Become a Volunteer',
     cardText:
       'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
   },
   {
-    imgSrc: './assets/images/icons/donation/graduation-cap-min.jpg',
+    imgSrc: './assets/images/icons/donation/graduation-cap.png',
     imgAlt: 'mustard color scholarship cap icon',
     cardTitle: 'Give a Scolarship',
     cardText:
