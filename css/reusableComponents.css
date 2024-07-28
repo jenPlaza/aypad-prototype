@@ -173,7 +173,7 @@ section#partners_gallery {
 }
 /*-----------------------DIVIDER ----*/
 .divider {
-  background: url('../assets/images/africanColorBorder.JPG') no-repeat top
+  background: url('../assets/images/africanColorBorder-min.JPG') no-repeat top
     center / 100% 100%;
   background-size: cover;
   width: 100%;
@@ -187,7 +187,7 @@ section#partners_gallery {
 /*-----------------------DONATE ----*/
 #donate {
   background-image: linear-gradient(rgba(84, 41, 80, 0.74), rgba(0, 0, 0, 0.4)),
-    url('../assets/images/banner/shane-rounce-DNkoNXQti3c-unsplash.jpg');
+    url('../assets/images/banner/shane-rounce-DNkoNXQti3c-unsplash-min.jpg');
   background-size: cover;
   width: 100%;
   height: 500px;

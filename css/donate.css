@@ -8,7 +8,7 @@ div#top_banner {
   position: relative;
 }
 div#top_banner figure:not(div#top_banner section li article figure) {
-  background: url('./../assets/images/banner/shane-rounce-DNkoNXQti3c-unsplash.jpg')
+  background: url('./../assets/images/banner/shane-rounce-DNkoNXQti3c-unsplash-min.jpg')
     no-repeat top center / 100% 100%;
   background-size: cover;
   width: 100%;
@@ -91,7 +91,7 @@ section#about div {
   height: 100%;
 }
 section#about div figure {
-  background: url('./../assets/images/edson-diogo-Z9FZQMwCPpk-unsplash.jpg')
+  background: url('./../assets/images/edson-diogo-Z9FZQMwCPpk-unsplash-min.jpg')
     no-repeat top center / 100% 100%;
   background-size: cover;
   width: 100%;

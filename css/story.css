@@ -13,7 +13,7 @@ main {
   justify-content: center;
 }
 section#story_banner figure {
-  background: url('./../assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys.jpg')
+  background: url('./../assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg')
     no-repeat top center / 100% 100%;
   background-size: cover;
   width: 100%;

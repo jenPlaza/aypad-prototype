@@ -1,6 +1,6 @@
 /*-----------------------MAIN ----*/
 div#top_banner figure {
-  background: url('./../assets/images/banner/martin-bekerman-2KxyxmXOjPs-unsplash.jpg')
+  background: url('./../assets/images/banner/martin-bekerman-2KxyxmXOjPs-unsplash-min.jpg')
     no-repeat top center / 100% 100%;
   background-size: cover;
   width: 100%;
@@ -70,7 +70,7 @@ div#top_banner figure {
 #parallex-set-1 {
   /*---breaking throughthe limits ----*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../assets/images/parallex/doug-linstedt-jEEYZsaxbH4-unsplash.jpg');
+    url('../assets/images/parallex/doug-linstedt-jEEYZsaxbH4-unsplash-min.jpg');
 }
 #parallex-set-2 {
   background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.2));
