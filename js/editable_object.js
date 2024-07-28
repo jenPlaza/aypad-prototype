@@ -1,5 +1,51 @@
-//alert('array');
-//PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
+//PASSING VARIABLE VIA URL
+//finding the windows' url
+//console.log('href: ', window.location.href);
+var href = window.location.href;
+//remove the url pathname and the varaible declaration
+var id = href.split(window.location.pathname + '?id=');
+//remove the first item of the array
+id.shift();
+
+let projectId = id;
+//testing
+//console.log('id: ' + id + '  == projectId: ' + projectId);
+let x;
+
+// 1. - ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format)
+if (projectId == 'snail') {
+  x = 0;
+} else if (projectId == 'waste') {
+  x = 1;
+} else if (projectId == 'piggery') {
+  x = 2;
+} else if (projectId == 'culture') {
+  x = 3;
+} else if (projectId == 'edu') {
+  x = 4;
+} else if (projectId == 'arts') {
+  x = 5;
+} else if (projectId == 'tree') {
+  x = 6;
+} else if (projectId == 'beauty') {
+  x = 7;
+} else if (projectId == 'sports') {
+  x = 8;
+} else if (projectId == 'skills') {
+  x = 9;
+} else if (projectId == 'children') {
+  x = 10;
+} else if (projectId == 'hockey') {
+  x = 11;
+} else if (projectId == 'micro_credit') {
+  x = 12;
+} else if (projectId == 'youth_farming') {
+  x = 13;
+} else if (projectId == 'fish_farming') {
+  x = 14;
+}
+
+//2.- PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
 var projectList = [
   {
     id: 'snail',
@@ -149,7 +195,7 @@ var projectList = [
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/piggery/piggeryProject_mama_pig_and_piglets_2-min-min.jpg',
+          'assets/images/story_event/piggery/piggeryProject_mama_pig_and_piglets_2-min.jpg',
         elementAlt:
           'AYPAD Piggery Project event photo - mama pig and piglets feeding',
       },
@@ -719,42 +765,7 @@ var projectList = [
   },
 ];
 
-//ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format)
-let projectId = id;
-let x;
-if (projectId == 'snail') {
-  x = 0;
-} else if (projectId == 'waste') {
-  x = 1;
-} else if (projectId == 'piggery') {
-  x = 2;
-} else if (projectId == 'culture') {
-  x = 3;
-} else if (projectId == 'edu') {
-  x = 4;
-} else if (projectId == 'arts') {
-  x = 5;
-} else if (projectId == 'tree') {
-  x = 6;
-} else if (projectId == 'beauty') {
-  x = 7;
-} else if (projectId == 'sports') {
-  x = 8;
-} else if (projectId == 'skills') {
-  x = 9;
-} else if (projectId == 'children') {
-  x = 10;
-} else if (projectId == 'hockey') {
-  x = 11;
-} else if (projectId == 'micro_credit') {
-  x = 12;
-} else if (projectId == 'youth_farming') {
-  x = 13;
-} else if (projectId == 'fish_farming') {
-  x = 14;
-}
-
-//CONTACT FORM
+//3.- CONTACT FORM
 //to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
 var formArray = [
   {
@@ -779,7 +790,7 @@ var formArray = [
   },
 ];
 
-//SOCIAL MEDIA & CONTACT LINKS
+//4.- SOCIAL MEDIA & CONTACT LINKS
 //to add more social media links...VERY IMPORTANT!!!!!! follow same format
 //icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow/gray color hex's #EEB847 / #dcdcdc).
 var contactArray = [
