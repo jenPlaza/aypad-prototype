@@ -85,13 +85,13 @@ var projectList = [
   },
   {
     id: 'waste',
-    cover: 'assets/images/photo_gallery/wasteMgmt-min.jpg',
+    cover: 'assets/images/photo_gallery/wasteMgmt-min.JPG',
     caption: 'Waste Management Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/wasteMgmt-min.jpg',
+        elementSrc: 'assets/images/photo_gallery/wasteMgmt-min.JPG',
         elementAlt: 'photo of waste managment team active at an event',
       },
       {
@@ -121,13 +121,13 @@ var projectList = [
   },
   {
     id: 'piggery',
-    cover: 'assets/images/photo_gallery/piggery-min.jpg',
+    cover: 'assets/images/photo_gallery/piggery-min.JPG',
     caption: 'Piggery Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/piggery-min.jpg',
+        elementSrc: 'assets/images/photo_gallery/piggery-min.JPG',
         elementAlt:
           'photo of woman showing other women the process of feeding a pig',
       },
@@ -423,13 +423,13 @@ var projectList = [
   },
   {
     id: 'beauty',
-    cover: 'assets/images/photo_gallery/beautification-min.jpg',
+    cover: 'assets/images/photo_gallery/beautification-min.JPG',
     caption: 'Beautification Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/beautification-min.jpg',
+        elementSrc: 'assets/images/photo_gallery/beautification-min.JPG',
         elementAlt:
           'women at a Beautification Project event dancing and rejoicing',
       },
