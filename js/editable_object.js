@@ -49,19 +49,26 @@ if (projectId == 'snail') {
 var projectList = [
   {
     id: 'snail',
-    cover: 'assets/images/photo_gallery/snail-min.png',
+    cover:
+      'assets/images/photo_gallery/vincent-erhart-xgr4SZ80IPk-unsplash-min.jpg',
     caption: 'Snail Farming Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/snail-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/vincent-erhart-xgr4SZ80IPk-unsplash-min.jpg',
+        elementAlt: 'image of a snail on the edge of their wooden farm box',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/snailFarming/snail-min.png',
         elementAlt: 'photo of snail community in a wooden box',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
+        elementSrc: 'assets/images/story_event/snailFarming/snailTeam-min.png',
+        elementAlt: 'group photo of snail farmers',
       },
     ],
     page_title: 'Snail Farming Project',
@@ -69,7 +76,7 @@ var projectList = [
       'The Snail Farm Project aims at providing low cost meat in our countries of operation while also providing employment that will generate income for marginalized population. AYPAD detected that snails are a high source of protein and cheaper than other animals meat, thus more accessible for population. Therefore we intend to commence this project with snail farming andat a later stage we would develop other farm types, to name a few: guinea fowl, turkey or pigs.These animals will be provided to the participants after being trained to properly manage their farms. AYPAD will help with marketing the product of our farmers after being harvested. Achatina snail is a delicacy for the citizens of West Africa, Europe and Asia. In Ghana is eaten by about half of the 35 million population. The snail is traditionally gathered from the wild and sold at the local markets. However, in recent years, the Achatina snail has greatly diminished due to overharvesting, adverse weather conditions, and deforestation. The limited supply of snail keeps the cost prohibitively high, and thus keeps the nutritious food out of the hands and mouths of the consumers who want and need it most. AYPAD Snail Farm which will commence first project in Ghana assisting women, mostly commercial sex workers, single mothers and local farmers in raising the large snails, thus providing a sustainable supply of the highly sought-after snail in the Ghanaian market.',
     pdf: {
       title: 'Snail Farming - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      link: './assets/pdf/snailFarming_profile-compressed.pdf',
     },
     event_information: {
       name: 'text',
@@ -79,7 +86,7 @@ var projectList = [
       contact_email: 'larry@nomail.com',
     },
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'To empower a new generation of women entrepreneurs. These women will be able to maintain their traditional family responsibilities, earn extra income, educate themselves and become positive role models of success for their families and their communities.',
       href: 'https://www.google.com/',
     },
   },
@@ -228,13 +235,15 @@ var projectList = [
   },
   {
     id: 'culture',
-    cover: 'assets/images/photo_gallery/culture-min.png',
+    cover:
+      'assets/images/photo_gallery/mpumelelo-macu-l_YNobbDYJk-unsplash-min.jpg',
     caption: 'Cultural Program',
     banner: './assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/culture-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/mpumelelo-macu-l_YNobbDYJk-unsplash-min.jpg',
         elementAlt: 'two young adult men dressed in cultural outfits',
       },
       {
@@ -264,13 +273,15 @@ var projectList = [
   },
   {
     id: 'edu',
-    cover: 'assets/images/photo_gallery/edu-min.png',
+    cover:
+      'assets/images/photo_gallery/bill-wegener-LqOO5Ko0zSo-unsplash-min.jpg',
     caption: 'Basic Education Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/edu-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/bill-wegener-LqOO5Ko0zSo-unsplash-min.jpg',
         elementAlt: 'children in a classroom',
       },
       {
@@ -351,13 +362,15 @@ var projectList = [
   },
   {
     id: 'arts',
-    cover: 'assets/images/photo_gallery/arts-min.png',
+    cover:
+      'assets/images/photo_gallery/wei-cheng-wu-R7lSwItK0LE-unsplash-min.jpg',
     caption: 'Arts and Crafts Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/arts-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/wei-cheng-wu-R7lSwItK0LE-unsplash-min.jpg',
         elementAlt: 'an individual weaving a basket',
       },
       {
@@ -471,14 +484,9 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/soccerTeam-min.png',
+        elementSrc: 'assets/images/story_event/soccer/soccerTeam-min.png',
         elementAlt:
           'soccer team photo of young adult athletes, in uniform, before tournament',
-      },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
       },
     ],
     page_title: 'Sports Program',
@@ -594,7 +602,7 @@ var projectList = [
       'We are excited to introduce our recent project, the Hockey Project. This innovative initiative showcases our work in developing advanced training strategies and equipment for hockey players to improve their skills and performance on the ice. With a focus on cutting-edge technology and research, the Hockey Project aims to push the boundaries of what is possible in the world of hockey training.',
     pdf: {
       title: 'Hockey - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      link: './assets/pdf/hockey_profile-compressed.pdf',
     },
     event_information: {
       name: 'text',
@@ -604,19 +612,21 @@ var projectList = [
       contact_email: 'larry@nomail.com',
     },
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'To act as a crime prevention program that promotes education, physical activity, healthy lifestyles and social development for the youth (ages 6-21; boys and girls) throughout the African Continent using organized hockey. Team sports can communicate and transform the way people think and act. The task for AYPAD Hockey project is to find ways of incorporating sports into the work of peace building and to create a space where people in conflict can heal and reconcile through competitive team sports.',
       href: 'https://www.google.com/',
     },
   },
   {
     id: 'micro_credit',
-    cover: 'assets/images/photo_gallery/microCredit-min.png',
+    cover:
+      'assets/images/photo_gallery/omotayo-tajudeen-zlZnNIS7eDk-unsplash-min.jpg',
     caption: 'Micro-Credit Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/microCredit-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/omotayo-tajudeen-zlZnNIS7eDk-unsplash-min.jpg',
         elementAlt: 'photo of micro-credit team associates',
       },
       {
@@ -814,7 +824,8 @@ var contactArray = [
   },
   {
     //by facebook
-    link_href: 'https://www.google.com/',
+    link_href:
+      'https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/',
     img_src: './assets/images/icons/socialMedia/facebook_yellow.png',
     img_alt: 'facebook icon',
   },
