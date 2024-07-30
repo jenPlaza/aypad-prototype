@@ -775,28 +775,57 @@ var projectList = [
   },
 ];
 
-//3.- CONTACT FORM
-//to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
-var formArray = [
+//3.- PARTNERS & AFFILIATIONS LOGOS
+//to add more logos ...VERY IMPORTANT!!!!!! follow same format
+var logoArray = [
   {
-    label_name: 'Event Name',
-    paragraph_body: projectList[x].event_information.name,
+    link_href: 'https://www.facebook.com/CommunityYouthNetworkProgramcynpInc/',
+    img_src: './assets/images/partners/communityYouthNetworkProgram.png',
+    img_alt: 'Community Youth Network Program logo',
+    img_caption: 'Community Youth Network Program',
   },
   {
-    label_name: 'Event Address',
-    paragraph_body: projectList[x].event_information.address,
+    link_href: 'https://www.fisori.org/',
+    img_src: './assets/images/partners/freya_logo-min.png',
+    img_alt: 'Freya logo',
+    img_caption: 'Freya',
   },
   {
-    label_name: 'Contact Name',
-    paragraph_body: projectList[x].event_information.contact_name,
+    link_href: 'https://gyan.tigweb.org/',
+    img_src: './assets/images/partners/gyan.png',
+    img_alt: 'Global Youth Action Network logo',
+    img_caption: 'Global Youth Action Network Program',
   },
   {
-    label_name: 'Contact Phone',
-    paragraph_body: projectList[x].event_information.contact_phone,
+    link_href: 'https://bitcoin.org/en/',
+    img_src: './assets/images/partners/bitcoin.png',
+    img_alt: 'Bitcoin logo',
+    img_caption: 'Bitcoin',
   },
   {
-    label_name: 'Contact Email',
-    paragraph_body: projectList[x].event_information.contact_email,
+    link_href: 'https://tools4change.org/',
+    img_src: './assets/images/partners/tools4Change-Logo.png',
+    img_alt: 'Tools 4 Change logo',
+    img_caption: 'Tools 4 Change',
+  },
+  {
+    link_href: 'https://www.truetalknews.org/',
+    img_src: './assets/images/partners/trueTalk_logo-min.png',
+    img_alt: 'True talk logo',
+    img_caption: 'True Talk',
+  },
+  {
+    link_href: 'https://www.warchild.net/',
+    img_src: './assets/images/partners/war-child-ic.png',
+    img_alt: 'War Child logo',
+    img_caption: 'War Child',
+  },
+  {
+    link_href: 'http://yppdatwork.org/',
+    img_src:
+      './assets/images/partners/youthPartnershipForPeaceAndDevelopment_logo.png',
+    img_alt: 'Youth Partnership for Peace and Development logo',
+    img_caption: 'Youth Partnership for Peace and Development',
   },
 ];
 
@@ -840,5 +869,30 @@ var contactArray = [
     link_href: 'https://www.google.com/',
     img_src: './assets/images/icons/socialMedia/youtube_yellow.png',
     img_alt: 'youtube icon',
+  },
+];
+
+//5.- CONTACT FORM
+//to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
+var formArray = [
+  {
+    label_name: 'Event Name',
+    paragraph_body: projectList[x].event_information.name,
+  },
+  {
+    label_name: 'Event Address',
+    paragraph_body: projectList[x].event_information.address,
+  },
+  {
+    label_name: 'Contact Name',
+    paragraph_body: projectList[x].event_information.contact_name,
+  },
+  {
+    label_name: 'Contact Phone',
+    paragraph_body: projectList[x].event_information.contact_phone,
+  },
+  {
+    label_name: 'Contact Email',
+    paragraph_body: projectList[x].event_information.contact_email,
   },
 ];

@@ -50,6 +50,27 @@ function nexAndPrev_else_conditional() {
   }
 }
 
+function partnersAndAffiliations() {
+  var newLogo = '<h3>Partners & Affiliations</h3>';
+  newLogo += '<ul id="logos" class="rotate">';
+  for (var n = 0; n < logoArray.length; n++) {
+    newLogo +=
+      '<li><article><a href="' +
+      logoArray[0].link_href +
+      '" target="_blank"><figure>';
+    newLogo +=
+      '<img src="' +
+      logoArray[n].img_src +
+      '" alt="' +
+      logoArray[n].img_alt +
+      '" width="100%" height="100%"/>';
+    // newLogo += '<figcaption>' + logoArray[n].img_caption + '</figcaption> ';
+    newLogo += '</figure></a></article></li>';
+  }
+  newLogo += '</ul>';
+  document.getElementById('partners_gallery').innerHTML = newLogo;
+}
+
 //PAGINATION BUTTON ARRAY
 var btnArray = [
   {
