@@ -876,10 +876,10 @@ console.log();
 
 //5.- New Events
 //to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
-//IF ONLY!!!!! If flyer contact is different from project/program/fundraiser event information then change below event_title, event_contact_name,event_contact_phone,event_contact_email to the following format...eg event_title: 'New FLYER TITLE', event_contact_name: 'New Contact Name',etc...single qoutes after : are very important cannot omit!!!!
+//IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
 var flyerArray = [
   {
-    id: 'tree',
+    id: '00_tree',
     web_flyer_img_style:
       'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
@@ -888,13 +888,13 @@ var flyerArray = [
       'tree planting event flyer banner of African authentic outdoor wear',
     event_address: '660 Summerhouse St. Greenwood, SC 29646',
     event_time: '08:00am to 03:00pm',
-    event_title: projectList[6].event_information.title,
-    event_contact_name: projectList[6].event_information.contact_name,
-    event_contact_phone: projectList[6].event_information.contact_phone,
-    event_contact_email: projectList[6].event_information.contact_email,
+    event_title: 'Eventurist Forest: Join The Fun',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
   },
   {
-    id: 'fish_farming',
+    id: '01_fish_farming',
     web_flyer_img_style:
       'background: url(./assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
@@ -903,13 +903,13 @@ var flyerArray = [
       'fish fundraising event flyer banner of fish school in a pool',
     event_address: '1564, Thin Pine Drive Charleston County, SC 29455',
     event_time: '09:00am to 04:00pm',
-    event_title: projectList[14].event_information.title,
-    event_contact_name: projectList[14].event_information.contact_name,
-    event_contact_phone: projectList[14].event_information.contact_phone,
-    event_contact_email: projectList[14].event_information.contact_email,
+    event_title: 'Fish Farming Fundraiser',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
   },
   {
-    id: 'children',
+    id: '02_children',
     web_flyer_img_style:
       'background: url(./assets/images/photo_gallery/children-min.png) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
@@ -917,13 +917,13 @@ var flyerArray = [
     flyer_img_alt: 'photo of children laughing and smiling',
     event_address: '2035, Wambaw Creek Road Berkeley County, SC 29492',
     event_time: '08:00am to 03:00pm',
-    event_title: projectList[10].event_information.title,
-    event_contact_name: projectList[10].event_information.contact_name,
-    event_contact_phone: projectList[10].event_information.contact_phone,
-    event_contact_email: projectList[10].event_information.contact_email,
+    event_title: 'LETS FEED OUR CHILDREN',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
   },
   {
-    id: 'beauty',
+    id: '03_beauty',
     web_flyer_img_style:
       'background: url(./assets/images/photo_gallery/beautification-min.JPG) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
@@ -932,13 +932,13 @@ var flyerArray = [
       'women at a Beautification Project event dancing and rejoicing',
     event_address: '200, West Broadway Street Myrtle Beach, SC 29646',
     event_time: '08:00am to 06:00pm',
-    event_title: projectList[7].event_information.title,
-    event_contact_name: projectList[7].event_information.contact_name,
-    event_contact_phone: projectList[7].event_information.contact_phone,
-    event_contact_email: projectList[7].event_information.contact_email,
+    event_title: 'KEEP BEAUTIFUL',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
   },
   {
-    id: 'hockey',
+    id: '04_hockey',
     web_flyer_img_style:
       'background: url(./assets/images/photo_gallery/hockey-min.png) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
@@ -946,10 +946,10 @@ var flyerArray = [
     flyer_img_alt: 'team of hockey players practicing',
     event_address: '543, Harbor View Circle Charleston County, SC 29412',
     event_time: '08:00am to 05:00pm',
-    event_title: projectList[11].event_information.title,
-    event_contact_name: projectList[11].event_information.contact_name,
-    event_contact_phone: projectList[11].event_information.contact_phone,
-    event_contact_email: projectList[11].event_information.contact_email,
+    event_title: 'Hockey Tournament',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
   },
 ];
 

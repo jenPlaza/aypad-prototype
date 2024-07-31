@@ -91,7 +91,7 @@ function comingEvents() {
   console.log(flyerArray);
   var newflyer = '<h3>Upcoming Events</h3>';
   newflyer += '<section id="events">';
-  newflyer += '<ul>';
+  newflyer += '<ul id="flyer">';
   for (var n = 0; n < flyerArray.length; n++) {
     newflyer +=
       '<li id="' + flyerArray[n].id + '" onclick="downloadFlyer();"><article>';
@@ -115,8 +115,9 @@ function comingEvents() {
   newflyer += '</section>';
   document.getElementById('upcoming_events').innerHTML = newflyer;
 }
+///get flyer id to add to flyerArray variable
 function downloadFlyer() {
-  var event_flyer = document.getElementById('flyer').innerHTML;
+  var event_flyer = document.getElementById(flyerArray[0].id).innerHTML;
 
   var filename = 'event_flyer.html';
   var link = document.createElement('a');
@@ -127,7 +128,7 @@ function downloadFlyer() {
   link.setAttribute('download', filename);
   link.style.display = 'none';
   document.body.appendChild(link);
-  //link.click();
+  link.click();
   document.body.removeChild(link);
 
   //finding window user from folder download filepath
