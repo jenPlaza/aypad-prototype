@@ -79,8 +79,8 @@ var projectList = [
       link: './assets/pdf/snailFarming_profile-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -115,8 +115,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -222,8 +222,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -260,8 +260,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -349,8 +349,8 @@ var projectList = [
       link: 'assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -387,8 +387,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -423,8 +423,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'Eventurist Forest: Join The Fun',
+      location: 'Greenwood, SC',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -460,8 +460,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'KEEP BEAUTIFUL',
+      location: 'Myrtle Beach, SC',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -497,8 +497,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -533,8 +533,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -569,8 +569,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'LETS FEED OUR CHILDREN',
+      location: 'Berkeley County, SC',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -589,7 +589,7 @@ var projectList = [
       {
         elementClass: 'imagenes',
         elementSrc: 'assets/images/photo_gallery/hockey-min.png',
-        elementAlt: 'teamof hockey players practicing',
+        elementAlt: 'team of hockey players practicing',
       },
       {
         elementClass: 'imagenes',
@@ -605,8 +605,8 @@ var projectList = [
       link: './assets/pdf/hockey_profile-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'Hockey Tournament',
+      location: 'Charleston County, SC',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -643,8 +643,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -715,8 +715,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -762,8 +762,8 @@ var projectList = [
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
     event_information: {
-      name: 'text',
-      address: 'text',
+      title: 'Fish Frenzy Fundraiser',
+      location: 'Charleston, SC',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
@@ -872,16 +872,97 @@ var contactArray = [
   },
 ];
 
-//5.- CONTACT FORM
+console.log();
+
+//5.- New Events
+//to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
+//IF ONLY!!!!! If flyer contact is different from project/program/fundraiser event information then change below event_title, event_contact_name,event_contact_phone,event_contact_email to the following format...eg event_title: 'New FLYER TITLE', event_contact_name: 'New Contact Name',etc...single qoutes after : are very important cannot omit!!!!
+var flyerArray = [
+  {
+    id: 'tree',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+    flyer_img_src:
+      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'tree planting event flyer banner of African authentic outdoor wear',
+    event_address: '660 Summerhouse St. Greenwood, SC 29646',
+    event_time: '08:00am to 03:00pm',
+    event_title: projectList[6].event_information.title,
+    event_contact_name: projectList[6].event_information.contact_name,
+    event_contact_phone: projectList[6].event_information.contact_phone,
+    event_contact_email: projectList[6].event_information.contact_email,
+  },
+  {
+    id: 'fish_farming',
+    web_flyer_img_style:
+      'background: url(./assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+    flyer_img_src:
+      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'fish fundraising event flyer banner of fish school in a pool',
+    event_address: '1564, Thin Pine Drive Charleston County, SC 29455',
+    event_time: '09:00am to 04:00pm',
+    event_title: projectList[14].event_information.title,
+    event_contact_name: projectList[14].event_information.contact_name,
+    event_contact_phone: projectList[14].event_information.contact_phone,
+    event_contact_email: projectList[14].event_information.contact_email,
+  },
+  {
+    id: 'children',
+    web_flyer_img_style:
+      'background: url(./assets/images/photo_gallery/children-min.png) no-repeat top center / 100% 100%;background-size: cover;',
+    flyer_img_src:
+      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/children-min.png" width="100%" height="35%',
+    flyer_img_alt: 'photo of children laughing and smiling',
+    event_address: '2035, Wambaw Creek Road Berkeley County, SC 29492',
+    event_time: '08:00am to 03:00pm',
+    event_title: projectList[10].event_information.title,
+    event_contact_name: projectList[10].event_information.contact_name,
+    event_contact_phone: projectList[10].event_information.contact_phone,
+    event_contact_email: projectList[10].event_information.contact_email,
+  },
+  {
+    id: 'beauty',
+    web_flyer_img_style:
+      'background: url(./assets/images/photo_gallery/beautification-min.JPG) no-repeat top center / 100% 100%;background-size: cover;',
+    flyer_img_src:
+      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/beautification-min.JPG" width="100%" height="35%',
+    flyer_img_alt:
+      'women at a Beautification Project event dancing and rejoicing',
+    event_address: '200, West Broadway Street Myrtle Beach, SC 29646',
+    event_time: '08:00am to 06:00pm',
+    event_title: projectList[7].event_information.title,
+    event_contact_name: projectList[7].event_information.contact_name,
+    event_contact_phone: projectList[7].event_information.contact_phone,
+    event_contact_email: projectList[7].event_information.contact_email,
+  },
+  {
+    id: 'hockey',
+    web_flyer_img_style:
+      'background: url(./assets/images/photo_gallery/hockey-min.png) no-repeat top center / 100% 100%;background-size: cover;',
+    flyer_img_src:
+      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/hockey-min.png" width="100%" height="35%',
+    flyer_img_alt: 'team of hockey players practicing',
+    event_address: '543, Harbor View Circle Charleston County, SC 29412',
+    event_time: '08:00am to 05:00pm',
+    event_title: projectList[11].event_information.title,
+    event_contact_name: projectList[11].event_information.contact_name,
+    event_contact_phone: projectList[11].event_information.contact_phone,
+    event_contact_email: projectList[11].event_information.contact_email,
+  },
+];
+
+//6.- CONTACT FORM
 //to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
 var formArray = [
   {
-    label_name: 'Event Name',
-    paragraph_body: projectList[x].event_information.name,
+    label_name: 'Event Title',
+    paragraph_body: projectList[x].event_information.title,
   },
   {
-    label_name: 'Event Address',
-    paragraph_body: projectList[x].event_information.address,
+    label_name: 'Event Location',
+    paragraph_body: projectList[x].event_information.location,
   },
   {
     label_name: 'Contact Name',

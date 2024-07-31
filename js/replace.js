@@ -32,6 +32,10 @@ if (page == 'story.html') {
   }
   newGallery += '</ul>';
   document.getElementById('projects_gallery').innerHTML = newGallery;
+
+  //upcoming events
+  comingEvents();
+  //partners & affiliations
   partnersAndAffiliations();
 } else if (page == 'donate.html') {
   //-------------html replacement for donate.html
@@ -109,6 +113,9 @@ if (page == 'story.html') {
   }
   newDonate += '</ul>';
   document.getElementById('donate_gallery').innerHTML = newDonate;
+
+  //upcoming events
+  comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
 } else {
@@ -235,6 +242,9 @@ if (page == 'story.html') {
   newProject += '</section>'; //event end
 
   document.getElementById('inAction').innerHTML = newProject;
+
+  //upcoming events
+  comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
 }

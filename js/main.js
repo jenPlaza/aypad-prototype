@@ -4,7 +4,21 @@ const a = x;
 
 let elementIndex = 0;
 
-//PAGINATION FUNCTIONS
+//PAGINATION
+var btnArray = [
+  {
+    btn_id: 'prev',
+    btn_function: 'prev()',
+    btn_imgSrc: './assets/images/icons/slider/arrow_left.png',
+    btn_imgAlt: 'left pointing arrow icon',
+  },
+  {
+    btn_id: 'nex',
+    btn_function: 'next()',
+    btn_imgSrc: './assets/images/icons/slider/arrow_right.png',
+    btn_imgAlt: 'right pointing arrow icon',
+  },
+];
 function prev() {
   elementIndex--;
   //replacing newProject figure code with conditional depending if the flow element is either video / image
@@ -49,6 +63,7 @@ function nexAndPrev_else_conditional() {
   }
 }
 
+//PARTNERS & AFFILIATIONS
 function partnersAndAffiliations() {
   var newLogo = '<h3>Partners & Affiliations</h3>';
   newLogo += '<ul id="logos" class="rotate">';
@@ -63,29 +78,43 @@ function partnersAndAffiliations() {
       '" alt="' +
       logoArray[n].img_alt +
       '" width="100%" height="100%"/>';
-    // newLogo += '<figcaption>' + logoArray[n].img_caption + '</figcaption> ';
     newLogo += '</figure></a></article></li>';
   }
   newLogo += '</ul>';
   document.getElementById('partners_gallery').innerHTML = newLogo;
 }
-
-//PAGINATION BUTTON ARRAY
-var btnArray = [
-  {
-    btn_id: 'prev',
-    btn_function: 'prev()',
-    btn_imgSrc: './assets/images/icons/slider/arrow_left.png',
-    btn_imgAlt: 'left pointing arrow icon',
-  },
-  {
-    btn_id: 'nex',
-    btn_function: 'next()',
-    btn_imgSrc: './assets/images/icons/slider/arrow_right.png',
-    btn_imgAlt: 'right pointing arrow icon',
-  },
-];
-
+console.log('main');
+//EVENTS
+function comingEvents() {
+  console.log('comingEvents');
+  console.log(flyerArray.length);
+  console.log(flyerArray);
+  var newflyer = '<h3>Upcoming Events</h3>';
+  newflyer += '<section id="events">';
+  newflyer += '<ul>';
+  for (var n = 0; n < flyerArray.length; n++) {
+    newflyer +=
+      '<li id="' + flyerArray[n].id + '" onclick="downloadFlyer();"><article>';
+    newflyer += '<figure style="' + flyerArray[n].web_flyer_img_style + '">';
+    newflyer +=
+      '<img src="' +
+      flyerArray[n].flyer_img_src +
+      '" alt="' +
+      flyerArray[n].flyer_img_alt +
+      '" width="100%" height="35%" />';
+    newflyer += '<div><h1>' + flyerArray[n].event_title + '</h1>';
+    newflyer += '<p>Address: ' + flyerArray[n].event_address + '</p>';
+    newflyer += '<p>Time: ' + flyerArray[n].event_time + '</p><br />';
+    newflyer += '<p>To Register/Get More Information</p>';
+    newflyer += '<p>' + flyerArray[n].event_contact_name + '</p>';
+    newflyer += '<p>Phone: ' + flyerArray[n].event_contact_phone + '</p>';
+    newflyer += '<p>Email: ' + flyerArray[n].event_contact_email + '</p></div>';
+    newflyer += '</figure></article></li>';
+  }
+  newflyer += '</ul>';
+  newflyer += '</section>';
+  document.getElementById('upcoming_events').innerHTML = newflyer;
+}
 function downloadFlyer() {
   var event_flyer = document.getElementById('flyer').innerHTML;
 
@@ -98,11 +127,20 @@ function downloadFlyer() {
   link.setAttribute('download', filename);
   link.style.display = 'none';
   document.body.appendChild(link);
-  link.click();
+  //link.click();
   document.body.removeChild(link);
 
+  //finding window user from folder download filepath
+  let loc = window.location.pathname;
+  let two = loc.split('/Downloads/event_flyer.html');
+  const dir = two.shift();
+  const user = dir.split('/');
+  console.log(user);
+  const Username = user[2].toString();
+
+  //using time out function to wait for file download to download folder
   setTimeout(function () {
-    var filePath = 'file:///Users/jenplaza/Downloads/' + filename;
+    var filePath = 'file:///Users/' + Username + '/Downloads/' + filename;
     link.href = filePath;
     window.open(filePath);
     window.location.reload();
