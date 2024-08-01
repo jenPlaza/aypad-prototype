@@ -83,18 +83,17 @@ function partnersAndAffiliations() {
   newLogo += '</ul>';
   document.getElementById('partners_gallery').innerHTML = newLogo;
 }
-console.log('main');
+
 //EVENTS
 function comingEvents() {
-  console.log('comingEvents');
-  console.log(flyerArray.length);
-  console.log(flyerArray);
   var newflyer = '<h3>Upcoming Events</h3>';
   newflyer += '<section id="events">';
   newflyer += '<ul id="flyer">';
   for (var n = 0; n < flyerArray.length; n++) {
     newflyer +=
-      '<li id="' + flyerArray[n].id + '" onclick="downloadFlyer();"><article>';
+      '<li id="' +
+      flyerArray[n].id +
+      '" onclick="downloadFlyer(this.id);"><article>';
     newflyer += '<figure style="' + flyerArray[n].web_flyer_img_style + '">';
     newflyer +=
       '<img src="' +
@@ -115,9 +114,18 @@ function comingEvents() {
   newflyer += '</section>';
   document.getElementById('upcoming_events').innerHTML = newflyer;
 }
-///get flyer id to add to flyerArray variable
-function downloadFlyer() {
-  var event_flyer = document.getElementById(flyerArray[0].id).innerHTML;
+
+function downloadFlyer(clicked_id) {
+  ///getting flyer id to from buttonClick for flyerArray variable on download flyer
+  let fId = clicked_id;
+  let abc = fId;
+  //console.log('abc: ', abc);
+  let dfg = abc.toString().split('_');
+  //console.log('dfg: ', dfg);
+  let id = parseInt(dfg[0]);
+  //console.log('id: ', id);
+
+  var event_flyer = document.getElementById(flyerArray[id].id).innerHTML;
 
   var filename = 'event_flyer.html';
   var link = document.createElement('a');
@@ -136,7 +144,6 @@ function downloadFlyer() {
   let two = loc.split('/Downloads/event_flyer.html');
   const dir = two.shift();
   const user = dir.split('/');
-  console.log(user);
   const Username = user[2].toString();
 
   //using time out function to wait for file download to download folder

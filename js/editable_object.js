@@ -3,6 +3,9 @@
 //console.log('href: ', window.location.href);
 var href = window.location.href;
 //remove the url pathname and the varaible declaration
+var absolutePath = window.location.pathname; ///Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/story.html
+var path = absolutePath.split('/aypad/');
+var newPath = path.shift();
 var id = href.split(window.location.pathname + '?id=');
 //remove the first item of the array
 id.shift();
@@ -12,7 +15,8 @@ let projectId = id;
 //console.log('id: ' + id + '  == projectId: ' + projectId);
 let x;
 
-// 1. - ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format)
+// 1. - ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format).
+
 if (projectId == 'snail') {
   x = 0;
 } else if (projectId == 'waste') {
@@ -876,14 +880,17 @@ console.log();
 
 //5.- New Events
 //to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
+//images need to be no more than 2399 width x 659 height
 //IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
 var flyerArray = [
   {
-    id: '00_tree',
+    id: '0_tree',
     web_flyer_img_style:
       'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
-      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
     flyer_img_alt:
       'tree planting event flyer banner of African authentic outdoor wear',
     event_address: '660 Summerhouse St. Greenwood, SC 29646',
@@ -894,11 +901,13 @@ var flyerArray = [
     event_contact_email: 'larry@nomail.com',
   },
   {
-    id: '01_fish_farming',
+    id: '1_fish_farming',
     web_flyer_img_style:
-      'background: url(./assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
-      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg" width="100%" height="35%',
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg" width="100%" height="35%',
     flyer_img_alt:
       'fish fundraising event flyer banner of fish school in a pool',
     event_address: '1564, Thin Pine Drive Charleston County, SC 29455',
@@ -909,11 +918,13 @@ var flyerArray = [
     event_contact_email: 'larry@nomail.com',
   },
   {
-    id: '02_children',
+    id: '2_children',
     web_flyer_img_style:
-      'background: url(./assets/images/photo_gallery/children-min.png) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/children_banner-min.png) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
-      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/children-min.png" width="100%" height="35%',
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/children_banner-min.png" width="100%" height="35%',
     flyer_img_alt: 'photo of children laughing and smiling',
     event_address: '2035, Wambaw Creek Road Berkeley County, SC 29492',
     event_time: '08:00am to 03:00pm',
@@ -923,11 +934,13 @@ var flyerArray = [
     event_contact_email: 'larry@nomail.com',
   },
   {
-    id: '03_beauty',
+    id: '3_beauty',
     web_flyer_img_style:
-      'background: url(./assets/images/photo_gallery/beautification-min.JPG) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
-      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/beautification-min.JPG" width="100%" height="35%',
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg" width="100%" height="35%',
     flyer_img_alt:
       'women at a Beautification Project event dancing and rejoicing',
     event_address: '200, West Broadway Street Myrtle Beach, SC 29646',
@@ -938,11 +951,13 @@ var flyerArray = [
     event_contact_email: 'larry@nomail.com',
   },
   {
-    id: '04_hockey',
+    id: '4_hockey',
     web_flyer_img_style:
-      'background: url(./assets/images/photo_gallery/hockey-min.png) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/soccerPrgm-min.png) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
-      '/////Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/assets/images/photo_gallery/hockey-min.png" width="100%" height="35%',
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/soccerPrgm-min.png" width="100%" height="35%',
     flyer_img_alt: 'team of hockey players practicing',
     event_address: '543, Harbor View Circle Charleston County, SC 29412',
     event_time: '08:00am to 05:00pm',
