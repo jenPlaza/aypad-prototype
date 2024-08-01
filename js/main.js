@@ -100,7 +100,7 @@ function comingEvents() {
       flyerArray[n].flyer_img_src +
       '" alt="' +
       flyerArray[n].flyer_img_alt +
-      '" width="100%" height="35%" />';
+      '" style="object-fit: cover;" width="100%" height="35%" />';
     newflyer += '<div><h1>' + flyerArray[n].event_title + '</h1>';
     newflyer += '<p>Address: ' + flyerArray[n].event_address + '</p>';
     newflyer += '<p>Time: ' + flyerArray[n].event_time + '</p><br />';
@@ -120,14 +120,14 @@ function downloadFlyer(clicked_id) {
   let fId = clicked_id;
   let abc = fId;
   //console.log('abc: ', abc);
-  let dfg = abc.toString().split('_');
-  //console.log('dfg: ', dfg);
-  let id = parseInt(dfg[0]);
+  let id = abc.toString().split('_');
   //console.log('id: ', id);
+  let flyerId = parseInt(id[0]);
+  //console.log('flyerId: ', flyerId);
 
-  var event_flyer = document.getElementById(flyerArray[id].id).innerHTML;
+  var event_flyer = document.getElementById(flyerArray[flyerId].id).innerHTML;
 
-  var filename = 'event_flyer.html';
+  var filename = 'event_flyer_' + flyerId + '.html';
   var link = document.createElement('a');
   link.setAttribute(
     'href',
@@ -141,7 +141,7 @@ function downloadFlyer(clicked_id) {
 
   //finding window user from folder download filepath
   let loc = window.location.pathname;
-  let two = loc.split('/Downloads/event_flyer.html');
+  let two = loc.split('/Downloads/event_flyer_' + flyerId + '.html');
   const dir = two.shift();
   const user = dir.split('/');
   const Username = user[2].toString();

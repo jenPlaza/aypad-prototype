@@ -118,6 +118,9 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
+} else if (page == 'index.html') {
+  //upcoming events
+  comingEvents();
 } else {
   //-------------html replacement for story_event.html
 
