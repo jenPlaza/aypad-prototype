@@ -155,7 +155,7 @@ section#fundraise h4 em {
     margin-top: 0;
   }
   #event {
-    margin: 0% 0 8% 0;
+    margin: 0% 0 5% 0;
   }
 }
 @media screen and (min-width: 768px) {
@@ -210,6 +210,9 @@ section#fundraise h4 em {
     width: 40%;
     align-self: start;
   }
+  #event div.event_info {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 992px) {
   div#top_banner {
@@ -262,6 +265,9 @@ section#fundraise h4 em {
   #event {
     padding: 0 5% 2% 5%;
   }
+  #event div.event_info {
+    margin-bottom: 5%;
+  }
   footer div {
     margin-bottom: 0;
   }
@@ -278,6 +284,9 @@ section#fundraise h4 em {
   }
   main#inAction:has(#story_banner div.project) #event .social_media {
     width: 35%;
+  }
+  #event div.event_info {
+    margin-bottom: 3%;
   }
 }
 @media only screen and (min-width: 1600px) {

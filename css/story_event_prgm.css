@@ -71,9 +71,9 @@ main#inAction:has(#story_banner div.program h1 em[class='skills'])
   #story_banner div.program {
     height: 280px;
   }
-  #upcoming_events {
+  /* #upcoming_events {
     padding: 0% 0 5% 7%;
-  }
+  } */
 }
 @media screen and (min-width: 1400px) {
   #event .social_media {

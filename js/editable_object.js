@@ -404,13 +404,13 @@ var projectList = [
   },
   {
     id: 'tree',
-    cover: 'assets/images/photo_gallery/tree-min.png',
+    cover: 'assets/images/photo_gallery/trees-1140x570-min.jpg',
     caption: 'Tree Planting Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/tree-min.png',
+        elementSrc: 'assets/images/photo_gallery/trees-1140x570-min.jpg',
         elementAlt: 'individuals planting trees',
       },
       {
@@ -884,7 +884,7 @@ console.log();
 //IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
 var flyerArray = [
   {
-    id: '0_tree',
+    id: '0_credi',
     web_flyer_img_style:
       'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
     flyer_img_src:
@@ -892,10 +892,10 @@ var flyerArray = [
       newPath +
       '/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
     flyer_img_alt:
-      'tree planting event flyer banner of African authentic outdoor wear',
-    event_address: '660 Summerhouse St. Greenwood, SC 29646',
+      'micro credit event flyer banner of African authentic outdoor wear',
+    event_address: '333 winter St. Greenwood, SC 29586',
     event_time: '08:00am to 03:00pm',
-    event_title: 'Eventurist Forest: Join The Fun',
+    event_title: 'Take a small step and be part of the turnaround',
     event_contact_name: 'Larry Smith',
     event_contact_phone: '(234)567-5678',
     event_contact_email: 'larry@nomail.com',
@@ -953,15 +953,32 @@ var flyerArray = [
   {
     id: '4_hockey',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/soccerPrgm-min.png) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg) no-repeat top center / 100% 100%; background-size: cover;',
     flyer_img_src:
       '////' +
       newPath +
-      '/aypad/assets/images/banner/soccerPrgm-min.png" width="100%" height="35%',
+      '/aypad/assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg" width="100%" height="35%',
     flyer_img_alt: 'team of hockey players practicing',
     event_address: '543, Harbor View Circle Charleston County, SC 29412',
     event_time: '08:00am to 05:00pm',
     event_title: 'Hockey Tournament',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+  {
+    id: '5_tree',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'tree planting event flyer banner of African authentic outdoor wear',
+    event_address: '660 Summerhouse St. Greenwood, SC 29646',
+    event_time: '08:00am to 03:00pm',
+    event_title: 'Eventurist Forest: Join The Fun',
     event_contact_name: 'Larry Smith',
     event_contact_phone: '(234)567-5678',
     event_contact_email: 'larry@nomail.com',
