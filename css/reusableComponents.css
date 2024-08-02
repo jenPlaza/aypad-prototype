@@ -38,7 +38,7 @@ h3 em {
   color: #432e41;
 }
 h4 {
-  font: normal normal normal 34px/0.5 'Fraunces', serif;
+  font: normal normal normal 34px/1 'Fraunces', serif;
   color: #432e41;
 }
 h4 em {
@@ -51,7 +51,7 @@ label {
   color: #432e41;
 }
 p {
-  font: normal normal normal 16px/1.2 'Darker Grotesque', sans-serif;
+  font: normal normal normal 18px/1.2 'Darker Grotesque', sans-serif;
   color: #000;
 }
 /*-----------------------HEADER ----*/

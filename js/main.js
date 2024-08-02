@@ -86,38 +86,47 @@ function partnersAndAffiliations() {
 
 //EVENTS
 function comingEvents() {
-  var newflyer = '<h3>Upcoming Events</h3>';
-  newflyer += '<section id="events">';
-  newflyer += '<ul id="flyer">';
-  for (var n = 0; n < flyerArray.length; n++) {
-    newflyer +=
-      '<li id="' +
-      flyerArray[n].id +
-      '" class="container" onclick="downloadFlyer(this.id);"><article>';
-    newflyer += '<figure style="' + flyerArray[n].web_flyer_img_style + '">';
-    newflyer +=
-      '<img src="' +
-      flyerArray[n].flyer_img_src +
-      '" alt="' +
-      flyerArray[n].flyer_img_alt +
-      '" style="object-fit: cover;" width="100%" height="35%" />';
-    newflyer += '<div><h1>' + flyerArray[n].event_title + '</h1>';
-    newflyer += '<p>Address: ' + flyerArray[n].event_address + '</p>';
-    newflyer += '<p>Time: ' + flyerArray[n].event_time + '</p><br />';
-    newflyer += '<p>To Register/Get More Information</p>';
-    newflyer += '<p>' + flyerArray[n].event_contact_name + '</p>';
-    newflyer += '<p>Phone: ' + flyerArray[n].event_contact_phone + '</p>';
-    newflyer += '<p>Email: ' + flyerArray[n].event_contact_email + '</p></div>';
-    newflyer +=
-      '</figure><div class="overlay" style="padding:0 2.5%;"><div class="description"><em>' +
-      flyerArray[n].event_title +
-      ' event: </em><p>' +
-      flyerArray[n].flyer_event_desc +
-      '<p></div></div></article></li>';
+  if (flyerArray.length === 0) {
+    var newflyer = '<h3>Upcoming Events</h3>';
+    newflyer += '<section id="events">';
+    var newflyer = '<h4>No upcoming events scheduled</h4>';
+    newflyer += '</section>';
+    document.getElementById('upcoming_events').innerHTML = newflyer;
+  } else {
+    var newflyer = '<h3>Upcoming Events</h3>';
+    newflyer += '<section id="events">';
+    newflyer += '<ul id="flyer">';
+    for (var n = 0; n < flyerArray.length; n++) {
+      newflyer +=
+        '<li id="' +
+        flyerArray[n].id +
+        '" class="container" onclick="downloadFlyer(this.id);"><article>';
+      newflyer += '<figure style="' + flyerArray[n].web_flyer_img_style + '">';
+      newflyer +=
+        '<img src="' +
+        flyerArray[n].flyer_img_src +
+        '" alt="' +
+        flyerArray[n].flyer_img_alt +
+        '" style="object-fit: cover;" width="100%" height="35%" />';
+      newflyer += '<div><h1>' + flyerArray[n].event_title + '</h1>';
+      newflyer += '<p>Address: ' + flyerArray[n].event_address + '</p>';
+      newflyer += '<p>Time: ' + flyerArray[n].event_time + '</p><br />';
+      newflyer += '<p>To Register/Get More Information</p>';
+      newflyer += '<p>' + flyerArray[n].event_contact_name + '</p>';
+      newflyer += '<p>Phone: ' + flyerArray[n].event_contact_phone + '</p>';
+      newflyer +=
+        '<p>Email: ' + flyerArray[n].event_contact_email + '</p></div>';
+      newflyer +=
+        '</figure><div class="overlay" style="padding:0 2.5%;"><div class="description"><em>' +
+        flyerArray[n].event_title +
+        ' event: </em><p>' +
+        flyerArray[n].flyer_event_desc +
+        '<p></div></div></article></li>';
+    }
+    newflyer += '</ul>';
+    newflyer += '</section>';
+    document.getElementById('upcoming_events').innerHTML = newflyer;
   }
-  newflyer += '</ul>';
-  newflyer += '</section>';
-  document.getElementById('upcoming_events').innerHTML = newflyer;
 }
 
 function downloadFlyer(clicked_id) {

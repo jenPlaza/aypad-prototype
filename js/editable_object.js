@@ -490,7 +490,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/soccer-min.png',
+        elementSrc: 'assets/images/story_event/soccer/soccer-min.png',
         elementAlt: 'soccer team photo of young boy athletes before tournament',
       },
       {
