@@ -93,7 +93,7 @@ function comingEvents() {
     newflyer +=
       '<li id="' +
       flyerArray[n].id +
-      '" onclick="downloadFlyer(this.id);"><article>';
+      '" class="container" onclick="downloadFlyer(this.id);"><article>';
     newflyer += '<figure style="' + flyerArray[n].web_flyer_img_style + '">';
     newflyer +=
       '<img src="' +
@@ -108,7 +108,12 @@ function comingEvents() {
     newflyer += '<p>' + flyerArray[n].event_contact_name + '</p>';
     newflyer += '<p>Phone: ' + flyerArray[n].event_contact_phone + '</p>';
     newflyer += '<p>Email: ' + flyerArray[n].event_contact_email + '</p></div>';
-    newflyer += '</figure></article></li>';
+    newflyer +=
+      '</figure><div class="overlay" style="padding:0 2.5%;"><div class="description"><em>' +
+      flyerArray[n].event_title +
+      ' event: </em><p>' +
+      flyerArray[n].flyer_event_desc +
+      '<p></div></div></article></li>';
   }
   newflyer += '</ul>';
   newflyer += '</section>';

@@ -893,13 +893,15 @@ var flyerArray = [
   {
     id: '0_credi',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%; margin-bottom: 3%;',
     flyer_img_src:
       '////' +
       newPath +
       '/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
     flyer_img_alt:
       'micro credit event flyer banner of African authentic outdoor wear',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
     event_address: '333 winter St. Greenwood, SC 29586',
     event_time: '08:00am to 03:00pm',
     event_title: 'Take a small step and be part of the turnaround',
@@ -910,13 +912,15 @@ var flyerArray = [
   {
     id: '1_fish_farming',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
     flyer_img_src:
       '////' +
       newPath +
       '/aypad/assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg" width="100%" height="35%',
     flyer_img_alt:
       'fish fundraising event flyer banner of fish school in a pool',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
     event_address: '1564, Thin Pine Drive Charleston County, SC 29455',
     event_time: '09:00am to 04:00pm',
     event_title: 'Fish Farming Fundraiser',
@@ -927,12 +931,14 @@ var flyerArray = [
   {
     id: '2_children',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/children_banner-min.png) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/children_banner-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
     flyer_img_src:
       '////' +
       newPath +
       '/aypad/assets/images/banner/children_banner-min.png" width="100%" height="35%',
     flyer_img_alt: 'photo of children laughing and smiling',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
     event_address: '2035, Wambaw Creek Road Berkeley County, SC 29492',
     event_time: '08:00am to 03:00pm',
     event_title: 'LETS FEED OUR CHILDREN',
@@ -943,13 +949,15 @@ var flyerArray = [
   {
     id: '3_beauty',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
     flyer_img_src:
       '////' +
       newPath +
       '/aypad/assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg" width="100%" height="35%',
     flyer_img_alt:
       'women at a Beautification Project event dancing and rejoicing',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
     event_address: '200, West Broadway Street Myrtle Beach, SC 29646',
     event_time: '08:00am to 06:00pm',
     event_title: 'KEEP BEAUTIFUL',
@@ -960,12 +968,14 @@ var flyerArray = [
   {
     id: '4_hockey',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg) no-repeat top center / 100% 100%; background-size: cover;',
+      'background: url(./assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg) no-repeat top center / 100% 100%; background-size: cover;margin-bottom: 3%;',
     flyer_img_src:
       '////' +
       newPath +
       '/aypad/assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg" width="100%" height="35%',
     flyer_img_alt: 'team of hockey players practicing',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
     event_address: '543, Harbor View Circle Charleston County, SC 29412',
     event_time: '08:00am to 05:00pm',
     event_title: 'Hockey Tournament',
@@ -976,13 +986,15 @@ var flyerArray = [
   {
     id: '5_tree',
     web_flyer_img_style:
-      'background: url(./assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover;',
+      'background: url(./assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
     flyer_img_src:
       '////' +
       newPath +
       '/aypad/assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg" width="100%" height="35%',
     flyer_img_alt:
       'tree planting event flyer banner of African authentic outdoor wear',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
     event_address: '660 Summerhouse St. Greenwood, SC 29646',
     event_time: '08:00am to 03:00pm',
     event_title: 'Eventurist Forest: Join The Fun',
