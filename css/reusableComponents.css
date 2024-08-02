@@ -22,7 +22,7 @@ h1 em {
   color: #d2d2d2;
 }
 h2 {
-  font: normal normal bold 56px/1.2 'Fraunces', serif;
+  font: normal normal bold 52px/1.2 'Fraunces', serif;
   color: #eeb847;
 }
 h2 em {
@@ -84,7 +84,7 @@ nav {
 nav ul {
   display: flex;
   text-align: center;
-  margin-right: 7%;
+  /* margin-right: 7%; */
 }
 nav li {
   list-style: none;
@@ -144,7 +144,8 @@ section#upcoming_events > h3 {
   grid-gap: 10px;
   padding: 1% 0;
   list-style: none;
-  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 #events li article {
   width: 385px;
@@ -189,6 +190,10 @@ section#upcoming_events > h3 {
 /*---PARTNERS ----*/
 section#partners_gallery {
   padding: 0 0 0 7%;
+}
+section#partners_gallery h3 {
+  white-space: nowrap;
+  font-size: 40px;
 }
 ul.rotate {
   font-size: 500px;
@@ -446,6 +451,12 @@ footer h4 em {
   margin: 0 auto;
 }
 @media screen and (min-width: 576px) {
+  h2 {
+    font-size: 56px !important;
+  }
+  nav ul {
+    margin-right: 7%;
+  }
   main {
     margin-bottom: 6%;
   }

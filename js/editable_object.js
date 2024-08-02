@@ -477,13 +477,20 @@ var projectList = [
   },
   {
     id: 'sports',
-    cover: 'assets/images/photo_gallery/soccer-min.png',
+    cover:
+      'assets/images/photo_gallery/jannik-skorna-IQpFq1OehtA-unsplash-min.jpg',
     caption: 'Sports Program',
     banner: './assets/images/banner/soccerPrgm-min.png',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/soccer-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/jannik-skorna-IQpFq1OehtA-unsplash-min.jpg',
+        elementAlt: 'soccer team photo of young boy athletes before tournament',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer-min.png',
         elementAlt: 'soccer team photo of young boy athletes before tournament',
       },
       {
