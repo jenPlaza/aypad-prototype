@@ -125,19 +125,23 @@ section#donate_gallery h2:first-child {
 
 section#donate_gallery ul {
   list-style: none;
+  position: relative;
 }
 section#donate_gallery ul li {
   border: 0.5px solid #dcdcdc;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 5%;
+  position: relative;
 }
 section#donate_gallery figure {
   width: 100%;
   height: 300px;
   margin-bottom: 3%;
+  position: relative;
 }
 section#donate_gallery figure img {
   object-fit: cover;
+  position: relative;
 }
 section#donate_gallery p {
   padding: 0 3%;
@@ -152,6 +156,7 @@ section#donate_gallery p {
   overflow: hidden !important;
   text-overflow: ellipsis;
   -webkit-line-clamp: 8;
+  position: relative;
 }
 /*-----------------------Events & Partners ----*/
 #upcoming_events {
@@ -183,7 +188,7 @@ section#donate_gallery p {
 }
 @media screen and (min-width: 768px) {
   main {
-    height: 669px;
+    height: 725px;
   }
   section ul#getInvolved {
     display: flex;
@@ -193,7 +198,7 @@ section#donate_gallery p {
   }
   section ul#getInvolved li {
     width: 33%;
-    height: 250px;
+    height: 278px;
   }
   button.donateBtn {
     width: 31%;
@@ -224,11 +229,14 @@ section#donate_gallery p {
     margin-bottom: 0;
   }
   section#donate_gallery ul li article div button.donateBtn {
-    width: 40%;
+    width: 25%;
     height: 30px;
     font-size: 20px;
     margin: 0;
+    position: absolute;
+    bottom: 5%;
   }
+
   section#donate_gallery ul li {
     margin-bottom: 2%;
   }
@@ -237,6 +245,9 @@ section#donate_gallery p {
   }
 }
 @media screen and (min-width: 992px) {
+  main {
+    height: 669px;
+  }
   section#about div figure {
     background-position: left 0px top -45px;
     height: 350px;
@@ -251,8 +262,17 @@ section#donate_gallery p {
   section#donate_gallery ul li article {
     padding: 0%;
   }
+  section#donate_gallery ul li article div button.donateBtn {
+    width: 22%;
+  }
+  section ul#getInvolved li {
+    height: 235px;
+  }
 }
 @media screen and (min-width: 1200px) {
+  main {
+    height: 725px;
+  }
   div#top_banner section {
     justify-content: center;
   }
@@ -263,6 +283,9 @@ section#donate_gallery p {
   }
   section ul#getInvolved li article {
     padding: 6%;
+  }
+  section ul#getInvolved li {
+    height: 278px;
   }
   /*-----------------------ABOUT ----*/
   section#about {
@@ -301,11 +324,14 @@ section#donate_gallery p {
     padding: 3% 0;
   }
   section#donate_gallery ul li article div button.donateBtn {
-    width: 31%;
+    width: 20%;
   }
 }
 @media screen and (min-width: 1400px) {
   div#top_banner section h2 {
     top: 161px;
+  }
+  section#donate_gallery ul li article div button.donateBtn {
+    width: 15%;
   }
 }
