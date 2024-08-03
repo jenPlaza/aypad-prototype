@@ -96,13 +96,14 @@ var projectList = [
   },
   {
     id: 'waste',
-    cover: 'assets/images/photo_gallery/wasteMgmt-min.JPG',
+    cover: 'assets/images/photo_gallery/pexels-messina-12492222-min.jpg',
     caption: 'Waste Management Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/wasteMgmt-min.JPG',
+        elementSrc:
+          'assets/images/photo_gallery/pexels-messina-12492222-min.jpg',
         elementAlt: 'photo of waste managment team active at an event',
       },
       {
@@ -132,15 +133,15 @@ var projectList = [
   },
   {
     id: 'piggery',
-    cover: 'assets/images/photo_gallery/piggery-min.JPG',
+    cover: 'assets/images/photo_gallery/pig-farmer-min.png',
     caption: 'Piggery Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/piggery-min.JPG',
+        elementSrc: 'assets/images/photo_gallery/pig-farmer-min.png',
         elementAlt:
-          'photo of woman showing other women the process of feeding a pig',
+          'photo of woman who turns pig farming dream into a success - photo referenced in Kareems Quest',
       },
       {
         elementClass: 'imagenes',
@@ -521,13 +522,14 @@ var projectList = [
   },
   {
     id: 'skills',
-    cover: 'assets/images/photo_gallery/study-min.png',
+    cover: 'assets/images/photo_gallery/Computers_Getty_565888301-min.jpg',
     caption: 'Skills Training Center',
     banner: './assets/images/banner/suits-min.png',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/study-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/Computers_Getty_565888301-min.jpg',
         elementAlt: 'two young adults sitting in front of a computer',
       },
       {
