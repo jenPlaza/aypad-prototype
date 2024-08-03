@@ -47,6 +47,8 @@ if (projectId == 'snail') {
   x = 13;
 } else if (projectId == 'fish_farming') {
   x = 14;
+} else if (projectId == 'film') {
+  x = 15;
 }
 
 //2.- PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
@@ -348,7 +350,7 @@ var projectList = [
     ],
     page_title: 'Basic Education Project',
     mission:
-      'AYPAD Basic Education Project has the purpose of giving African street children access to education and thus reintegrating them into society. Due to the continent’s poor economic and social conditions, children often do not have access to education. The project counteracts this injustice by offering educational programs for children aged between 6 and 17. Furthermore, an individual curriculum that is tailored to the children’s special needs is developed with the aim of reintegrating the children into the educational system. The initiative reduces the risk of social exclusion and the threat of slipping into the abysses of crime. AYPAD hope the project will contributes significantly to the reduction of poverty in Africa. To escape the vicious circle of poverty, children have to be empowered and given access to high quality education. Our Filmmaking Project aims to promote education, inspire social change and encourage creative self-expression by teaching the basics of filmmaking: how to write, direct, act in, shoot and produce their own films. Additionally, students will be responsible for event management and marketing as well. The classes will offer a safe and stimulating learning environment where students can acquire valuable skills and knowledge which could be exceedingly beneficial for their education, and future earning ability. We strongly believe that Within the confines of the programme, children will be taught filmmaking techniques. They will gain practical and theoretical knowledge, learning from books and teachers who are trained and knowledgeable in filmmaking. To afford the necessary filmmaking tools and equipment, second hand products will be sought. A wide range of tools and equipment will be available so that the students have experience in learning about cameras, audio, lighting, directing, developing a story and scriptwriting among others.',
+      'AYPAD Basic Education Project has the purpose of giving African street children access to education and thus reintegrating them into society. Due to the continent’s poor economic and social conditions, children often do not have access to education. The project counteracts this injustice by offering educational programs for children aged between 6 and 17. Furthermore, an individual curriculum that is tailored to the children’s special needs is developed with the aim of reintegrating the children into the educational system. The initiative reduces the risk of social exclusion and the threat of slipping into the abysses of crime. AYPAD hope the project will contributes significantly to the reduction of poverty in Africa. ',
     pdf: {
       title: 'Basic Education - Profile (pdf)',
       link: 'assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
@@ -361,7 +363,7 @@ var projectList = [
       contact_email: 'larry@nomail.com',
     },
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The School project will strive to provide a comprehensive educa,on for the children it will serve. It will provide standard instruction based on Sierra Leone’s national curriculum as well as non-formal opportunites in the arts and social development.To compensate for the varying levels of education the classes will be multi-grade so that students can study at their level while working to complete the standard education requirements for Sierra Leone’s public schools.',
       href: 'https://www.google.com/',
     },
   },
@@ -612,7 +614,7 @@ var projectList = [
     ],
     page_title: 'Hockey Project',
     mission:
-      'We are excited to introduce our recent project, the Hockey Project. This innovative initiative showcases our work in developing advanced training strategies and equipment for hockey players to improve their skills and performance on the ice. With a focus on cutting-edge technology and research, the Hockey Project aims to push the boundaries of what is possible in the world of hockey training.',
+      'AYPAD created the Hockey Project with a mission to expose the sport to thousands of young people while promoting peace through sport. Hockey is a relatively a new sport in Africa and with many young people living through hardship and deplorable conditions, the need to introduce the sport was timely as its engages young people to reduce the traumatic effects of War, Violence, Abuse and embrace peace while developing their unique hockey talents that can contribute meaningfully to societal growth. The project develops professionals, hockey players, coaches and managers to improve their knowledge on the game, skills, coaching techniques and the impact it has on a nations’ development. The focus is to use field hockey as a way to fulfill young people’s competitive spirit. The fast-paced nature of the sport makes it a great activity for young people to include in their exercise routine, whether looking for a recreational activity to play with friends or a more intense competition on a league team. Young people across our countries and communities will have the opportunity to play and be exposed to field hockey in their physical education class; they will have the option to continue to play with their local club. Our goal is to provide an avenue for young people to play hockey while having fun.',
     pdf: {
       title: 'Hockey - Profile (pdf)',
       link: './assets/pdf/hockey_profile-compressed.pdf',
@@ -777,6 +779,44 @@ var projectList = [
     event_information: {
       title: 'Fish Frenzy Fundraiser',
       location: 'Charleston, SC',
+      contact_name: 'Larry Smith',
+      contact_phone: '(234)567-5678',
+      contact_email: 'larry@nomail.com',
+    },
+    donate: {
+      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      href: 'https://www.google.com/',
+    },
+  },
+  {
+    id: 'film',
+    cover:
+      'assets/images/photo_gallery/young-black-camera-operator-filming-with-highend-camera-dim-studio_117038-25943-min.jpg',
+    caption: 'Filmmaking Project',
+    banner: '',
+    flow_element: [
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/photo_gallery/young-black-camera-operator-filming-with-highend-camera-dim-studio_117038-25943-min.jpg',
+        elementAlt: 'photo of corn crop',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementAlt: 'image placeholder',
+      },
+    ],
+    page_title: 'Filmmaking Project',
+    mission:
+      'Our Filmmaking Project aims to promote education, inspire social change and encourage creative self-expression by teaching the basics of filmmaking: how to write, direct, act in, shoot and produce their own films. Additionally, students will be responsible for event management and marketing as well. The classes will offer a safe and stimulating learning environment where students can acquire valuable skills and knowledge which could be exceedingly beneficial for their education, and future earning ability. We strongly believe that within the confines of the programme, children will be taught filmmaking techniques. They will gain practical and theoretical knowledge, learning from books and teachers who are trained and knowledgeable in filmmaking. To afford the necessary filmmaking tools and equipment, second hand products will be sought. A wide range of tools and equipment will be available so that the students have experience in learning about cameras, audio, lighting, directing, developing a story and scriptwriting among others.',
+    pdf: {
+      title: 'Filmmaking - Profile (pdf)',
+      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+    },
+    event_information: {
+      title: 'text',
+      location: 'text',
       contact_name: 'Larry Smith',
       contact_phone: '(234)567-5678',
       contact_email: 'larry@nomail.com',
