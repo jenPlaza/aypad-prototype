@@ -10,7 +10,10 @@ page.shift();
 //console.log('page: ', page); //story.html / story_event.html?id=waste
 
 //------------------STORY----------------------------//
-if (page == 'story.html') {
+if (page == 'index.html') {
+  //upcoming events
+  comingEvents();
+} else if (page == 'story.html') {
   //-------------html replacement for story.html
   var newGallery = '<ul>';
   for (var i = 0; i < projectList.length; i++) {
@@ -118,9 +121,6 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
-} else if (page == 'index.html') {
-  //upcoming events
-  comingEvents();
 } else {
   //-------------html replacement for story_event.html
 
