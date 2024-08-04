@@ -50,6 +50,8 @@ div#top_banner figure {
   z-index: 1;
   display: block;
   width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
 }
 .parallex1 {
   height: 50vh;
