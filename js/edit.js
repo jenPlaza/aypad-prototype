@@ -15,7 +15,204 @@ let projectId = id;
 //console.log('id: ' + id + '  == projectId: ' + projectId);
 let x;
 
-// 1. - ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format).
+//1.- NAVIGATION MENU
+var navMenuArray = [
+  {
+    link_id: 'home',
+    link_name: 'Home',
+    link_href: './index.html',
+  },
+  {
+    link_id: 'story',
+    link_name: 'Story',
+    link_href: './story.html',
+  },
+  {
+    link_id: 'contact',
+    link_name: 'Contact',
+    link_href: './index.html#contact',
+  },
+  {
+    link_id: 'donate',
+    link_name: 'Donate',
+    link_href: './donate.html',
+  },
+];
+
+//2.- UPCOMING Events
+//to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
+//images need to be no more than 2399 width x 659 height
+//IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
+var flyerArray = [
+  {
+    id: '0_credi',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%; margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'micro credit event flyer banner of African authentic outdoor wear',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
+    event_address: '333 winter St. Greenwood, SC 29586',
+    event_time: '08:00am to 03:00pm',
+    event_title: 'Take a small step and be part of the turnaround',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+  {
+    id: '1_fish_farming',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'fish fundraising event flyer banner of fish school in a pool',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
+    event_address: '1564, Thin Pine Drive Charleston County, SC 29455',
+    event_time: '09:00am to 04:00pm',
+    event_title: 'Fish Farming Fundraiser',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+  {
+    id: '2_children',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/children_banner-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/children_banner-min.png" width="100%" height="35%',
+    flyer_img_alt: 'photo of children laughing and smiling',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
+    event_address: '2035, Wambaw Creek Road Berkeley County, SC 29492',
+    event_time: '08:00am to 03:00pm',
+    event_title: 'LETS FEED OUR CHILDREN',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+  {
+    id: '3_beauty',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'women at a Beautification Project event dancing and rejoicing',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
+    event_address: '200, West Broadway Street Myrtle Beach, SC 29646',
+    event_time: '08:00am to 06:00pm',
+    event_title: 'KEEP BEAUTIFUL',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+  {
+    id: '4_hockey',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg) no-repeat top center / 100% 100%; background-size: cover;margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg" width="100%" height="35%',
+    flyer_img_alt: 'team of hockey players practicing',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
+    event_address: '543, Harbor View Circle Charleston County, SC 29412',
+    event_time: '08:00am to 05:00pm',
+    event_title: 'Hockey Tournament',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+  {
+    id: '5_tree',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg" width="100%" height="35%',
+    flyer_img_alt:
+      'tree planting event flyer banner of African authentic outdoor wear',
+    flyer_event_desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
+    event_address: '660 Summerhouse St. Greenwood, SC 29646',
+    event_time: '08:00am to 03:00pm',
+    event_title: 'Eventurist Forest: Join The Fun',
+    event_contact_name: 'Larry Smith',
+    event_contact_phone: '(234)567-5678',
+    event_contact_email: 'larry@nomail.com',
+  },
+];
+
+//3.- PARTNERS & AFFILIATIONS LOGOS
+//to add more logos ...VERY IMPORTANT!!!!!! follow same format
+var logoArray = [
+  {
+    link_href: 'https://www.facebook.com/CommunityYouthNetworkProgramcynpInc/',
+    img_src: './assets/images/partners/communityYouthNetworkProgram.png',
+    img_alt: 'Community Youth Network Program logo',
+    img_caption: 'Community Youth Network Program',
+  },
+  {
+    link_href: 'https://www.fisori.org/',
+    img_src: './assets/images/partners/freya_logo-min.png',
+    img_alt: 'Freya logo',
+    img_caption: 'Freya',
+  },
+  {
+    link_href: 'https://gyan.tigweb.org/',
+    img_src: './assets/images/partners/gyan.png',
+    img_alt: 'Global Youth Action Network logo',
+    img_caption: 'Global Youth Action Network Program',
+  },
+  {
+    link_href: 'https://bitcoin.org/en/',
+    img_src: './assets/images/partners/bitcoin.png',
+    img_alt: 'Bitcoin logo',
+    img_caption: 'Bitcoin',
+  },
+  {
+    link_href: 'https://tools4change.org/',
+    img_src: './assets/images/partners/tools4Change-Logo.png',
+    img_alt: 'Tools 4 Change logo',
+    img_caption: 'Tools 4 Change',
+  },
+  {
+    link_href: 'https://www.truetalknews.org/',
+    img_src: './assets/images/partners/trueTalk_logo-min.png',
+    img_alt: 'True talk logo',
+    img_caption: 'True Talk',
+  },
+  {
+    link_href: 'https://www.warchild.net/',
+    img_src: './assets/images/partners/war-child-ic.png',
+    img_alt: 'War Child logo',
+    img_caption: 'War Child',
+  },
+  {
+    link_href: 'http://yppdatwork.org/',
+    img_src:
+      './assets/images/partners/youthPartnershipForPeaceAndDevelopment_logo.png',
+    img_alt: 'Youth Partnership for Peace and Development logo',
+    img_caption: 'Youth Partnership for Peace and Development',
+  },
+];
+
+// 4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format).
 
 if (projectId == 'snail') {
   x = 0;
@@ -51,7 +248,7 @@ if (projectId == 'snail') {
   x = 15;
 }
 
-//2.- PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
+//5.- STORY GALLERY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
 var projectList = [
   {
     id: 'snail',
@@ -828,61 +1025,7 @@ var projectList = [
   },
 ];
 
-//3.- PARTNERS & AFFILIATIONS LOGOS
-//to add more logos ...VERY IMPORTANT!!!!!! follow same format
-var logoArray = [
-  {
-    link_href: 'https://www.facebook.com/CommunityYouthNetworkProgramcynpInc/',
-    img_src: './assets/images/partners/communityYouthNetworkProgram.png',
-    img_alt: 'Community Youth Network Program logo',
-    img_caption: 'Community Youth Network Program',
-  },
-  {
-    link_href: 'https://www.fisori.org/',
-    img_src: './assets/images/partners/freya_logo-min.png',
-    img_alt: 'Freya logo',
-    img_caption: 'Freya',
-  },
-  {
-    link_href: 'https://gyan.tigweb.org/',
-    img_src: './assets/images/partners/gyan.png',
-    img_alt: 'Global Youth Action Network logo',
-    img_caption: 'Global Youth Action Network Program',
-  },
-  {
-    link_href: 'https://bitcoin.org/en/',
-    img_src: './assets/images/partners/bitcoin.png',
-    img_alt: 'Bitcoin logo',
-    img_caption: 'Bitcoin',
-  },
-  {
-    link_href: 'https://tools4change.org/',
-    img_src: './assets/images/partners/tools4Change-Logo.png',
-    img_alt: 'Tools 4 Change logo',
-    img_caption: 'Tools 4 Change',
-  },
-  {
-    link_href: 'https://www.truetalknews.org/',
-    img_src: './assets/images/partners/trueTalk_logo-min.png',
-    img_alt: 'True talk logo',
-    img_caption: 'True Talk',
-  },
-  {
-    link_href: 'https://www.warchild.net/',
-    img_src: './assets/images/partners/war-child-ic.png',
-    img_alt: 'War Child logo',
-    img_caption: 'War Child',
-  },
-  {
-    link_href: 'http://yppdatwork.org/',
-    img_src:
-      './assets/images/partners/youthPartnershipForPeaceAndDevelopment_logo.png',
-    img_alt: 'Youth Partnership for Peace and Development logo',
-    img_caption: 'Youth Partnership for Peace and Development',
-  },
-];
-
-//4.- SOCIAL MEDIA & CONTACT LINKS
+//6.- STORY EVENT SOCIAL MEDIA & CONTACT LINKS
 //to add more social media links...VERY IMPORTANT!!!!!! follow same format
 //icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow/gray color hex's #EEB847 / #dcdcdc).
 var contactArray = [
@@ -925,128 +1068,7 @@ var contactArray = [
   },
 ];
 
-console.log();
-
-//5.- New Events
-//to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
-//images need to be no more than 2399 width x 659 height
-//IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
-var flyerArray = [
-  {
-    id: '0_credi',
-    web_flyer_img_style:
-      'background: url(./assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%; margin-bottom: 3%;',
-    flyer_img_src:
-      '////' +
-      newPath +
-      '/aypad/assets/images/banner/annie-spratt-Sn04BHfa2AY-unsplash-min.jpg" width="100%" height="35%',
-    flyer_img_alt:
-      'micro credit event flyer banner of African authentic outdoor wear',
-    flyer_event_desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
-    event_address: '333 winter St. Greenwood, SC 29586',
-    event_time: '08:00am to 03:00pm',
-    event_title: 'Take a small step and be part of the turnaround',
-    event_contact_name: 'Larry Smith',
-    event_contact_phone: '(234)567-5678',
-    event_contact_email: 'larry@nomail.com',
-  },
-  {
-    id: '1_fish_farming',
-    web_flyer_img_style:
-      'background: url(./assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
-    flyer_img_src:
-      '////' +
-      newPath +
-      '/aypad/assets/images/banner/uttam-kumar-roy-06GXlF9wE60-unsplash-min_small.jpg" width="100%" height="35%',
-    flyer_img_alt:
-      'fish fundraising event flyer banner of fish school in a pool',
-    flyer_event_desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
-    event_address: '1564, Thin Pine Drive Charleston County, SC 29455',
-    event_time: '09:00am to 04:00pm',
-    event_title: 'Fish Farming Fundraiser',
-    event_contact_name: 'Larry Smith',
-    event_contact_phone: '(234)567-5678',
-    event_contact_email: 'larry@nomail.com',
-  },
-  {
-    id: '2_children',
-    web_flyer_img_style:
-      'background: url(./assets/images/banner/children_banner-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
-    flyer_img_src:
-      '////' +
-      newPath +
-      '/aypad/assets/images/banner/children_banner-min.png" width="100%" height="35%',
-    flyer_img_alt: 'photo of children laughing and smiling',
-    flyer_event_desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
-    event_address: '2035, Wambaw Creek Road Berkeley County, SC 29492',
-    event_time: '08:00am to 03:00pm',
-    event_title: 'LETS FEED OUR CHILDREN',
-    event_contact_name: 'Larry Smith',
-    event_contact_phone: '(234)567-5678',
-    event_contact_email: 'larry@nomail.com',
-  },
-  {
-    id: '3_beauty',
-    web_flyer_img_style:
-      'background: url(./assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
-    flyer_img_src:
-      '////' +
-      newPath +
-      '/aypad/assets/images/banner/gunter-hoffmann-M8aiq0pGzCo-unsplash_daisys-min.jpg" width="100%" height="35%',
-    flyer_img_alt:
-      'women at a Beautification Project event dancing and rejoicing',
-    flyer_event_desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
-    event_address: '200, West Broadway Street Myrtle Beach, SC 29646',
-    event_time: '08:00am to 06:00pm',
-    event_title: 'KEEP BEAUTIFUL',
-    event_contact_name: 'Larry Smith',
-    event_contact_phone: '(234)567-5678',
-    event_contact_email: 'larry@nomail.com',
-  },
-  {
-    id: '4_hockey',
-    web_flyer_img_style:
-      'background: url(./assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg) no-repeat top center / 100% 100%; background-size: cover;margin-bottom: 3%;',
-    flyer_img_src:
-      '////' +
-      newPath +
-      '/aypad/assets/images/banner/jayden-seah-PwnM5ve8ufk-unsplash-min-banner.jpg" width="100%" height="35%',
-    flyer_img_alt: 'team of hockey players practicing',
-    flyer_event_desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
-    event_address: '543, Harbor View Circle Charleston County, SC 29412',
-    event_time: '08:00am to 05:00pm',
-    event_title: 'Hockey Tournament',
-    event_contact_name: 'Larry Smith',
-    event_contact_phone: '(234)567-5678',
-    event_contact_email: 'larry@nomail.com',
-  },
-  {
-    id: '5_tree',
-    web_flyer_img_style:
-      'background: url(./assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
-    flyer_img_src:
-      '////' +
-      newPath +
-      '/aypad/assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg" width="100%" height="35%',
-    flyer_img_alt:
-      'tree planting event flyer banner of African authentic outdoor wear',
-    flyer_event_desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor massa, gravida a tortor eget, egestas suscipit neque. Mauris pellentesque aliquet est, ac fringilla nisl viverra sit amet. Donec tempor enim ante, eget feugiat est malesuada non. Duis consectetur turpis id iaculis pellentesque. Sed tempor enim at augue sollicitudin vestibulum. Quisque eu pulvinar quam. Etiam luctus urna a erat congue consectetur.',
-    event_address: '660 Summerhouse St. Greenwood, SC 29646',
-    event_time: '08:00am to 03:00pm',
-    event_title: 'Eventurist Forest: Join The Fun',
-    event_contact_name: 'Larry Smith',
-    event_contact_phone: '(234)567-5678',
-    event_contact_email: 'larry@nomail.com',
-  },
-];
-
-//6.- CONTACT FORM
+//7.- STORY EVENT CONTACT FORM
 //to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
 var formArray = [
   {

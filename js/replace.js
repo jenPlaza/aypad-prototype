@@ -10,11 +10,11 @@ page.shift();
 //console.log('page: ', page); //story.html / story_event.html?id=waste
 
 //------------------STORY----------------------------//
-if (page == 'index.html') {
-  //upcoming events
-  comingEvents();
-} else if (page == 'story.html') {
+if (page == 'story.html') {
   //-------------html replacement for story.html
+  //navigation menu
+  navMenu();
+
   var newGallery = '<ul>';
   for (var i = 0; i < projectList.length; i++) {
     newGallery +=
@@ -42,6 +42,9 @@ if (page == 'index.html') {
   partnersAndAffiliations();
 } else if (page == 'donate.html') {
   //-------------html replacement for donate.html
+  //navigation menu
+  navMenu();
+
   var optionList = [
     {
       imgSrc: 'assets/images/icons/donation/piggy-bank.png',
@@ -123,6 +126,8 @@ if (page == 'index.html') {
   partnersAndAffiliations();
 } else {
   //-------------html replacement for story_event.html
+  //navigation menu
+  navMenu();
 
   const newId = (projectId = id);
   const a = x;

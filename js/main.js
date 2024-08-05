@@ -4,6 +4,27 @@ const a = x;
 
 let elementIndex = 0;
 
+//NAVIGATION MENU
+function navMenu() {
+  var header =
+    '<a href="' +
+    navMenuArray[0].link_href +
+    '"><figure class="logo"><img src="./assets/images/icons/logo_sml-min.png" alt="small logo" width="100%" height="100%"/></figure></a>';
+  header += '<nav><ul>';
+  for (var k = 0; k < navMenuArray.length; k++) {
+    header += '<li>';
+    header +=
+      '<a href="' +
+      navMenuArray[k].link_href +
+      '"><h5>' +
+      navMenuArray[k].link_name +
+      '</h5></a>';
+    header += ' </li>';
+  }
+  header += '</ul></nav>';
+  document.getElementById('navigation_menu').innerHTML = header;
+}
+
 //PAGINATION
 var btnArray = [
   {
@@ -86,7 +107,7 @@ function partnersAndAffiliations() {
 
 //EVENTS
 function comingEvents() {
-  if (flyerArray.length === 0) {
+  if (flyerArray.length === 0 || flyerArray.length === undefined) {
     var newflyer = '<h3>Upcoming Events</h3>';
     newflyer += '<section id="events">';
     var newflyer = '<h4>No upcoming events scheduled</h4>';
