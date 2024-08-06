@@ -227,10 +227,13 @@ if (page == 'story.html') {
   newProject += '</section>';
   //event information
   newProject += '<section id="event"><div class="event_info">';
-  for (var fa = 0; fa < formArray.length; fa++) {
-    newProject += '<div><label>' + formArray[fa].label_name + '</label>';
+  for (var evt = 0; evt < projectList[a].event_information.length; evt++) {
     newProject +=
-      '<p><b>&nbsp;' + formArray[fa].paragraph_body + '</b></p></div>';
+      '<div><label>' + projectList[a].event_information[evt].label + '</label>';
+    newProject +=
+      '<p><b>&nbsp;' +
+      projectList[a].event_information[evt].input_text +
+      '</b></p></div>';
   }
   newProject += '</div>';
   //social media

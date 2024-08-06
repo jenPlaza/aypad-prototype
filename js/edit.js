@@ -281,13 +281,28 @@ var projectList = [
       title: 'Snail Farming - Profile (pdf)',
       link: './assets/pdf/snailFarming_profile-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'To empower a new generation of women entrepreneurs. These women will be able to maintain their traditional family responsibilities, earn extra income, educate themselves and become positive role models of success for their families and their communities.',
       href: 'https://www.google.com/',
@@ -318,13 +333,28 @@ var projectList = [
       title: 'Waste Management - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -425,13 +455,28 @@ var projectList = [
       title: 'Piggery - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -463,13 +508,28 @@ var projectList = [
       title: 'Cultural Program - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -552,13 +612,28 @@ var projectList = [
       title: 'Basic Education - Profile (pdf)',
       link: 'assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'The School project will strive to provide a comprehensive educa,on for the children it will serve. It will provide standard instruction based on Sierra Leone’s national curriculum as well as non-formal opportunites in the arts and social development.To compensate for the varying levels of education the classes will be multi-grade so that students can study at their level while working to complete the standard education requirements for Sierra Leone’s public schools.',
       href: 'https://www.google.com/',
@@ -590,13 +665,28 @@ var projectList = [
       title: 'Art and Craft - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -626,13 +716,28 @@ var projectList = [
       title: 'Tree Planting - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'Eventurist Forest: Join The Fun',
-      location: 'Greenwood, SC',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'Eventurist Forest: Join The Fun',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'Greenwood, SC',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -663,13 +768,28 @@ var projectList = [
       title: 'Beautification - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'KEEP BEAUTIFUL',
-      location: 'Myrtle Beach, SC',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'KEEP BEAUTIFUL',
+        input_text: 'Eventurist Forest: Join The Fun',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'Myrtle Beach, SC',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -707,13 +827,28 @@ var projectList = [
       title: 'Sports Program - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -744,13 +879,28 @@ var projectList = [
       title: 'Skills Training Center - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -780,13 +930,28 @@ var projectList = [
       title: 'Street Children Program - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'LETS FEED OUR CHILDREN',
-      location: 'Berkeley County, SC',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'LETS FEED OUR CHILDREN',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'Berkeley County, SC',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -816,13 +981,28 @@ var projectList = [
       title: 'Hockey - Profile (pdf)',
       link: './assets/pdf/hockey_profile-compressed.pdf',
     },
-    event_information: {
-      title: 'Hockey Tournament',
-      location: 'Charleston County, SC',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'Hockey Tournament',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'Charleston County, SC',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'To act as a crime prevention program that promotes education, physical activity, healthy lifestyles and social development for the youth (ages 6-21; boys and girls) throughout the African Continent using organized hockey. Team sports can communicate and transform the way people think and act. The task for AYPAD Hockey project is to find ways of incorporating sports into the work of peace building and to create a space where people in conflict can heal and reconcile through competitive team sports.',
       href: 'https://www.google.com/',
@@ -854,13 +1034,28 @@ var projectList = [
       title: 'Micro-Credit - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -926,13 +1121,28 @@ var projectList = [
       title: 'Youth Farming - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -973,13 +1183,28 @@ var projectList = [
       title: 'Fish Farming - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'Fish Frenzy Fundraiser',
-      location: 'Charleston, SC',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'Fish Frenzy Fundraiser',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'Charleston, SC',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -1011,13 +1236,28 @@ var projectList = [
       title: 'Filmmaking - Profile (pdf)',
       link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
     },
-    event_information: {
-      title: 'text',
-      location: 'text',
-      contact_name: 'Larry Smith',
-      contact_phone: '(234)567-5678',
-      contact_email: 'larry@nomail.com',
-    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
       href: 'https://www.google.com/',
@@ -1065,30 +1305,5 @@ var contactArray = [
     link_href: 'https://www.google.com/',
     img_src: './assets/images/icons/socialMedia/youtube_yellow.png',
     img_alt: 'youtube icon',
-  },
-];
-
-//7.- STORY EVENT CONTACT FORM
-//to add more fields to event contact information form...VERY IMPORTANT!!!!!! follow same format
-var formArray = [
-  {
-    label_name: 'Event Title',
-    paragraph_body: projectList[x].event_information.title,
-  },
-  {
-    label_name: 'Event Location',
-    paragraph_body: projectList[x].event_information.location,
-  },
-  {
-    label_name: 'Contact Name',
-    paragraph_body: projectList[x].event_information.contact_name,
-  },
-  {
-    label_name: 'Contact Phone',
-    paragraph_body: projectList[x].event_information.contact_phone,
-  },
-  {
-    label_name: 'Contact Email',
-    paragraph_body: projectList[x].event_information.contact_email,
   },
 ];
