@@ -43,6 +43,7 @@ var navMenuArray = [
 //to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
 //images need to be no more than 2399 width x 659 height
 //IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
+// SEE listEntry_example.js FILE FOR AN EXAMPLE.
 var flyerArray = [
   {
     id: '0_credi',
@@ -160,6 +161,7 @@ var flyerArray = [
 
 //3.- PARTNERS & AFFILIATIONS LOGOS
 //to add more logos ...VERY IMPORTANT!!!!!! follow same format
+//SEE listEntry_example.js FILE FOR AN EXAMPLE.
 var logoArray = [
   {
     link_href: 'https://www.facebook.com/CommunityYouthNetworkProgramcynpInc/',
@@ -212,7 +214,7 @@ var logoArray = [
   },
 ];
 
-// 4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format).
+// 4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format). SEE listEntry_example.js FILE FOR AN EXAMPLE.
 
 if (projectId == 'snail') {
   x = 0;
@@ -248,7 +250,7 @@ if (projectId == 'snail') {
   x = 15;
 }
 
-//5.- STORY GALLERY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
+//5.- STORY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.  SEE listEntry_example.js FILE FOR AN EXAMPLE.
 var projectList = [
   {
     id: 'snail',
@@ -1268,6 +1270,7 @@ var projectList = [
 //6.- STORY EVENT SOCIAL MEDIA & CONTACT LINKS
 //to add more social media links...VERY IMPORTANT!!!!!! follow same format
 //icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow/gray color hex's #EEB847 / #dcdcdc).
+// SEE listEntry_example.js FILE FOR AN EXAMPLE.
 var contactArray = [
   {
     //by email
