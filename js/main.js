@@ -142,7 +142,7 @@ function comingEvents() {
         flyerArray[n].event_title +
         ' event: </em><p>' +
         flyerArray[n].flyer_event_desc +
-        '<p></div></div></article></li>';
+        '</p></div></div></article></li>';
     }
     newflyer += '</ul>';
     newflyer += '</section>';
@@ -188,4 +188,38 @@ function downloadFlyer(clicked_id) {
     window.open(filePath);
     window.location.reload();
   }, 1000);
+}
+
+//True Talk Articles
+function trueTalkArticles() {
+  if (articleArray.length === 0 || articleArray.length === undefined) {
+    var newArticle = '<h3>True Talk Featured Articles</h3>';
+    newArticle += '<section id="events">';
+    var newArticle = '<h4>There are no new articles</h4>';
+    newArticle += '</section>';
+    document.getElementById('true_talk_articles').innerHTML = newArticle;
+  } else {
+    var newArticle = '<h3>True Talk Featured Articles</h3>';
+    newArticle += '<section id="events">';
+    newArticle += '<ul id="ttArticles">';
+    for (var n = 0; n < articleArray.length; n++) {
+      newArticle += '<li id="' + articleArray[n].id + '" class="container">';
+      newArticle +=
+        '<a href="' + articleArray[n].article_href + '" target="_blank" >';
+      newArticle +=
+        '<article><figure style="' + articleArray[n].article_img_style + '">';
+      newArticle +=
+        '</figure><div class="overlay" style="padding:0 2.5%;"><div class="description"><h5>' +
+        articleArray[n].article_title +
+        ' event: </h5><br/>';
+      newArticle += '<em>' + articleArray[n].article_author + '</em>';
+      newArticle +=
+        '<p>' +
+        articleArray[n].article_source +
+        '</p></div></div></article></a></li>';
+    }
+    newArticle += '</ul>';
+    newArticle += '</section>';
+    document.getElementById('true_talk_articles').innerHTML = newArticle;
+  }
 }

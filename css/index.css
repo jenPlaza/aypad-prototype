@@ -35,8 +35,18 @@ div#top_banner figure {
 #articles article {
   width: 385px;
   height: 205px;
-  border-radius: 49px;
-  border: 1px solid red;
+}
+#true_talk_articles .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#true_talk_articles h5 {
+  color: #eeb847;
+  text-transform: capitalize;
+}
+
+#true_talk_articles .description em {
+  color: #eeb847;
+  font-size: 17px;
 }
 /*-----------------------PARALEX ----*/
 .parallex-section {
@@ -211,7 +221,7 @@ div#top_banner figure {
   text-decoration: none;
 }
 #partners a h4 em {
-  color: #db3739;
+  color: #fe9933;
 }
 .partners_layout h4 {
   line-height: normal;

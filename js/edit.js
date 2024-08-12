@@ -40,7 +40,7 @@ var navMenuArray = [
 ];
 
 //2.- UPCOMING Events
-//to add more fields to new events...VERY IMPORTANT!!!!!! follow same format
+//to add more event flyers...VERY IMPORTANT!!!!!! follow same format
 //images need to be no more than 2399 width x 659 height
 //IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
 // SEE listEntry_example.js FILE FOR AN EXAMPLE.
@@ -156,6 +156,139 @@ var flyerArray = [
     event_contact_name: 'Larry Smith',
     event_contact_phone: '(234)567-5678',
     event_contact_email: 'larry@nomail.com',
+  },
+];
+
+//3.- True Talk articles
+//to add more articles manually...VERY IMPORTANT!!!!!! follow same format
+var articleArray = [
+  {
+    id: '011',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/DengueAlert-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/record-breaking-dengue-outbreak-in-bangladesh-1',
+    article_title: 'RECORD-BREAKING DENGUE OUTBREAK IN BANGLADESH',
+    article_author: 'Shourov Bangladesh',
+    article_source:
+      'Patients at Mugda Medical College, Dhaka, are treated on the hospital floor due to lack of hospital ward spaces.',
+  },
+  {
+    id: '010',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/Ukraine-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/ukraine-update-july-was-the-deadliest-month-in-2024',
+    article_title: 'UKRAINE UPDATE: JULY WAS THE DEADLIEST MONTH IN 2024',
+    article_author: 'Lisa Michelutto     ',
+    article_source:
+      'The ongoing war in Ukraine, since February 2022, shows no signs of easing, with civilians bearing the brunt of the conflict',
+  },
+  {
+    id: '009',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/EgyptsCurrency-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/egypt-s-currency-edges-higher-against-the-united-states-dollar-following-price-hikes',
+    article_title:
+      'Egypts Currency Edges Higher Against the United States Dollar Following Price Hikes',
+    article_author: 'Cosmina Craciunescu Timofte',
+    article_source:
+      'The Egyptian Pound is sliding against other foreign currencies, after a recent "hike in subway fares and fuel prices" (Khaled, 2024) over the past few days.',
+  },
+  {
+    id: '008',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/AGOA-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/south-africa-agoa-trade-status-threatens-to-impact-south-african-export-goods-traders',
+    article_title:
+      'South Africa AGOA Trade Status Threatens To Impact South African Export Goods Traders',
+    article_author: 'Quinz Atdah Qeqe (South Africa) ',
+    article_source:
+      'South Africa’s Minister of Trade, Industry and Competition(TIC) Parks Tau has in recent weeks engaged in a diplomatic mission to the United States(US) to consolidate South Africa(SA) bilateral trade relations with the US',
+  },
+  {
+    id: '007',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/Pakistan-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/pakistan-s-32-year-olympic-medal-drought-comes-to-an-end',
+    article_title: 'Pakistan’s 32-Year Olympic Medal Drought Comes to an End',
+    article_author: 'Zoha Najeeb',
+    article_source:
+      'Arshad Nadeems gold medal win at the 2024 Paris Olympics in the mens javelin event is a historic achievement for Pakistan, marking the countrys first Olympic gold in 32 years',
+  },
+  {
+    id: '006',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/fakeNews-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/behind-the-headlines-analysing-the-fake-news-and-transphobia-in-the-imane-khalif-case',
+    article_title:
+      'Behind the Headlines: Analysing the Fake News and Transphobia in the Imane Khalif Case',
+    article_author: 'Adriana Ribas',
+    article_source:
+      'Fake news, defined as intentionally false or misleading information, has increased in the digital age, significantly influencing public perception.',
+  },
+  {
+    id: '005',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/Venezuela-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/unrest-in-venezuela-post-election-protests-and-international-concerns-over-maduro-s-victory',
+    article_title:
+      'UNREST IN VENEZUELA: POST-ELECTION PROTESTS AND INTERNATIONAL CONCERNS OVER MADURO’S VICTORY',
+    article_author: 'Lisa Michelutto',
+    article_source:
+      'Following the July 28 presidential election, Nicolás Maduros third victory sparked significant unrest in Venezuela, with widespread protests and accusations of electoral fraud due to the delayed official polling records.',
+  },
+  {
+    id: '004',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/despiteAll-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/intoxicated-raped-impregnated-and-infected-with-hiv-aids-despite-being-disabled',
+    article_title:
+      'INTOXICATED, RAPED, IMPREGNATED AND INFECTED WITH HIV/AIDS DESPITE BEING DISABLED',
+    article_author: 'Matua Emmanuel',
+    article_source:
+      'Aliru Kadijha and her daughter Lyne Amaniyo in Arua Regional Referral Hospital in 2002 (left) and at her Graduation in June 2023 (right)',
+  },
+  {
+    id: '003',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/childrenGrowth-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/together-we-travel-a-story-of-giving-children-in-namibia-more-security-and-development-opportuni',
+    article_title:
+      'TOGETHER WE TRAVEL’ – A STORY OF GIVING CHILDREN IN NAMIBIA MORE SECURITY AND DEVELOPMENT OPPORTUNITIES',
+    article_author: 'Hannah Wind, Germany',
+    article_source:
+      '‘Together We Travel’ (TWT), a German association, wants to change this by providing children in Namibia with security and better development opportunities.  ',
+  },
+  {
+    id: '002',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/churchClosed-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/rwanda-shuts-down-4-000-churches-over-health-and-safety-panic',
+    article_title:
+      'Rwanda Shuts Down 4,000 Churches Over Health and Safety Panic',
+    article_author: 'Cosmina Timofte',
+    article_source:
+      'Because of a failure, of the churches in Rwanda, to comply with the health and safety regulations imposed by the Government, to include failure to soundproof the buildings, more than 4000 worship buildings were shut down.',
+  },
+  {
+    id: '001',
+    article_img_style:
+      'background: url(./assets/images/trueTalkArticles/Ethiopia-min.png) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%;',
+    article_href:
+      'https://www.truetalknews.org/post/where-to-discover-the-wonders-of-ethiopia',
+    article_title: 'Where to Discover the Wonders of Ethiopia?',
+    article_author: 'Natnael Gelagay, Ethiopia ',
+    article_source:
+      'Are you looking for an unforgettable destination in Africa?',
   },
 ];
 
