@@ -1,4 +1,4 @@
-**#Africa Youth for Peace and Development(AYPAD)**
+##Africa Youth for Peace and Development(AYPAD)
 Volunteer project through the UN Volunteers
 Contact: Jim Tamuro & Philip Salis Bangura
 
