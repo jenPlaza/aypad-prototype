@@ -24,7 +24,7 @@
 
 //3.----------------------  PARTNERS & AFFILIATIONS LOGO ADDITIONS --------------------------
 //to add more logos ...VERY IMPORTANT!!!!!! follow same format
-//copy lines 31- 36; remove double forward slashes for each line. each addition must start with opeining squigly { and end with }, closing squigly and comma.
+//copy lines 29- 41; remove double forward slashes for each line. each addition must start with opeining squigly { and end with }, closing squigly and comma.
 
 // {
 //   link_href: 'https://www.facebook.com/CommunityYouthNetworkProgramcynpInc/',
@@ -42,7 +42,7 @@
 
 //5.--------------------------- STORY PROJECT LIST ADDITIONS------------------------------
 //all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.
-//copy lines 49- 99, for a program entry, copy lines 101- 154, for a project entry, copy lines 157- 219, for a fundraiser entry,
+//copy lines 49- 99, for a program entry, copy lines 101- 154, for a project entry, copy lines 157- 218, for a fundraiser entry,
 //remove double forward slashes for each line. each addition must start with opeining squigly { and end with }, closing squigly and comma.
 
 //Program
@@ -220,6 +220,8 @@
 //6.----------------  STORY EVENT SOCIAL MEDIA & CONTACT LINKS ADDITIONS---------------------
 //to add more social media links...VERY IMPORTANT!!!!!! follow same format
 //icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow (#EEB847)/gray (#dcdcdc).
+//copy lines 225- 231, for a program entry
+//remove double forward slashes for each line. each addition must start with opeining squigly { and end with }, closing squigly and comma.
 // {
 //   //by facebook
 //   link_href:

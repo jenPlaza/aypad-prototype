@@ -15,7 +15,7 @@ let projectId = id;
 //console.log('id: ' + id + '  == projectId: ' + projectId);
 let x;
 
-//1.- NAVIGATION MENU
+//NAVIGATION MENU
 var navMenuArray = [
   {
     link_id: 'home',
@@ -39,7 +39,7 @@ var navMenuArray = [
   },
 ];
 
-//2.- UPCOMING Events
+//1.- UPCOMING Events
 //to add more event flyers...VERY IMPORTANT!!!!!! follow same format
 //images need to be no more than 2399 width x 659 height
 //IF ONLY!!!!! Don't forget to update project list - event information if flyer and event info have the same contact.
@@ -159,7 +159,7 @@ var flyerArray = [
   },
 ];
 
-//3.- True Talk articles
+//2.- True Talk articles
 //to add more articles manually...VERY IMPORTANT!!!!!! follow same format
 var articleArray = [
   {
@@ -347,8 +347,7 @@ var logoArray = [
   },
 ];
 
-// 4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format). SEE listEntry_example.js FILE FOR AN EXAMPLE.
-
+//4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format). SEE listEntry_example.js FILE FOR AN EXAMPLE.
 if (projectId == 'snail') {
   x = 0;
 } else if (projectId == 'waste') {
