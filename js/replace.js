@@ -112,9 +112,9 @@ if (page == 'story.html') {
       projectList[i].donate.goal +
       '</p><br />';
     newDonate +=
-      '<button class="donateBtn" onclick="window.location.href=' +
+      '<a class="donateBtn" target="_blank" href="' +
       projectList[i].donate.href +
-      ';" target="_blank">Donate</button><br /></br />';
+      '" >Donate</a><br /></br />';
     newDonate += '</article></li>';
   }
   newDonate += '</ul>';

@@ -103,11 +103,11 @@ section#about div p {
   padding: 3%;
 }
 
-button.donateBtn {
+a.donateBtn {
   background-color: #db3739;
   color: white;
   border: none;
-  height: 50px;
+  height: 38px;
   width: 94%;
   border-radius: 8px;
   font-size: 26px;
@@ -115,6 +115,9 @@ button.donateBtn {
   line-height: 1.3;
   text-transform: uppercase;
   margin: 0 3%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 /*-----------------------DONATE GALLERY ----*/
 section#donate_gallery h2:first-child {
@@ -200,8 +203,14 @@ section#donate_gallery p {
     width: 33%;
     height: 278px;
   }
-  button.donateBtn {
+  a.donateBtn {
+    display: block;
     width: 31%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    height: 34px;
   }
   /*-----------------------DONATE GALLERY ----*/
   section#donate_gallery ul li article {
@@ -228,13 +237,16 @@ section#donate_gallery p {
     padding: 0;
     margin-bottom: 0;
   }
-  section#donate_gallery ul li article div button.donateBtn {
+  section#donate_gallery ul li article div a.donateBtn {
     width: 25%;
     height: 30px;
     font-size: 20px;
     margin: 0;
     position: absolute;
     bottom: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   section#donate_gallery ul li {
@@ -262,7 +274,7 @@ section#donate_gallery p {
   section#donate_gallery ul li article {
     padding: 0%;
   }
-  section#donate_gallery ul li article div button.donateBtn {
+  section#donate_gallery ul li article div a.donateBtn {
     width: 22%;
   }
   section ul#getInvolved li {
@@ -309,8 +321,9 @@ section#donate_gallery p {
     height: 300px;
     background-position: left 0px top -14px;
   }
-  button.donateBtn:first-of-type {
+  a.donateBtn:first-of-type {
     margin: -2% 0 0 0;
+    width: 25%;
   }
   /*-----------------------DONATE GALLERY ----*/
   section#donate_gallery {
@@ -323,7 +336,7 @@ section#donate_gallery p {
   section#donate_gallery h2:first-child {
     padding: 3% 0;
   }
-  section#donate_gallery ul li article div button.donateBtn {
+  section#donate_gallery ul li article div a.donateBtn {
     width: 20%;
   }
 }
@@ -331,7 +344,7 @@ section#donate_gallery p {
   div#top_banner section h2 {
     top: 161px;
   }
-  section#donate_gallery ul li article div button.donateBtn {
+  section#donate_gallery ul li article div a.donateBtn {
     width: 15%;
   }
 }
