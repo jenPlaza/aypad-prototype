@@ -38,22 +38,11 @@ form input[type='submit'] {
   background-color: #044235;
   color: white;
   font: normal small-caps normal 20px/1.4 'Fraunces', serif;
-  height: 50px;
+  height: 14vh;
   justify-self: center;
   cursor: pointer;
 }
 label {
   font: normal small-caps normal 20px/1 'Fraunces', serif;
   color: #432e41;
-}
-
-@media screen and (min-width: 992px) {
-  form {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  h2 {
-    font: normal normal bold 70px/1.4 'Fraunces', serif;
-  }
 }
