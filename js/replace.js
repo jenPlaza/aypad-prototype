@@ -40,6 +40,8 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
+  //footer social media
+  footerMedia();
 } else if (page == 'donate.html') {
   //-------------html replacement for donate.html
   //navigation menu
@@ -124,6 +126,8 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
+  //footer social media
+  footerMedia();
 } else {
   //-------------html replacement for story_event.html
   //navigation menu
@@ -258,4 +262,6 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
+  //footer social media
+  footerMedia();
 }

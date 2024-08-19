@@ -252,29 +252,9 @@ div#top_banner figure {
   align-content: center;
   justify-content: center;
 }
-form {
-  width: 75%;
-  display: grid;
-}
-form input {
+#contact .form iframe {
   width: 100%;
-  height: 30px;
-  border-radius: 5px;
-  border: 1px solid silver;
-}
-#message {
-  width: 100%;
-  height: 100px;
-  border-radius: 11px;
-  border: 1px solid silver;
-}
-form input[type='submit'] {
-  width: 100%;
-  background-color: #044235;
-  color: white;
-  font: normal small-caps normal 20px/1.4 'Fraunces', serif;
-  height: 50px;
-  justify-self: center;
+  height: 42.5vh;
 }
 
 @media screen and (min-width: 576px) {
@@ -292,6 +272,9 @@ form input[type='submit'] {
   }
   .partners_layout {
     padding-top: 5%;
+  }
+  #contact .form iframe {
+    height: 44.5vh;
   }
 }
 @media screen and (min-width: 768px) {
@@ -390,6 +373,9 @@ form input[type='submit'] {
   }
   #contact .form {
     width: 50%;
+  }
+  #contact .form iframe {
+    height: 31vh;
   }
   .partners_layout {
     width: auto;
@@ -497,6 +483,9 @@ form input[type='submit'] {
     width: 1000px;
     height: 225px;
   }
+  #contact .form iframe {
+    height: 26vh;
+  }
 }
 @media screen and (min-width: 1600px) {
   div#top_banner {
@@ -504,5 +493,8 @@ form input[type='submit'] {
   }
   div#top_banner figure {
     background-position: right 0px top -210px;
+  }
+  #contact .form iframe {
+    height: 23vh;
   }
 }

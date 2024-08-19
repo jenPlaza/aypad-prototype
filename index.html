@@ -29,7 +29,7 @@
       rel="stylesheet"
     />
   </head>
-  <body onload="comingEvents();navMenu();trueTalkArticles();">
+  <body onload="comingEvents();navMenu();trueTalkArticles();footerMedia();">
     <header id="navigation_menu"></header>
     <!--mission & upcoming events -->
     <main id="home">
@@ -327,16 +327,15 @@
       <section class="form">
         <h2>Talk To Us</h2>
         <br />
-        <form action="">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" /><br />
-          <label for="email">Email:</label>
-          <input type="text" id="email" name="email" /><br />
-          <label for="message">Message:</label>
-          <textarea rows="5" cols="80" id="message" name="message"> </textarea>
-          <br />
-          <input type="submit" value="Send Message" />
-        </form>
+        <iframe
+          src="file:///Users/jenplaza/jpDocs/PROJECTS/Projects/VOLUNTEER/UN/AYPAD/aypad/contact.html?embedded=true"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >Loading…</iframe
+        >
       </section>
     </section>
     <!--footer -->
@@ -356,66 +355,7 @@
         <a href="./story.html"><h5>Story</h5></a>
         <a href="/"><h5>Donate</h5></a>
       </section>
-      <section class="social_media">
-        <ul>
-          <li>
-            <a
-              ><figure>
-                <img
-                  src="./assets/images/icons/socialMedia/new-post_grey.png"
-                  alt="email icon"
-                /></figure
-            ></a>
-          </li>
-          <li>
-            <a
-              ><figure>
-                <img
-                  src="./assets/images/icons/socialMedia/phone_grey.png"
-                  alt="phone icon"
-                /></figure
-            ></a>
-          </li>
-          <li>
-            <a
-              ><figure>
-                <img
-                  src="./assets/images/icons/socialMedia/linkedin_grey.png"
-                  alt="linkedIn icon"
-                /></figure
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/"
-              target="_blank"
-              ><figure>
-                <img
-                  src="./assets/images/icons/socialMedia/facebook_grey.png"
-                  alt="facebook icon"
-                /></figure
-            ></a>
-          </li>
-          <li>
-            <a
-              ><figure>
-                <img
-                  src="./assets/images/icons/socialMedia/instagram_grey.png"
-                  alt="instgram icon"
-                /></figure
-            ></a>
-          </li>
-          <li>
-            <a
-              ><figure>
-                <img
-                  src="./assets/images/icons/socialMedia/youtube_grey.png"
-                  alt="you tube icon"
-                /></figure
-            ></a>
-          </li>
-        </ul>
-      </section>
+      <section id="socialM" class="social_media"></section>
     </footer>
     <script type="text/javascript" src="./js/edit.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>

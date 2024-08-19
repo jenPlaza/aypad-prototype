@@ -223,3 +223,21 @@ function trueTalkArticles() {
     document.getElementById('true_talk_articles').innerHTML = newArticle;
   }
 }
+
+function footerMedia() {
+  var media = '<ul>';
+  for (var k = 0; k < socialArray.length; k++) {
+    media += '<li>';
+    media +=
+      '<a href="' + socialArray[k].media_link + '" target="_blank"><figure>';
+    media +=
+      '<img src="' +
+      socialArray[k].media_src +
+      '" alt="' +
+      socialArray[k].media_alt +
+      '"/></figure></a>';
+    media += '</li>';
+  }
+  media += '</ul>';
+  document.getElementById('socialM').innerHTML = media;
+}

@@ -1442,3 +1442,44 @@ var contactArray = [
     img_alt: 'youtube icon',
   },
 ];
+
+//FOOTER Social Media
+var socialArray = [
+  {
+    media_id: 'email',
+    media_link: '',
+    media_src: './assets/images/icons/socialMedia/new-post_grey.png',
+    media_alt: 'email icon',
+  },
+  {
+    media_id: 'phone',
+    media_link: '',
+    media_src: './assets/images/icons/socialMedia/phone_grey.png',
+    media_alt: 'phone icon',
+  },
+  {
+    media_id: 'linkedIn',
+    media_link: '',
+    media_src: './assets/images/icons/socialMedia/linkedin_grey.png',
+    media_alt: 'linkedIn icon',
+  },
+  {
+    media_id: 'facebook',
+    media_link:
+      'https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/',
+    media_src: './assets/images/icons/socialMedia/facebook_grey.png',
+    media_alt: 'facebook icon',
+  },
+  {
+    media_id: 'instgram',
+    media_link: '',
+    media_src: './assets/images/icons/socialMedia/instagram_grey.png',
+    media_alt: 'instgram icon',
+  },
+  {
+    media_id: 'youtube',
+    media_link: '',
+    media_src: './assets/images/icons/socialMedia/youtube_grey.png',
+    media_alt: 'youtube icon',
+  },
+];

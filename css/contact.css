@@ -1,0 +1,59 @@
+/*-----------------------CONTACT FORM----*/
+body:has(form[class='contact']) {
+  display: flex;
+  justify-content: center;
+}
+#contact .form {
+  width: 100%;
+  padding: 5% 3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+form {
+  width: 90%;
+  display: grid;
+}
+form input {
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  line-height: 2;
+  padding: 2%;
+}
+#message {
+  width: 95%;
+  height: 100px;
+  border-radius: 11px;
+  border: 1px solid silver;
+  line-height: 2;
+  padding: 2%;
+}
+form input[type='submit'] {
+  width: 100%;
+  background-color: #044235;
+  color: white;
+  font: normal small-caps normal 20px/1.4 'Fraunces', serif;
+  height: 50px;
+  justify-self: center;
+  cursor: pointer;
+}
+label {
+  font: normal small-caps normal 20px/1 'Fraunces', serif;
+  color: #432e41;
+}
+
+@media screen and (min-width: 992px) {
+  form {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h2 {
+    font: normal normal bold 70px/1.4 'Fraunces', serif;
+  }
+}
