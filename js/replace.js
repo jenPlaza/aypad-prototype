@@ -243,14 +243,14 @@ if (page == 'story.html') {
   //social media
   newProject += '<section class="social_media"><h5>Social Media</h5>';
   newProject += '<ul>';
-  for (var ca = 0; ca < contactArray.length; ca++) {
+  for (var ca = 0; ca < socialArray.length; ca++) {
     newProject +=
       '<li><a href="' +
-      contactArray[ca].link_href +
+      socialArray[ca].media_link +
       '" target="blank"><figure><img src="' +
-      contactArray[ca].img_src +
+      socialArray[ca].media_src[1] +
       '" alt="' +
-      contactArray[ca].img_alt +
+      socialArray[ca].media_alt +
       '" /></figure></a></li>';
   }
   newProject += '</ul></section></section>';

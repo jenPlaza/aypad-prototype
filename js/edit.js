@@ -418,23 +418,23 @@ var projectList = [
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Snail Farming Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -464,29 +464,29 @@ var projectList = [
     mission:
       'AYPAD’s Waste Management Project is on a mission to maximize resource value, while minimizing – and even eliminating – environmental impact so that both our economy and our environment can thrive. To provide our customers with the exceptional waste collection, recycling, and disposal services that protect, preserve and improve our environment and the quality of life in the communities we serve. AYPAD Waste Management is and will continue to be, the “Distinguishable Difference” in the solid waste and recycling collection and disposal industry.',
     pdf: {
-      title: 'Waste Management - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Waste Management Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -586,29 +586,29 @@ var projectList = [
     mission:
       'Welcome to the Piggery Project, our latest endeavor aimed at promoting sustainable farming practices in rural communities. This project will focus on providing training and resources to small-scale farmers looking to establish successful piggery operations, ultimately improving their livelihoods and contributing to the local economy.',
     pdf: {
-      title: 'Piggery - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Piggery Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -639,29 +639,29 @@ var projectList = [
     mission:
       'Culture is the identity of a country, therefore it is important to preserve it and encourage people to participate towards the objective of spreading it. African cultures are unique, strong and very different throughout the continent. It is the belief of the organization that as the youth in Africa, we should be culturally oriented. Therefore, the main aim of the AYPAD Cultural Program is to engage youth and children in cultural activities to promote peace and develop their talents providing a context outside formal institutions where youth can come together to better understand each other and their culture. With the help of WayOut Arts Organization, based in England, AYPAD received support to buy equipment (dance costumes and drums) to start running the cultural programs. The cultural group seeks to do this by providing youth with training and a place in which to dance and drum together as a cohesive group. AYPAD seeks to support this program and the youth within it by performing in a variety of spaces including cultural festivals, sensitization projects, conferences, and tourist venues. Through these performances, AYPAD hopes to create funds to ensure that all members of the troupe are able to attend school and have their basic housing and food needs met. Presently the organization offers cultural dance or drumming training for interested individuals or groups; if any organization need a cultural group to perform, they can also contact us.',
     pdf: {
-      title: 'Cultural Program - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Cultural Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -749,23 +749,23 @@ var projectList = [
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Education Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -796,29 +796,29 @@ var projectList = [
     mission:
       'This project highlights the exceptional work of local artisans and crafters, showcasing a wide range of unique and beautifully crafted pieces. From handmade jewelry and pottery to textiles and woodwork, the Arts and Crafts Project is a celebration of creativity and craftsmanship.',
     pdf: {
-      title: 'Art and Craft - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Crafting Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -847,8 +847,8 @@ var projectList = [
     mission:
       'AYPAD Tree Planting Project discuss the importance of caring for locally planted trees in order to decrease soil erosion and to provide protection from strong winds and rain. Secondly, we plant fruit and other lucrative trees on the hill sites and flat lands that have been degenerated. During the tree planting, AYPAD volunteers link with local community youth and leaders to seek the best areas where trees can be planted and to ensure that these trees will be cared for.',
     pdf: {
-      title: 'Tree Planting - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
@@ -857,19 +857,19 @@ var projectList = [
       },
       {
         label: 'Event Location',
-        input_text: 'Greenwood, SC',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -899,29 +899,29 @@ var projectList = [
     mission:
       'AYPAD’s Beautification Project restores parks and open spaces while providing leadership and community service experiences for young people in Sierra Leone and beyond. Beautification service is a uniquely effective way to build community. When people put their hands into the dirt together and see their efforts, transform a threatened area into a more vibrant landscape, they forge a special bond. Young children quickly learn to appreciate the natural gardens they create.',
     pdf: {
-      title: 'Beautification - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
-        label: 'KEEP BEAUTIFUL',
-        input_text: 'Eventurist Forest: Join The Fun',
+        label: 'Event Title',
+        input_text: 'KEEP BEAUTIFUL',
       },
       {
         label: 'Event Location',
-        input_text: 'Myrtle Beach, SC',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -958,29 +958,29 @@ var projectList = [
     mission:
       'AYPAD Sports program started with football project and developed into different sports categories later on such as handball, yoga, and hockey. The program was created to engage youth, many who live on the streets, into peaceful and peace-promoting activities which build skills in them and promotes physical, spiritual, and mental well-being.',
     pdf: {
-      title: 'Sports Program - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Sports Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1010,29 +1010,29 @@ var projectList = [
     mission:
       'AYPAD Skills Training Center is an initiative that seeks to provide youth with market driven technical job skills and training for the hospitality industry that will enable them to secure steady, well-paying jobs and become productive members of society in their community. Curriculum will include areas of focus such as tailoring, welding, auto mechanics, and carpentry. The Center provides personal and social competencies. Subset classes are foundational to the program which focus on English proficiency, Entrepreneurship and Leadership Development.',
     pdf: {
-      title: 'Skills Training Center - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Skills Training Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1061,8 +1061,8 @@ var projectList = [
     mission:
       'AYPAD Basic Education Project has the purpose of giving African street children access to education and thus reintegrating them into society. Due to the continent’s poor economic and social conditions, children often do not have access to education. The project counteracts this injustice by offering educational programs for children aged between 6 and 17. Furthermore, an individual curriculum that is tailored to the children’s special needs is developed with the aim of reintegrating the children into the educational system. The initiative reduces the risk of social exclusion and the threat of slipping into the abysses of crime. AYPAD hope the project will contributes significantly to the reduction of poverty in Africa. To escape the vicious circle of poverty, children have to be empowered and given access to high quality education. Our Filmmaking Project aims to promote education, inspire social change and encourage creative self-expression by teaching the basics of filmmaking: how to write, direct, act in, shoot and produce their own films. Additionally, students will be responsible for event management and marketing as well. The classes will offer a safe and stimulating learning environment where students can acquire valuable skills and knowledge which could be exceedingly beneficial for their education, and future earning ability. We strongly believe that Within the confines of the programme, children will be taught filmmaking techniques. They will gain practical and theoretical knowledge, learning from books and teachers who are trained and knowledgeable in filmmaking. To afford the necessary filmmaking tools and equipment, second hand products will be sought. A wide range of tools and equipment will be available so that the students have experience in learning about cameras, audio, lighting, directing, developing a story and scriptwriting among others.',
     pdf: {
-      title: 'Street Children Program - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
@@ -1071,19 +1071,19 @@ var projectList = [
       },
       {
         label: 'Event Location',
-        input_text: 'Berkeley County, SC',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1122,19 +1122,19 @@ var projectList = [
       },
       {
         label: 'Event Location',
-        input_text: 'Charleston County, SC',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1165,29 +1165,29 @@ var projectList = [
     mission:
       'The Micro-credit Project main thrust is to effect a revolving micro-credit scheme for womenmembers of AYPAD as a means of enchaining their economic empowerment. Obsessed with the desire to positively transform the lives and living conditions of vulnerable children (boy & girls) and women, AYPAD has been undertaken series of research and documentation of experiences together with suggested recommendations of street children and commercial sex workers, most of whom have subsequently been absorbed into AYPAD’s membership, and gradually acquired coping mechanism skills. AYPAD holds the view that women’s empowerment lies with that economic power and decision making abilities, which would also reflect positively on their lives and their families around them. The rationale of this request is to enhance the economic empowerment of the women members of AYPAD through the provision of revolving Micro-Credit scheme.',
     pdf: {
-      title: 'Micro-Credit - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Micro-Credit Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1252,29 +1252,29 @@ var projectList = [
     mission:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
     pdf: {
-      title: 'Youth Farming - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Youth Farming Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1314,8 +1314,8 @@ var projectList = [
     mission:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
     pdf: {
-      title: 'Fish Farming - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
@@ -1324,19 +1324,19 @@ var projectList = [
       },
       {
         label: 'Event Location',
-        input_text: 'Charleston, SC',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1367,29 +1367,29 @@ var projectList = [
     mission:
       'Our Filmmaking Project aims to promote education, inspire social change and encourage creative self-expression by teaching the basics of filmmaking: how to write, direct, act in, shoot and produce their own films. Additionally, students will be responsible for event management and marketing as well. The classes will offer a safe and stimulating learning environment where students can acquire valuable skills and knowledge which could be exceedingly beneficial for their education, and future earning ability. We strongly believe that within the confines of the programme, children will be taught filmmaking techniques. They will gain practical and theoretical knowledge, learning from books and teachers who are trained and knowledgeable in filmmaking. To afford the necessary filmmaking tools and equipment, second hand products will be sought. A wide range of tools and equipment will be available so that the students have experience in learning about cameras, audio, lighting, directing, developing a story and scriptwriting among others.',
     pdf: {
-      title: 'Filmmaking - Profile (pdf)',
-      link: './assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      title: '',
+      link: '',
     },
     event_information: [
       {
         label: 'Event Title',
-        input_text: 'text',
+        input_text: 'Filmmaking Event',
       },
       {
         label: 'Event Location',
-        input_text: 'text',
+        input_text: 'Freetown, Sierra Leone',
       },
       {
         label: 'Contact Name',
-        input_text: 'Larry Smith',
+        input_text: 'Philip S. Bangura',
       },
       {
         label: 'Contact Phone',
-        input_text: '(234)567-5678',
+        input_text: '+232 75 769929',
       },
       {
         label: 'Contact Email',
-        input_text: 'larry@nomail.com',
+        input_text: 'aypadorg@gmail.com',
       },
     ],
     donate: {
@@ -1399,87 +1399,73 @@ var projectList = [
   },
 ];
 
-//6.- STORY EVENT SOCIAL MEDIA & CONTACT LINKS
+//6.- STORY EVENT SOCIAL MEDIA & FOOTER Social Media
 //to add more social media links...VERY IMPORTANT!!!!!! follow same format
-//icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow/gray color hex's #EEB847 / #dcdcdc).
+//icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow color hex formula #EEB847 (for story event / gray color hex formula #dcdcdc(for footer)).
 // SEE listEntry_example.js FILE FOR AN EXAMPLE.
-var contactArray = [
-  {
-    //by email
-    link_href: 'https://www.google.com/',
-    img_src: './assets/images/icons/socialMedia/message_yellow.png',
-    img_alt: 'email icon',
-  },
-  {
-    //by phone
-    link_href: 'https://www.google.com/',
-    img_src: './assets/images/icons/socialMedia/phone_yellow.png',
-    img_alt: 'phone icon',
-  },
-  {
-    //by linkedIn
-    link_href: 'https://www.google.com/',
-    img_src: './assets/images/icons/socialMedia/linkedin_yellow.png',
-    img_alt: 'linkedIn icon',
-  },
-  {
-    //by facebook
-    link_href:
-      'https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/',
-    img_src: './assets/images/icons/socialMedia/facebook_yellow.png',
-    img_alt: 'facebook icon',
-  },
-  {
-    //by instagram
-    link_href: 'https://www.google.com/',
-    img_src: './assets/images/icons/socialMedia/instagram_yellow.png',
-    img_alt: 'instagram icon',
-  },
-  {
-    //by youtube
-    link_href: 'https://www.google.com/',
-    img_src: './assets/images/icons/socialMedia/youtube_yellow.png',
-    img_alt: 'youtube icon',
-  },
-];
-
-//FOOTER Social Media
 var socialArray = [
   {
     media_id: 'email',
-    media_link: '',
-    media_src: './assets/images/icons/socialMedia/new-post_grey.png',
+    media_link: 'mailto:aypadorg@gmail.com',
+    media_src: [
+      './assets/images/icons/socialMedia/new-post_grey.png',
+      './assets/images/icons/socialMedia/message_yellow.png',
+    ],
     media_alt: 'email icon',
   },
   {
     media_id: 'phone',
-    media_link: '',
-    media_src: './assets/images/icons/socialMedia/phone_grey.png',
+    media_link: 'tel:1-232-75-769929',
+    media_src: [
+      './assets/images/icons/socialMedia/phone_grey.png',
+      './assets/images/icons/socialMedia/phone_yellow.png',
+    ],
     media_alt: 'phone icon',
   },
   {
     media_id: 'linkedIn',
     media_link: '',
-    media_src: './assets/images/icons/socialMedia/linkedin_grey.png',
+    media_src: [
+      './assets/images/icons/socialMedia/linkedin_grey.png',
+      './assets/images/icons/socialMedia/linkedin_yellow.png',
+    ],
     media_alt: 'linkedIn icon',
   },
   {
     media_id: 'facebook',
     media_link:
       'https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/',
-    media_src: './assets/images/icons/socialMedia/facebook_grey.png',
+    media_src: [
+      './assets/images/icons/socialMedia/facebook_grey.png',
+      './assets/images/icons/socialMedia/facebook_yellow.png',
+    ],
     media_alt: 'facebook icon',
   },
   {
+    media_id: 'twitter',
+    media_link: 'https://x.com/i/flow/login?redirect_after_login=%2Faypadorg1',
+    media_src: [
+      './assets/images/icons/socialMedia/twitter_grey.png',
+      './assets/images/icons/socialMedia/twitter_yellow.png',
+    ],
+    media_alt: 'twitter icon',
+  },
+  {
     media_id: 'instgram',
-    media_link: '',
-    media_src: './assets/images/icons/socialMedia/instagram_grey.png',
+    media_link: 'https://www.instagram.com/aypadorganization/',
+    media_src: [
+      './assets/images/icons/socialMedia/instagram_grey.png',
+      './assets/images/icons/socialMedia/instagram_yellow.png',
+    ],
     media_alt: 'instgram icon',
   },
   {
     media_id: 'youtube',
-    media_link: '',
-    media_src: './assets/images/icons/socialMedia/youtube_grey.png',
+    media_link: 'https://www.youtube.com/@aypadorganization877',
+    media_src: [
+      './assets/images/icons/socialMedia/youtube_grey.png',
+      './assets/images/icons/socialMedia/youtube_yellow.png',
+    ],
     media_alt: 'youtube icon',
   },
 ];

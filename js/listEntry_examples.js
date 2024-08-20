@@ -216,16 +216,3 @@
 //     href: 'https://www.google.com/',
 //   },
 // },
-
-//6.----------------  STORY EVENT SOCIAL MEDIA & CONTACT LINKS ADDITIONS---------------------
-//to add more social media links...VERY IMPORTANT!!!!!! follow same format
-//icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow (#EEB847)/gray (#dcdcdc).
-//copy lines 225- 231, for a program entry
-//remove double forward slashes for each line. each addition must start with opeining squigly { and end with }, closing squigly and comma.
-// {
-//   //by facebook
-//   link_href:
-//     'https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/',
-//   img_src: './assets/images/icons/socialMedia/facebook_yellow.png',
-//   img_alt: 'facebook icon',
-// },

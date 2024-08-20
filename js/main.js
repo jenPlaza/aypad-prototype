@@ -232,7 +232,7 @@ function footerMedia() {
       '<a href="' + socialArray[k].media_link + '" target="_blank"><figure>';
     media +=
       '<img src="' +
-      socialArray[k].media_src +
+      socialArray[k].media_src[0] +
       '" alt="' +
       socialArray[k].media_alt +
       '"/></figure></a>';
