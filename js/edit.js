@@ -456,7 +456,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -631,7 +631,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -744,7 +744,7 @@ var projectList = [
       'AYPAD Basic Education Project has the purpose of giving African street children access to education and thus reintegrating them into society. Due to the continent’s poor economic and social conditions, children often do not have access to education. The project counteracts this injustice by offering educational programs for children aged between 6 and 17. Furthermore, an individual curriculum that is tailored to the children’s special needs is developed with the aim of reintegrating the children into the educational system. The initiative reduces the risk of social exclusion and the threat of slipping into the abysses of crime. AYPAD hope the project will contributes significantly to the reduction of poverty in Africa. ',
     pdf: {
       title: 'Basic Education - Profile (pdf)',
-      link: 'assets/pdf/AYPAD_SCHOOL_PROJECT-compressed.pdf',
+      link: 'assets/pdf/school_profile_-compressed.pdf',
     },
     event_information: [
       {
@@ -788,7 +788,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -839,7 +839,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -891,7 +891,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -1002,7 +1002,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -1053,7 +1053,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -1104,7 +1104,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -1157,7 +1157,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -1306,7 +1306,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
@@ -1359,7 +1359,7 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
         elementAlt: 'image placeholder',
       },
     ],
