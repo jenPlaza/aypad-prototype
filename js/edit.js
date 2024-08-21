@@ -454,11 +454,6 @@ var projectList = [
           'assets/images/photo_gallery/pexels-messina-12492222-min.jpg',
         elementAlt: 'photo of waste managment team active at an event',
       },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
-      },
     ],
     page_title: 'Waste Management Project',
     mission:
@@ -629,11 +624,6 @@ var projectList = [
           'assets/images/photo_gallery/mpumelelo-macu-l_YNobbDYJk-unsplash-min.jpg',
         elementAlt: 'two young adult men dressed in cultural outfits',
       },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
-      },
     ],
     page_title: 'Cultural Program',
     mission:
@@ -786,11 +776,6 @@ var projectList = [
           'assets/images/photo_gallery/wei-cheng-wu-R7lSwItK0LE-unsplash-min.jpg',
         elementAlt: 'an individual weaving a basket',
       },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
-      },
     ],
     page_title: 'Art and Craft Project',
     mission:
@@ -836,11 +821,6 @@ var projectList = [
         elementClass: 'imagenes',
         elementSrc: 'assets/images/photo_gallery/trees-1140x570-min.jpg',
         elementAlt: 'individuals planting trees',
-      },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
       },
     ],
     page_title: 'Tree Planting Project',
@@ -888,11 +868,6 @@ var projectList = [
         elementSrc: 'assets/images/photo_gallery/beautification-min.JPG',
         elementAlt:
           'women at a Beautification Project event dancing and rejoicing',
-      },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
       },
     ],
     page_title: 'Beautification Project',
@@ -1000,11 +975,6 @@ var projectList = [
           'assets/images/photo_gallery/Computers_Getty_565888301-min.jpg',
         elementAlt: 'two young adults sitting in front of a computer',
       },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
-      },
     ],
     page_title: 'Skills Training Center',
     mission:
@@ -1051,11 +1021,6 @@ var projectList = [
         elementSrc: 'assets/images/photo_gallery/children-min.png',
         elementAlt: 'photo of children laughing and smiling',
       },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
-      },
     ],
     page_title: 'Street Children Program',
     mission:
@@ -1101,11 +1066,6 @@ var projectList = [
         elementClass: 'imagenes',
         elementSrc: 'assets/images/photo_gallery/hockey-min.png',
         elementAlt: 'team of hockey players practicing',
-      },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
       },
     ],
     page_title: 'Hockey Project',
@@ -1154,11 +1114,6 @@ var projectList = [
         elementSrc:
           'assets/images/photo_gallery/omotayo-tajudeen-zlZnNIS7eDk-unsplash-min.jpg',
         elementAlt: 'photo of micro-credit team associates',
-      },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
       },
     ],
     page_title: 'Micro-Credit Project',
@@ -1218,34 +1173,34 @@ var projectList = [
         elementClass: 'imagenes',
         elementSrc:
           'assets/images/story_event/youthFarming/youthFarmingProjectGathering_taking_a_break-min.jpeg',
-        elementAlt: 'AYPAD Basic Education Project event photo - mini break',
+        elementAlt: 'AYPAD Youth Farming Project event photo - mini break',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
           'assets/images/story_event/youthFarming/youthFarmingProject_sowing-min.jpeg',
         elementAlt:
-          'AYPAD Basic Education Project event photo - sowing the fields',
+          'AYPAD Youth Farming Project event photo - sowing the fields',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
           'assets/images/story_event/youthFarming/youthFarmingProject_planting-min.jpeg',
-        elementAlt: 'AYPAD Basic Education Project event photo - growing crops',
+        elementAlt: 'AYPAD Youth Farming Project event photo - growing crops',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
           'assets/images/story_event/youthFarming/youthFarmingProject_fruit_harvesting-min.jpeg',
         elementAlt:
-          'AYPAD Basic Education Project event photo - harvesting fruit',
+          'AYPAD Youth Farming Project event photo - harvesting fruit',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
           'assets/images/story_event/youthFarming/youthFarmingProject_walking_the_fields-min.jpeg',
         elementAlt:
-          'AYPAD Basic Education Project event photo - walking the fields',
+          'AYPAD Youth Farming Project event photo - walking the fields',
       },
     ],
     page_title: 'Youth Farming Project',
@@ -1304,11 +1259,6 @@ var projectList = [
           'assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg',
         elementAlt: 'photo of school of fish in a pool',
       },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
-      },
     ],
     page_title: 'Fish Frenzy Fundraiser',
     mission:
@@ -1356,11 +1306,6 @@ var projectList = [
         elementSrc:
           'assets/images/photo_gallery/young-black-camera-operator-filming-with-highend-camera-dim-studio_117038-25943-min.jpg',
         elementAlt: 'photo of corn crop',
-      },
-      {
-        elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
       },
     ],
     page_title: 'Filmmaking Project',
