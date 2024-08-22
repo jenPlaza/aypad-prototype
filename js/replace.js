@@ -212,11 +212,11 @@ if (page == 'story.html') {
       projectList[a].monies[0].goal +
       ' (USD)</em></h4></div>';
     newProject +=
-      '<div><button onclick="window.location.href=' +
+      '<div><a type="button" href="' +
       projectList[a].donate.href +
       '" target="_blank">' +
       projectList[a].button_donate +
-      '</button></div></section>';
+      '</a></div></section>';
   } else {
     newProject += '<h2>Mission</h2><br />';
     newProject += '<p>' + projectList[a].mission + '</p>';

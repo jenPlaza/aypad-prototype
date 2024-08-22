@@ -439,7 +439,7 @@ var projectList = [
     ],
     donate: {
       goal: 'To empower a new generation of women entrepreneurs. These women will be able to maintain their traditional family responsibilities, earn extra income, educate themselves and become positive role models of success for their families and their communities.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -486,7 +486,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -608,7 +608,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -656,7 +656,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -760,7 +760,7 @@ var projectList = [
     ],
     donate: {
       goal: 'The School project will strive to provide a comprehensive educa,on for the children it will serve. It will provide standard instruction based on Sierra Leone’s national curriculum as well as non-formal opportunites in the arts and social development.To compensate for the varying levels of education the classes will be multi-grade so that students can study at their level while working to complete the standard education requirements for Sierra Leone’s public schools.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -808,7 +808,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -854,7 +854,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -901,7 +901,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -960,7 +960,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1007,7 +1007,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1053,7 +1053,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1099,7 +1099,7 @@ var projectList = [
     ],
     donate: {
       goal: 'To act as a crime prevention program that promotes education, physical activity, healthy lifestyles and social development for the youth (ages 6-21; boys and girls) throughout the African Continent using organized hockey. Team sports can communicate and transform the way people think and act. The task for AYPAD Hockey project is to find ways of incorporating sports into the work of peace building and to create a space where people in conflict can heal and reconcile through competitive team sports.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1147,7 +1147,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1234,7 +1234,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1291,7 +1291,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
   {
@@ -1339,7 +1339,7 @@ var projectList = [
     ],
     donate: {
       goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
 ];
@@ -1369,7 +1369,8 @@ var socialArray = [
   },
   {
     media_id: 'linkedIn',
-    media_link: '',
+    media_link:
+      'https://www.linkedin.com/company/africa-youth-for-peace-and-development/',
     media_src: [
       './assets/images/icons/socialMedia/linkedin_grey.png',
       './assets/images/icons/socialMedia/linkedin_yellow.png',
@@ -1388,7 +1389,7 @@ var socialArray = [
   },
   {
     media_id: 'twitter',
-    media_link: 'https://x.com/i/flow/login?redirect_after_login=%2Faypadorg1',
+    media_link: 'https://x.com/aypadorg1',
     media_src: [
       './assets/images/icons/socialMedia/twitter_grey.png',
       './assets/images/icons/socialMedia/twitter_yellow.png',
