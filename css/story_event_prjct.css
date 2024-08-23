@@ -147,6 +147,7 @@ section#fundraise h4 em {
   section#fundraise a {
     height: 80px;
     width: 550px;
+    padding-top: 4%;
   }
   section#fundraise div {
     margin-bottom: 4%;
@@ -177,6 +178,7 @@ section#fundraise h4 em {
   }
   section#fundraise a {
     height: 60px;
+    padding-top: 2%;
   }
   #story_banner:has(> div.project) h1 {
     width: 95%;
@@ -240,6 +242,9 @@ section#fundraise h4 em {
     margin-top: -2%;
     padding: 4% 5% 0 5%;
   }
+  section#fundraise a {
+    padding-top: 1.5%;
+  }
 }
 @media only screen and (min-width: 1200px) {
   section#fundraise div {
@@ -274,6 +279,9 @@ section#fundraise h4 em {
   footer div {
     margin-bottom: 0;
   }
+  section#fundraise a {
+    padding-top: 1.25%;
+  }
 }
 @media screen and (min-width: 1400px) {
   section#story {
@@ -290,6 +298,9 @@ section#fundraise h4 em {
   }
   #event div.event_info {
     margin-bottom: 3%;
+  }
+  section#fundraise a {
+    padding-top: 1%;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -309,5 +320,8 @@ section#fundraise h4 em {
   }
   main#inAction:has(#story_banner div.project) #event .social_media ul {
     width: 55%;
+  }
+  section#fundraise a {
+    padding-top: 15px;
   }
 }
