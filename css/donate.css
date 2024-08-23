@@ -243,7 +243,7 @@ section#donate_gallery p {
     font-size: 20px;
     margin: 0;
     position: absolute;
-    bottom: 5%;
+    bottom: 9%;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -345,6 +345,6 @@ section#donate_gallery p {
     top: 161px;
   }
   section#donate_gallery ul li article div a.donateBtn {
-    width: 15%;
+    width: 18%;
   }
 }
