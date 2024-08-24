@@ -422,7 +422,7 @@ ul.rotate li > article a > figure figcaption {
 }
 /*-----------------------DONATE ----*/
 #donate {
-  background-image: linear-gradient(rgba(84, 41, 80, 0.74), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.4)),
     url('../assets/images/banner/shane-rounce-DNkoNXQti3c-unsplash-min.jpg');
   background-size: cover;
   width: 100%;
