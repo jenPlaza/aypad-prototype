@@ -491,13 +491,15 @@ var projectList = [
   },
   {
     id: 'piggery',
-    cover: 'assets/images/photo_gallery/pig-farmer-min.png',
+    cover:
+      'assets/images/photo_gallery/young-pig-peeks-out-cage-pig-farm_124507-30738.jpg',
     caption: 'Piggery Project',
     banner: '',
     flow_element: [
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/pig-farmer-min.png',
+        elementSrc:
+          'assets/images/photo_gallery/young-pig-peeks-out-cage-pig-farm_124507-30738.jpg',
         elementAlt:
           'photo of woman who turns pig farming dream into a success - photo referenced in Kareems Quest',
       },
