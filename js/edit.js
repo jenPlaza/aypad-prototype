@@ -407,10 +407,26 @@ var projectList = [
         elementSrc: 'assets/images/story_event/snailFarming/snailTeam-min.png',
         elementAlt: 'group photo of snail farmers',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/snailFarming/largeSnail.png',
+        elementAlt: 'closeup of a large snail',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/snailFarming/snailCloseup.png',
+        elementAlt: 'closeup of a large snail',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/snailFarming/snailsEatingLettuce.png',
+        elementAlt: 'snail eating lettuce',
+      },
     ],
     page_title: 'Snail Farming Project',
     mission:
-      'The Snail Farm Project aims at providing low cost meat in our countries of operation while also providing employment that will generate income for marginalized population. AYPAD detected that snails are a high source of protein and cheaper than other animals meat, thus more accessible for population. Therefore we intend to commence this project with snail farming andat a later stage we would develop other farm types, to name a few: guinea fowl, turkey or pigs.These animals will be provided to the participants after being trained to properly manage their farms. AYPAD will help with marketing the product of our farmers after being harvested. Achatina snail is a delicacy for the citizens of West Africa, Europe and Asia. In Ghana is eaten by about half of the 35 million population. The snail is traditionally gathered from the wild and sold at the local markets. However, in recent years, the Achatina snail has greatly diminished due to overharvesting, adverse weather conditions, and deforestation. The limited supply of snail keeps the cost prohibitively high, and thus keeps the nutritious food out of the hands and mouths of the consumers who want and need it most. AYPAD Snail Farm which will commence first project in Ghana assisting women, mostly commercial sex workers, single mothers and local farmers in raising the large snails, thus providing a sustainable supply of the highly sought-after snail in the Ghanaian market.',
+      'The Snail Farming Project is on a mission to empower economically disadvantaged youth by providing them with sustainable farming skills through snail farming, promoting food security, entrepreneurship, and self-reliance in local communities.',
     pdf: {
       title: 'Snail Farming - Profile (pdf)',
       link: './assets/pdf/snailFarming_profile-compressed.pdf',
@@ -438,7 +454,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'To empower a new generation of women entrepreneurs. These women will be able to maintain their traditional family responsibilities, earn extra income, educate themselves and become positive role models of success for their families and their communities.',
+      goal: 'The Snail Farming Projects goal is to train youth in sustainable snail farming techniques, providing an alternative source of income and promoting food security while fostering entrepreneurship in local communities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -454,10 +470,21 @@ var projectList = [
           'assets/images/photo_gallery/pexels-messina-12492222-min.jpg',
         elementAlt: 'photo of waste managment team active at an event',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/wasteMgmt/boyCleaningWaste.png',
+        elementAlt: 'photo of young boy on a mountain of waste',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/wasteMgmt/boyWithWheelBarrelFullOfWaste.png',
+        elementAlt: 'photo of young boy with a wheel barrel full of waste',
+      },
     ],
     page_title: 'Waste Management Project',
     mission:
-      'AYPAD’s Waste Management Project is on a mission to maximize resource value, while minimizing – and even eliminating – environmental impact so that both our economy and our environment can thrive. To provide our customers with the exceptional waste collection, recycling, and disposal services that protect, preserve and improve our environment and the quality of life in the communities we serve. AYPAD Waste Management is and will continue to be, the “Distinguishable Difference” in the solid waste and recycling collection and disposal industry.',
+      'The Waste Management Project is on a mission to transform youth into environmental stewards by equipping them with the knowledge and skills to manage waste effectively, fostering a culture of recycling, innovation, and sustainability for a cleaner, greener future.',
     pdf: {
       title: '',
       link: '',
@@ -485,7 +512,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Waste Management Projects goal is to educate and engage youth in innovative waste management practices, reducing environmental pollution, and promoting recycling and eco-friendly lifestyles.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -581,7 +608,7 @@ var projectList = [
     ],
     page_title: 'Piggery Project',
     mission:
-      'Welcome to the Piggery Project, our latest endeavor aimed at promoting sustainable farming practices in rural communities. This project will focus on providing training and resources to small-scale farmers looking to establish successful piggery operations, ultimately improving their livelihoods and contributing to the local economy.',
+      'The Piggery Project is on a mission to enable youth to create sustainable livelihoods through pig farming by providing training in animal husbandry, business management, and sustainable agricultural practices, contributing to food security and economic independence.',
     pdf: {
       title: '',
       link: '',
@@ -609,7 +636,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Piggery Projects goal is to equip youth with the skills to manage pig farms effectively, creating sustainable livelihood opportunities and enhancing economic resilience through agricultural entrepreneurship.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -626,10 +653,21 @@ var projectList = [
           'assets/images/photo_gallery/mpumelelo-macu-l_YNobbDYJk-unsplash-min.jpg',
         elementAlt: 'two young adult men dressed in cultural outfits',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/cultural/culturalDance.png',
+        elementAlt: 'cultural dance at an event exposition',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/cultural/menPlayingAfricanDrums.png',
+        elementAlt: 'cultural music played by men on African drums',
+      },
     ],
     page_title: 'Cultural Program',
     mission:
-      'Culture is the identity of a country, therefore it is important to preserve it and encourage people to participate towards the objective of spreading it. African cultures are unique, strong and very different throughout the continent. It is the belief of the organization that as the youth in Africa, we should be culturally oriented. Therefore, the main aim of the AYPAD Cultural Program is to engage youth and children in cultural activities to promote peace and develop their talents providing a context outside formal institutions where youth can come together to better understand each other and their culture. With the help of WayOut Arts Organization, based in England, AYPAD received support to buy equipment (dance costumes and drums) to start running the cultural programs. The cultural group seeks to do this by providing youth with training and a place in which to dance and drum together as a cohesive group. AYPAD seeks to support this program and the youth within it by performing in a variety of spaces including cultural festivals, sensitization projects, conferences, and tourist venues. Through these performances, AYPAD hopes to create funds to ensure that all members of the troupe are able to attend school and have their basic housing and food needs met. Presently the organization offers cultural dance or drumming training for interested individuals or groups; if any organization need a cultural group to perform, they can also contact us.',
+      'The Cultural Program is on a mission to celebrate and preserve cultural heritage by engaging youth in cultural programs that promote understanding, unity, and the sharing of traditions, fostering a sense of identity and belonging in diverse communities.',
     pdf: {
       title: '',
       link: '',
@@ -657,7 +695,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Cultural Programs goal is to preserve and promote cultural heritage by engaging youth in cultural education, fostering a sense of identity, pride, and unity across communities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -730,10 +768,21 @@ var projectList = [
         elementAlt:
           'AYPAD Basic Education Project event photo - building the walls up',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/basicEdu/ChildrenInClass.png',
+        elementAlt: 'Children in classroom',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/basicEdu/highSchoolersInUniform.png',
+        elementAlt: 'High Schoolers in school uniform',
+      },
     ],
     page_title: 'Basic Education Project',
     mission:
-      'AYPAD Basic Education Project has the purpose of giving African street children access to education and thus reintegrating them into society. Due to the continent’s poor economic and social conditions, children often do not have access to education. The project counteracts this injustice by offering educational programs for children aged between 6 and 17. Furthermore, an individual curriculum that is tailored to the children’s special needs is developed with the aim of reintegrating the children into the educational system. The initiative reduces the risk of social exclusion and the threat of slipping into the abysses of crime. AYPAD hope the project will contributes significantly to the reduction of poverty in Africa. ',
+      'The Basic Education Project is on a mission to ensure that every youth has access to quality basic education, equipping them with essential knowledge and skills to overcome economic challenges and participate actively in the development of their communities.',
     pdf: {
       title: 'Basic Education - Profile (pdf)',
       link: 'assets/pdf/school_profile_-compressed.pdf',
@@ -761,7 +810,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The School project will strive to provide a comprehensive educa,on for the children it will serve. It will provide standard instruction based on Sierra Leone’s national curriculum as well as non-formal opportunites in the arts and social development.To compensate for the varying levels of education the classes will be multi-grade so that students can study at their level while working to complete the standard education requirements for Sierra Leone’s public schools.',
+      goal: 'The Basic Education Projects goal is to provide access to foundational education for disadvantaged youth, improving literacy rates and creating pathways to further education and employment opportunities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -778,10 +827,15 @@ var projectList = [
           'assets/images/photo_gallery/wei-cheng-wu-R7lSwItK0LE-unsplash-min.jpg',
         elementAlt: 'an individual weaving a basket',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/arts/artsCraftsGathering.png',
+        elementAlt: 'Gathering of local artists at an Arts and Crafts event',
+      },
     ],
     page_title: 'Art and Craft Project',
     mission:
-      'This project highlights the exceptional work of local artisans and crafters, showcasing a wide range of unique and beautifully crafted pieces. From handmade jewelry and pottery to textiles and woodwork, the Arts and Crafts Project is a celebration of creativity and craftsmanship.',
+      'The Arts and Crafts Project is on a mission to nurture creative talents in youth by providing opportunities for artistic expression and crafts, fostering innovation, entrepreneurship, and cultural preservation through skill development.',
     pdf: {
       title: '',
       link: '',
@@ -809,7 +863,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Arts and Crafts Projects goal is to develop and showcase the creative talents of youth through arts and crafts, fostering self-expression, cultural appreciation, and economic opportunities through art-based entrepreneurship.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -824,10 +878,15 @@ var projectList = [
         elementSrc: 'assets/images/photo_gallery/trees-1140x570-min.jpg',
         elementAlt: 'individuals planting trees',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/tree/TreePlantingEvent.png',
+        elementAlt: 'photo of young tree stems',
+      },
     ],
     page_title: 'Tree Planting Project',
     mission:
-      'AYPAD Tree Planting Project discuss the importance of caring for locally planted trees in order to decrease soil erosion and to provide protection from strong winds and rain. Secondly, we plant fruit and other lucrative trees on the hill sites and flat lands that have been degenerated. During the tree planting, AYPAD volunteers link with local community youth and leaders to seek the best areas where trees can be planted and to ensure that these trees will be cared for.',
+      'The Tree Planting Project is on a mission to cultivate environmental consciousness among youth by involving them in tree planting initiatives that combat climate change, promote biodiversity, and ensure a healthier planet for future generations.',
     pdf: {
       title: '',
       link: '',
@@ -855,7 +914,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Tree Planting Projects goal is to involve youth in environmental conservation efforts by planting trees, promoting awareness on climate change, and fostering a culture of sustainability and environmental stewardship.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -874,7 +933,7 @@ var projectList = [
     ],
     page_title: 'Beautification Project',
     mission:
-      'AYPAD’s Beautification Project restores parks and open spaces while providing leadership and community service experiences for young people in Sierra Leone and beyond. Beautification service is a uniquely effective way to build community. When people put their hands into the dirt together and see their efforts, transform a threatened area into a more vibrant landscape, they forge a special bond. Young children quickly learn to appreciate the natural gardens they create.',
+      'The Beautification Project is on a mission to empower youth to enhance their communities by leading beautification projects that instill pride, foster creativity, and promote a clean and welcoming environment for all.',
     pdf: {
       title: '',
       link: '',
@@ -902,7 +961,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Beautification Projects goal is to engage youth in community beautification initiatives, instilling a sense of pride and responsibility for their surroundings, while enhancing the aesthetic appeal and livability of their communities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -930,10 +989,35 @@ var projectList = [
         elementAlt:
           'soccer team photo of young adult athletes, in uniform, before tournament',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer/soccerEvent.png',
+        elementAlt: 'soccer team tournament event photo',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer/soccerTeamPhoto.png',
+        elementAlt: 'soccer team photo',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer/soccerTeamStretching.png',
+        elementAlt: 'soccer team stretching their legs',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer/soccerTeamWarmingUp.png',
+        elementAlt: 'soccer team warming up for a game',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer/sportsEventPhoto.png',
+        elementAlt: 'teamates posing for a photograph',
+      },
     ],
     page_title: 'Sports Program',
     mission:
-      'AYPAD Sports program started with football project and developed into different sports categories later on such as handball, yoga, and hockey. The program was created to engage youth, many who live on the streets, into peaceful and peace-promoting activities which build skills in them and promotes physical, spiritual, and mental well-being.',
+      'The Sports Program is on a mission to harness the power of sports to inspire, motivate, and unify youth, promoting physical fitness, teamwork, leadership, and healthy competition for personal and communal growth.',
     pdf: {
       title: '',
       link: '',
@@ -961,7 +1045,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Sports Programs goal is to promote physical health, teamwork, and leadership skills among youth through sports activities, fostering social inclusion, discipline, and holistic development.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -977,10 +1061,28 @@ var projectList = [
           'assets/images/photo_gallery/Computers_Getty_565888301-min.jpg',
         elementAlt: 'two young adults sitting in front of a computer',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/skills/centerGettingReadyToRecieve.png',
+        elementAlt:
+          'photo of man taking a picture of skills training center before recieving people into their facility',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/skills/skillsTrainingCenter.png',
+        elementAlt:
+          'photo of skills training center before people arrived to the facility',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/skills/SkillsTrainingEvent.png',
+        elementAlt: 'photo of skills training center full of people',
+      },
     ],
     page_title: 'Skills Training Center',
     mission:
-      'AYPAD Skills Training Center is an initiative that seeks to provide youth with market driven technical job skills and training for the hospitality industry that will enable them to secure steady, well-paying jobs and become productive members of society in their community. Curriculum will include areas of focus such as tailoring, welding, auto mechanics, and carpentry. The Center provides personal and social competencies. Subset classes are foundational to the program which focus on English proficiency, Entrepreneurship and Leadership Development.',
+      'The Skills Training Center is on a mission to provide youth with comprehensive vocational training and skill development opportunities that bridge the gap between education and employment, empowering them to become self-reliant and economically productive.',
     pdf: {
       title: '',
       link: '',
@@ -1008,7 +1110,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Skills Training Centers goal is to provide vocational training in various trades, equipping youth with marketable skills that enhance employability and entrepreneurial potential.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1023,10 +1125,33 @@ var projectList = [
         elementSrc: 'assets/images/photo_gallery/children-min.png',
         elementAlt: 'photo of children laughing and smiling',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/street/streetChildrengathering.png',
+        elementAlt: 'photo of children gathered for a project',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/street/streetChildrenProject.png',
+        elementAlt: 'photo of children gathered for a project 2',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/street/streetChildrenTogether.png',
+        elementAlt: 'photo of group of children',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/street/streetChildrenPhoto.png',
+        elementAlt: 'photo of children',
+      },
     ],
     page_title: 'Street Children Program',
     mission:
-      'AYPAD Basic Education Project has the purpose of giving African street children access to education and thus reintegrating them into society. Due to the continent’s poor economic and social conditions, children often do not have access to education. The project counteracts this injustice by offering educational programs for children aged between 6 and 17. Furthermore, an individual curriculum that is tailored to the children’s special needs is developed with the aim of reintegrating the children into the educational system. The initiative reduces the risk of social exclusion and the threat of slipping into the abysses of crime. AYPAD hope the project will contributes significantly to the reduction of poverty in Africa. To escape the vicious circle of poverty, children have to be empowered and given access to high quality education. Our Filmmaking Project aims to promote education, inspire social change and encourage creative self-expression by teaching the basics of filmmaking: how to write, direct, act in, shoot and produce their own films. Additionally, students will be responsible for event management and marketing as well. The classes will offer a safe and stimulating learning environment where students can acquire valuable skills and knowledge which could be exceedingly beneficial for their education, and future earning ability. We strongly believe that Within the confines of the programme, children will be taught filmmaking techniques. They will gain practical and theoretical knowledge, learning from books and teachers who are trained and knowledgeable in filmmaking. To afford the necessary filmmaking tools and equipment, second hand products will be sought. A wide range of tools and equipment will be available so that the students have experience in learning about cameras, audio, lighting, directing, developing a story and scriptwriting among others.',
+      'The Street Children Program is on a mission to offer street children a pathway out of poverty and marginalization by providing shelter, education, and life skills, helping them build a better future and reintegrate into society.',
     pdf: {
       title: '',
       link: '',
@@ -1054,7 +1179,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Street Children Programs goal is to support and rehabilitate street children by providing shelter, education, and psychological support, enabling them to reintegrate into society and pursue meaningful futures.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1069,10 +1194,27 @@ var projectList = [
         elementSrc: 'assets/images/photo_gallery/hockey-min.png',
         elementAlt: 'team of hockey players practicing',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/hockey/hockeyPractice.png',
+        elementAlt: 'photo of young hockey team practice ',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/hockey/hockeyTournament_children.png',
+        elementAlt: 'photo of young hockey team tournament ',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/hockey/hockeyTournamentYoungAdults.png',
+        elementAlt: 'photo of young adult hockey team tournament ',
+      },
     ],
     page_title: 'Hockey Project',
     mission:
-      'AYPAD created the Hockey Project with a mission to expose the sport to thousands of young people while promoting peace through sport. Hockey is a relatively a new sport in Africa and with many young people living through hardship and deplorable conditions, the need to introduce the sport was timely as its engages young people to reduce the traumatic effects of War, Violence, Abuse and embrace peace while developing their unique hockey talents that can contribute meaningfully to societal growth. The project develops professionals, hockey players, coaches and managers to improve their knowledge on the game, skills, coaching techniques and the impact it has on a nations’ development. The focus is to use field hockey as a way to fulfill young people’s competitive spirit. The fast-paced nature of the sport makes it a great activity for young people to include in their exercise routine, whether looking for a recreational activity to play with friends or a more intense competition on a league team. Young people across our countries and communities will have the opportunity to play and be exposed to field hockey in their physical education class; they will have the option to continue to play with their local club. Our goal is to provide an avenue for young people to play hockey while having fun.',
+      'The Hockey Project is on a mission to introduce youth to the sport of hockey as a means of building discipline, teamwork, and resilience, fostering a sense of community, and promoting both physical and mental well-being.',
     pdf: {
       title: 'Hockey - Profile (pdf)',
       link: './assets/pdf/hockey_profile-compressed.pdf',
@@ -1100,7 +1242,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'To act as a crime prevention program that promotes education, physical activity, healthy lifestyles and social development for the youth (ages 6-21; boys and girls) throughout the African Continent using organized hockey. Team sports can communicate and transform the way people think and act. The task for AYPAD Hockey project is to find ways of incorporating sports into the work of peace building and to create a space where people in conflict can heal and reconcile through competitive team sports.',
+      goal: 'The Hockey Projects goal is to use hockey as a tool for social development, teaching teamwork, discipline, and resilience, while creating opportunities for youth to engage in positive recreational activities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1117,10 +1259,21 @@ var projectList = [
           'assets/images/photo_gallery/omotayo-tajudeen-zlZnNIS7eDk-unsplash-min.jpg',
         elementAlt: 'photo of micro-credit team associates',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/micro/microCreditEvent.png',
+        elementAlt: 'photo of Micro-Credit Event meeting ',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/micro/microCreditphoto.png',
+        elementAlt:
+          'photo of women walking with a flat package on their heads ',
+      },
     ],
     page_title: 'Micro-Credit Project',
     mission:
-      'The Micro-credit Project main thrust is to effect a revolving micro-credit scheme for womenmembers of AYPAD as a means of enchaining their economic empowerment. Obsessed with the desire to positively transform the lives and living conditions of vulnerable children (boy & girls) and women, AYPAD has been undertaken series of research and documentation of experiences together with suggested recommendations of street children and commercial sex workers, most of whom have subsequently been absorbed into AYPAD’s membership, and gradually acquired coping mechanism skills. AYPAD holds the view that women’s empowerment lies with that economic power and decision making abilities, which would also reflect positively on their lives and their families around them. The rationale of this request is to enhance the economic empowerment of the women members of AYPAD through the provision of revolving Micro-Credit scheme.',
+      'The Micro-Credit Project is on a mission to empower youth entrepreneurs with access to micro-credit, enabling them to launch or expand small businesses, create jobs, and contribute to economic development in their communities.',
     pdf: {
       title: '',
       link: '',
@@ -1148,7 +1301,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Micro-Credit Projects goal is to offer small loans and financial literacy training to economically disadvantaged youth, enabling them to start or expand their small businesses, fostering entrepreneurship, and reducing poverty.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1207,7 +1360,7 @@ var projectList = [
     ],
     page_title: 'Youth Farming Project',
     mission:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'The Youth Farming Project is on a mission to engage youth in sustainable farming practices, providing training and resources to cultivate crops and promote food security, economic stability, and self-sufficiency',
     pdf: {
       title: '',
       link: '',
@@ -1235,7 +1388,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Youth Farming Projects goal is to encourage youth participation in sustainable agricultural practices, promoting food security, and creating a pathway for rural development and economic independence.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1245,7 +1398,7 @@ var projectList = [
       'assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg',
     caption: 'Fish Farming Fundraiser',
     projectGoal:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.',
+      'The Fish Farming Fundraisers project goal is to train youth in aquaculture techniques, providing sustainable income opportunities while promoting food security and reducing reliance on traditional farming methods.',
     monies: [
       {
         raised: '5,000',
@@ -1261,10 +1414,15 @@ var projectList = [
           'assets/images/photo_gallery/uttam-kumar-roy-06GXlF9wE60-unsplash-min.jpg',
         elementAlt: 'photo of school of fish in a pool',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/fish/fundraiser.png',
+        elementAlt: 'photo of fundraiser team meeting',
+      },
     ],
     page_title: 'Fish Frenzy Fundraiser',
     mission:
-      '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      'The Fish Farming Fundraiser is on a mission to support youth in generating income through sustainable fish farming practices, providing education on aquaculture, entrepreneurship, and environmental stewardship to build resilient communities.',
     pdf: {
       title: '',
       link: '',
@@ -1292,7 +1450,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Fish Farming Fundraisers goal is to train youth in aquaculture techniques, providing sustainable income opportunities while promoting food security and reducing reliance on traditional farming methods.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1309,10 +1467,20 @@ var projectList = [
           'assets/images/photo_gallery/young-black-camera-operator-filming-with-highend-camera-dim-studio_117038-25943-min.jpg',
         elementAlt: 'photo of corn crop',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/film/filmakingEvent.png',
+        elementAlt: 'photo of filmmaking team meeting',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/film/filmingAVideo.png',
+        elementAlt: 'photo of filmmaking team making a video',
+      },
     ],
     page_title: 'Filmmaking Project',
     mission:
-      'Our Filmmaking Project aims to promote education, inspire social change and encourage creative self-expression by teaching the basics of filmmaking: how to write, direct, act in, shoot and produce their own films. Additionally, students will be responsible for event management and marketing as well. The classes will offer a safe and stimulating learning environment where students can acquire valuable skills and knowledge which could be exceedingly beneficial for their education, and future earning ability. We strongly believe that within the confines of the programme, children will be taught filmmaking techniques. They will gain practical and theoretical knowledge, learning from books and teachers who are trained and knowledgeable in filmmaking. To afford the necessary filmmaking tools and equipment, second hand products will be sought. A wide range of tools and equipment will be available so that the students have experience in learning about cameras, audio, lighting, directing, developing a story and scriptwriting among others.',
+      'The Filmmaking Project is on a mission to amplify youth voices through the art of filmmaking, nurturing creativity while addressing social issues and promoting cultural exchange ',
     pdf: {
       title: '',
       link: '',
@@ -1340,7 +1508,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      goal: 'The Filmmaking Projects goal is to harness the creative potential of youth in the film industry, providing training in storytelling, production, and editing, and enabling them to voice their stories and advocate for social change.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
