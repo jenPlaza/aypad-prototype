@@ -53,21 +53,21 @@ if (page == 'story.html') {
       imgAlt: 'mustard color piggy bank icon',
       cardTitle: 'Give a Donation',
       cardText:
-        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+        'Donate today and help us achieve our missions empowering the youth of today. Your generosity will empower us to make a lifelong impact in our community. Thank you for continuing to be our support.',
     },
     {
       imgSrc: './assets/images/icons/donation/handshake.png',
       imgAlt: 'white color handshake icon',
       cardTitle: 'Become a Volunteer',
       cardText:
-        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+        'Thanks to your continuous support, we’ve provided essential supplies to families in need. Helped train and cultivate skills. Helped shape entrepreneurship and stregthen futures. With your help we will continue to reach even more people.',
     },
     {
       imgSrc: './assets/images/icons/donation/graduation-cap.png',
       imgAlt: 'mustard color scholarship cap icon',
       cardTitle: 'Give a Scolarship',
       cardText:
-        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+        'Your gift helps create real change. Donate today and give a scholarship to a child or young adult via any of these projects; Basic Education Project, Skills Training Center, Street Children Program, or Micro-Credit Project.',
     },
   ];
   //-----------------GET INVOLVED-------------//

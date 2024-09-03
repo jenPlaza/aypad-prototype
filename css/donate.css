@@ -1,6 +1,6 @@
 /*-----------------------MAIN ----*/
 main {
-  height: 1215px;
+  height: 1325px;
   position: relative;
 }
 div#top_banner {
@@ -47,6 +47,7 @@ section ul#getInvolved li {
   margin-bottom: 3%;
   background-color: white;
   width: 97%;
+  height: 255px;
 }
 section ul#getInvolved li:nth-child(2) {
   background-color: #eeb847;
@@ -173,8 +174,11 @@ section#donate_gallery p {
     position: absolute !important;
     top: 80%;
   }
+  section ul#getInvolved li {
+    height: auto;
+  }
   main {
-    height: 1080px;
+    height: 1100px;
   }
   section#about div figure {
     height: 300px;
@@ -191,7 +195,7 @@ section#donate_gallery p {
 }
 @media screen and (min-width: 768px) {
   main {
-    height: 725px;
+    height: 790px;
   }
   section ul#getInvolved {
     display: flex;
@@ -201,7 +205,7 @@ section#donate_gallery p {
   }
   section ul#getInvolved li {
     width: 33%;
-    height: 278px;
+    height: 345px;
   }
   a.donateBtn {
     display: block;
@@ -258,7 +262,7 @@ section#donate_gallery p {
 }
 @media screen and (min-width: 992px) {
   main {
-    height: 669px;
+    height: 725px;
   }
   section#about div figure {
     background-position: left 0px top -45px;
@@ -278,7 +282,10 @@ section#donate_gallery p {
     width: 22%;
   }
   section ul#getInvolved li {
-    height: 235px;
+    height: 275px;
+  }
+  section ul#getInvolved li article h4 em {
+    white-space: nowrap;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -297,7 +304,7 @@ section#donate_gallery p {
     padding: 6%;
   }
   section ul#getInvolved li {
-    height: 278px;
+    height: 290px;
   }
   /*-----------------------ABOUT ----*/
   section#about {
