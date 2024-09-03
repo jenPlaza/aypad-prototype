@@ -110,7 +110,7 @@ if (page == 'story.html') {
     newDonate +=
       '<div><p><b>' +
       projectList[i].page_title +
-      '</b> ' +
+      's</b> goal is ' +
       projectList[i].donate.goal +
       '</p><br />';
     newDonate +=

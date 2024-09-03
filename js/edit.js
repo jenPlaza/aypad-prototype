@@ -454,7 +454,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Snail Farming Projects goal is to train youth in sustainable snail farming techniques, providing an alternative source of income and promoting food security while fostering entrepreneurship in local communities.',
+      goal: 'to train youth in sustainable snail farming techniques, providing an alternative source of income and promoting food security while fostering entrepreneurship in local communities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -512,7 +512,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Waste Management Projects goal is to educate and engage youth in innovative waste management practices, reducing environmental pollution, and promoting recycling and eco-friendly lifestyles.',
+      goal: 'to educate and engage youth in innovative waste management practices, reducing environmental pollution, and promoting recycling and eco-friendly lifestyles.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -636,7 +636,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Piggery Projects goal is to equip youth with the skills to manage pig farms effectively, creating sustainable livelihood opportunities and enhancing economic resilience through agricultural entrepreneurship.',
+      goal: 'to equip youth with the skills to manage pig farms effectively, creating sustainable livelihood opportunities and enhancing economic resilience through agricultural entrepreneurship.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -695,7 +695,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Cultural Programs goal is to preserve and promote cultural heritage by engaging youth in cultural education, fostering a sense of identity, pride, and unity across communities.',
+      goal: 'to preserve and promote cultural heritage by engaging youth in cultural education, fostering a sense of identity, pride, and unity across communities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -810,7 +810,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Basic Education Projects goal is to provide access to foundational education for disadvantaged youth, improving literacy rates and creating pathways to further education and employment opportunities.',
+      goal: 'to provide access to foundational education for disadvantaged youth, improving literacy rates and creating pathways to further education and employment opportunities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -863,7 +863,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Arts and Crafts Projects goal is to develop and showcase the creative talents of youth through arts and crafts, fostering self-expression, cultural appreciation, and economic opportunities through art-based entrepreneurship.',
+      goal: 'to develop and showcase the creative talents of youth through arts and crafts, fostering self-expression, cultural appreciation, and economic opportunities through art-based entrepreneurship.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -914,7 +914,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Tree Planting Projects goal is to involve youth in environmental conservation efforts by planting trees, promoting awareness on climate change, and fostering a culture of sustainability and environmental stewardship.',
+      goal: 'to involve youth in environmental conservation efforts by planting trees, promoting awareness on climate change, and fostering a culture of sustainability and environmental stewardship.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -961,7 +961,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Beautification Projects goal is to engage youth in community beautification initiatives, instilling a sense of pride and responsibility for their surroundings, while enhancing the aesthetic appeal and livability of their communities.',
+      goal: 'to engage youth in community beautification initiatives, instilling a sense of pride and responsibility for their surroundings, while enhancing the aesthetic appeal and livability of their communities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1045,7 +1045,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Sports Programs goal is to promote physical health, teamwork, and leadership skills among youth through sports activities, fostering social inclusion, discipline, and holistic development.',
+      goal: 'to promote physical health, teamwork, and leadership skills among youth through sports activities, fostering social inclusion, discipline, and holistic development.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1110,7 +1110,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Skills Training Centers goal is to provide vocational training in various trades, equipping youth with marketable skills that enhance employability and entrepreneurial potential.',
+      goal: 'to provide vocational training in various trades, equipping youth with marketable skills that enhance employability and entrepreneurial potential.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1179,7 +1179,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Street Children Programs goal is to support and rehabilitate street children by providing shelter, education, and psychological support, enabling them to reintegrate into society and pursue meaningful futures.',
+      goal: 'to support and rehabilitate street children by providing shelter, education, and psychological support, enabling them to reintegrate into society and pursue meaningful futures.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1242,7 +1242,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Hockey Projects goal is to use hockey as a tool for social development, teaching teamwork, discipline, and resilience, while creating opportunities for youth to engage in positive recreational activities.',
+      goal: 'to use hockey as a tool for social development, teaching teamwork, discipline, and resilience, while creating opportunities for youth to engage in positive recreational activities.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1301,7 +1301,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Micro-Credit Projects goal is to offer small loans and financial literacy training to economically disadvantaged youth, enabling them to start or expand their small businesses, fostering entrepreneurship, and reducing poverty.',
+      goal: 'to offer small loans and financial literacy training to economically disadvantaged youth, enabling them to start or expand their small businesses, fostering entrepreneurship, and reducing poverty.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1388,7 +1388,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Youth Farming Projects goal is to encourage youth participation in sustainable agricultural practices, promoting food security, and creating a pathway for rural development and economic independence.',
+      goal: 'to encourage youth participation in sustainable agricultural practices, promoting food security, and creating a pathway for rural development and economic independence.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1450,7 +1450,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Fish Farming Fundraisers goal is to train youth in aquaculture techniques, providing sustainable income opportunities while promoting food security and reducing reliance on traditional farming methods.',
+      goal: 'to train youth in aquaculture techniques, providing sustainable income opportunities while promoting food security and reducing reliance on traditional farming methods.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
@@ -1508,7 +1508,7 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'The Filmmaking Projects goal is to harness the creative potential of youth in the film industry, providing training in storytelling, production, and editing, and enabling them to voice their stories and advocate for social change.',
+      goal: 'to harness the creative potential of youth in the film industry, providing training in storytelling, production, and editing, and enabling them to voice their stories and advocate for social change.',
       href: 'https://rb.gy/rdjlhx',
     },
   },
