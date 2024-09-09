@@ -268,9 +268,9 @@ if (page == 'story.html') {
   // console.log('endDate:', endDate);
   // console.log('thisYear: ', thisYear);
   // console.log('nextYear: ', nextYear);
-  // console.log('hoy: ', hoy);
+  console.log('hoy: ', hoy);
   // console.log('futureStartDate: ', futureStartDate);
-  // console.log('futureEndDate: ', futureEndDate);
+  console.log('futureEndDate: ', futureEndDate);
 
   newProject += '<section id="event"><div class="event_info">';
 
@@ -297,20 +297,25 @@ if (page == 'story.html') {
       '<p style="color:#eeb847;text-transform: uppercase;"><b>&nbsp;Upcoming </b></p>';
   }
   newProject += '</div>';
-  newProject +=
-    '<div><div><label>' +
-    projectList[a].event_information[2].label +
-    '</label>';
-  newProject +=
-    '<p><b>&nbsp;' +
-    projectList[a].event_information[2].input_text +
-    '</b></p></div>';
-  newProject +=
-    '<div><label>' + projectList[a].event_information[3].label + '</label>';
-  newProject +=
-    '<p><b>&nbsp;' +
-    projectList[a].event_information[3].input_text +
-    '</b></p></div></div>';
+  if (hoy > futureEndDate) {
+    startdate = '';
+    endDate = '';
+  } else {
+    newProject +=
+      '<div><div><label>' +
+      projectList[a].event_information[2].label +
+      '</label>';
+    newProject +=
+      '<p><b>&nbsp;' +
+      projectList[a].event_information[2].input_text +
+      '</b></p></div>';
+    newProject +=
+      '<div><label>' + projectList[a].event_information[3].label + '</label>';
+    newProject +=
+      '<p><b>&nbsp;' +
+      projectList[a].event_information[3].input_text +
+      '</b></p></div></div>';
+  }
 
   for (var evt = 4; evt < projectList[a].event_information.length; evt++) {
     newProject +=

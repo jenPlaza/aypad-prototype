@@ -474,7 +474,7 @@ var projectList = [
       },
       {
         label: 'Start Date',
-        input_text: '9/9/2024',
+        input_text: '9/8/2024',
       },
       {
         label: 'End Date',
@@ -1889,16 +1889,46 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
-        elementAlt: 'image placeholder',
+        elementSrc: 'assets/images/story_event/trainerIntl/objectives.png',
+        elementAlt: 'objectives',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/trainerIntl/classSchedule.png',
+        elementAlt: 'classSchedule.png',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/trainerIntl/duhaye.png',
+        elementAlt: 'photo of Ms. duhaye',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/trainerIntl/josephMbuga.png',
+        elementAlt: 'photo of Mr. josephMbuga',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/trainerIntl/nkhoma.png',
+        elementAlt: 'photo of Mr. nkhoma',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/trainerIntl/twinamasiko.png',
+        elementAlt: 'photo of Mr. twinamasiko',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/trainerIntl/contact.png',
+        elementAlt: 'contact.png',
       },
     ],
     page_title: 'Trainer International Project',
     mission:
-      'Derived from the phrase Training in Research and Implementation in the New-world Era, Trainer International is a web-based educational programme offering short courses to students and young professionals through an international class environment wanting to improve their research and implementation skills.',
+      'FISORI is committed to nurturing a dynamic ecosystem of research excellence and practical application across borders. We empower scholars, practitioners, and policymakers to collaborate, innovate, and implement sustainable solutions addressing the worlds most pressing challenges',
     pdf: {
-      title: '',
-      link: '',
+      title: 'APPLY NOW',
+      link: 'https://www.fisori.org/application-form',
     },
     event_information: [
       {
@@ -1915,7 +1945,7 @@ var projectList = [
       },
       {
         label: 'End Date',
-        input_text: '9/8/2024',
+        input_text: '12/31/2025',
       },
       {
         label: 'Event Location',
@@ -1935,8 +1965,8 @@ var projectList = [
       },
     ],
     donate: {
-      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
-      href: 'https://www.google.com/',
+      goal: 'to be a global leader in fostering cutting-edge research and catalyzing its practical implementation, empowering societies worldwide with innovative solutions that drive progress and positive change.',
+      href: 'https://rb.gy/rdjlhx',
     },
   },
 ];
