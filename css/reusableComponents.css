@@ -560,10 +560,6 @@ footer h4 em {
   #partners h2 {
     padding-bottom: 0;
   }
-  ul.rotate li {
-    -webkit-animation: none;
-    -moz-animation: none;
-  }
   footer {
     height: 70px;
     padding: 0 1% 1% 1%;

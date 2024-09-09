@@ -198,8 +198,13 @@ div#top_banner figure {
   padding: 2% 5%;
   align-self: center;
 }
+#un.partners_layout div {
+  display: none;
+}
 #freya img,
-#trueTalk img {
+#trueTalk img,
+#un img,
+#unv img {
   width: 100%;
   height: 100%;
 }
@@ -209,7 +214,8 @@ div#top_banner figure {
   color: #fe9933;
   font: normal small-caps bold 48px/1.4 'Fraunces', serif;
 }
-.truTalk div {
+.truTalk div,
+.unv div {
   order: 2;
 }
 #true_talk_articles {
@@ -307,13 +313,23 @@ div#top_banner figure {
   #partners {
     padding: 3% 3% 7% 3%;
   }
+  #un.partners_layout div {
+    display: block;
+  }
   #freya img,
   #trueTalk img {
     width: 250px;
     height: 225px;
     border-radius: 49px;
   }
-  .truTalk div {
+  #un img,
+  #unv img {
+    width: 100%;
+    height: 225px;
+    border-radius: 49px;
+  }
+  .truTalk div,
+  .unv div {
     order: inherit;
   }
   #true_talk_articles {
@@ -382,10 +398,15 @@ div#top_banner figure {
     height: 450px;
   }
   .partners_layout {
-    width: auto;
+    width: 100%;
     height: 35%;
     flex-wrap: nowrap;
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  #un.partners_layout {
+    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -477,8 +498,16 @@ div#top_banner figure {
     width: 27vw;
   }
   #freya img,
-  #trueTalk img {
+  #trueTalk img,
+  #un img,
+  #unv img {
     width: 250px;
+    height: 225px;
+    border-radius: 49px;
+  }
+  #un img,
+  #unv img {
+    width: 100%;
     height: 225px;
     border-radius: 49px;
   }

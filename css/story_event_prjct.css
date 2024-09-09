@@ -84,6 +84,9 @@ section#story {
   font-size: smaller;
   margin-bottom: 5%;
 }
+#event div.event_info div:nth-child(3) {
+  flex-direction: column;
+}
 #event div.event_info div {
   display: flex;
   width: 100%;
@@ -279,6 +282,9 @@ section#fundraise h4 em {
   main#inAction:has(#story_banner div.project) #event .social_media {
     flex-direction: column;
   }
+  #event div.event_info div:nth-child(3) {
+    flex-direction: row;
+  }
   #event div.event_info {
     width: 750px;
   }
@@ -287,6 +293,9 @@ section#fundraise h4 em {
   }
   #event div.event_info {
     margin-bottom: 5%;
+  }
+  #event div.event_info div:nth-child(3) div:nth-child(2) label {
+    text-align: center;
   }
   footer div {
     margin-bottom: 0;

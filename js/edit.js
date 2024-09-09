@@ -345,6 +345,18 @@ var logoArray = [
     img_alt: 'Youth Partnership for Peace and Development logo',
     img_caption: 'Youth Partnership for Peace and Development',
   },
+  {
+    link_href: 'https://www.un.org/en/',
+    img_src: './assets/images/partners/uniteNations_logo.png',
+    img_alt: 'United Nations logo',
+    img_caption: 'United Nations',
+  },
+  {
+    link_href: 'https://www.unv.org/',
+    img_src: './assets/images/partners/UNV_logo.jpg',
+    img_alt: 'United Nations Volunteers logo',
+    img_caption: 'United Nations Volunteers',
+  },
 ];
 
 //4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format). SEE listEntry_example.js FILE FOR AN EXAMPLE.
@@ -414,14 +426,32 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/snailFarming/snailCloseup.png',
-        elementAlt: 'closeup of a large snail',
+        elementSrc:
+          'assets/images/story_event/snailFarming/feedingTheSnails.jpeg',
+        elementAlt: 'snail team feeding the snails',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/snailFarming/snailsEatingLettuce.png',
-        elementAlt: 'snail eating lettuce',
+          'assets/images/story_event/snailFarming/snailEatingGrassAndLettuce.jpeg',
+        elementAlt: 'snail eating grass and lettuce',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/snailFarming/snailFarm.jpeg',
+        elementAlt: 'photo of snail facility',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/snailFarming/snailFarmingPamplet.jpeg',
+        elementAlt: 'photo of Snail Farming Pamplet',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/snailFarming/snailsEatingCucumber.jpeg',
+        elementAlt: 'photo of snails Eating Cucumber',
       },
     ],
     page_title: 'Snail Farming Project',
@@ -435,6 +465,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Snail Farming Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -481,6 +523,12 @@ var projectList = [
           'assets/images/story_event/wasteMgmt/boyWithWheelBarrelFullOfWaste.png',
         elementAlt: 'photo of young boy with a wheel barrel full of waste',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/wasteMgmt/GroupPictureOfwasteMangmentTeamCleaningtrash.jpeg',
+        elementAlt: 'Group Picture Of waste Mangment Team Cleaning trash',
+      },
     ],
     page_title: 'Waste Management Project',
     mission:
@@ -493,6 +541,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Waste Management Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -619,6 +679,18 @@ var projectList = [
         input_text: 'Piggery Event',
       },
       {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
+      },
+      {
         label: 'Event Location',
         input_text: 'Freetown, Sierra Leone',
       },
@@ -676,6 +748,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Cultural Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -779,6 +863,17 @@ var projectList = [
           'assets/images/story_event/basicEdu/highSchoolersInUniform.png',
         elementAlt: 'High Schoolers in school uniform',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/basicEdu/GroupPicture.jpeg',
+        elementAlt: 'photo of group',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/basicEdu/SecondarySchools_event_Banner.jpeg',
+        elementAlt: 'photo of Secondary Schools Event banner',
+      },
     ],
     page_title: 'Basic Education Project',
     mission:
@@ -791,6 +886,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Education Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -832,6 +939,36 @@ var projectList = [
         elementSrc: 'assets/images/story_event/arts/artsCraftsGathering.png',
         elementAlt: 'Gathering of local artists at an Arts and Crafts event',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/arts/EventPicture.jpeg',
+        elementAlt: 'Event Picture',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/arts/artsAndCraftsEvent_measuringPlasticContinerWidth.jpeg',
+        elementAlt: 'arts And Crafts Event measuring Plastic Continer Width',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/arts/ACEvent_wrapingPlasticContainerWidthCloth.jpeg',
+        elementAlt: 'ACEvent wraping Plastic Container Width Cloth',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/arts/ACEvent_measuringPlasticContainerWidth.jpeg',
+        elementAlt: 'ACEvent measuring Plastic Container Width',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/arts/ACEvent_childrenTakingPhotgraphOfFinishedShakerBottlesProject.jpeg',
+        elementAlt:
+          'ACEvent children Taking Photgraph Of Finished Shaker Bottles Project',
+      },
     ],
     page_title: 'Art and Craft Project',
     mission:
@@ -844,6 +981,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Crafting Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -883,6 +1032,24 @@ var projectList = [
         elementSrc: 'assets/images/story_event/tree/TreePlantingEvent.png',
         elementAlt: 'photo of young tree stems',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/tree/treePlantingEventTeamGettingFieldReadyForPlanting.jpeg',
+        elementAlt: 'tree Planting Event Team Getting Field Ready For Planting',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/tree/MenPrePrepNewFiledforPlanting.jpeg',
+        elementAlt: 'Men Prepping New Filed for Planting',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/tree/ManPreparingNewFieldForPlanting.jpeg',
+        elementAlt: 'Man Preparing New Field For Planting',
+      },
     ],
     page_title: 'Tree Planting Project',
     mission:
@@ -895,6 +1062,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Eventurist Forest: Join The Fun',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -942,6 +1121,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'KEEP BEAUTIFUL',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -1014,6 +1205,23 @@ var projectList = [
         elementSrc: 'assets/images/story_event/soccer/sportsEventPhoto.png',
         elementAlt: 'teamates posing for a photograph',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/soccer/photoOf3BoysOfASoccerTeam.jpeg',
+        elementAlt: 'photo Of 3 Boys Of A Soccer Team',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/soccer/SoccerTeamPhoto.jpeg',
+        elementAlt: 'Soccer Team Photo',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/soccer/soccerTeamPhotoOf3Boys.jpeg',
+        elementAlt: 'teamates posing for a photograph',
+      },
     ],
     page_title: 'Sports Program',
     mission:
@@ -1026,6 +1234,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Sports Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -1091,6 +1311,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Skills Training Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -1162,6 +1394,18 @@ var projectList = [
         input_text: 'LETS FEED OUR CHILDREN',
       },
       {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
+      },
+      {
         label: 'Event Location',
         input_text: 'Freetown, Sierra Leone',
       },
@@ -1211,6 +1455,24 @@ var projectList = [
           'assets/images/story_event/hockey/hockeyTournamentYoungAdults.png',
         elementAlt: 'photo of young adult hockey team tournament ',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/hockey/photoBeforeHockeyTornament.jpeg',
+        elementAlt: 'photo Before Hockey Tornament',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/hockey/photobeforeHockeyTornament_2.jpeg',
+        elementAlt: 'photo before Hockey Tornament 2',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/hockey/groupPictureOfHockeyTeamPlayer.jpeg',
+        elementAlt: 'group Picture Of Hockey Team Player',
+      },
     ],
     page_title: 'Hockey Project',
     mission:
@@ -1223,6 +1485,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Hockey Tournament',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -1282,6 +1556,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Micro-Credit Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -1357,6 +1643,30 @@ var projectList = [
         elementAlt:
           'AYPAD Youth Farming Project event photo - walking the fields',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/youthFarming/photoOfCornFields.jpeg',
+        elementAlt: 'photo Of Corn Fields',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/youthFarming/GroupOfYoungAdultsAttendingAVegetableField.jpeg',
+        elementAlt: 'Group Of Young Adults Attending A Vegetable Field',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/youthFarming/fieldOflettuceBeingAttendedByAYoungAfricanMan.jpeg',
+        elementAlt: 'field Of lettuce Being Attended By A Young African Man',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/youthFarming/closeupPhotoOfABigGreenLeaf.jpeg',
+        elementAlt: 'closeup Photo Of A Big Green Leaf',
+      },
     ],
     page_title: 'Youth Farming Project',
     mission:
@@ -1369,6 +1679,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Youth Farming Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',
@@ -1433,6 +1755,18 @@ var projectList = [
         input_text: 'Fish Frenzy Fundraiser',
       },
       {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
+      },
+      {
         label: 'Event Location',
         input_text: 'Freetown, Sierra Leone',
       },
@@ -1477,6 +1811,22 @@ var projectList = [
         elementSrc: 'assets/images/story_event/film/filmingAVideo.png',
         elementAlt: 'photo of filmmaking team making a video',
       },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/film/ViewFromTheCamera.jpeg',
+        elementAlt: 'View From The Camera',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/story_event/film/closeupOfChildrenFilmingSomething.jpeg',
+        elementAlt: 'closeup Of Children Filming Something',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/film/boysFilmingFromCamera.jpeg',
+        elementAlt: 'boys Filming From camera',
+      },
     ],
     page_title: 'Filmmaking Project',
     mission:
@@ -1489,6 +1839,18 @@ var projectList = [
       {
         label: 'Event Title',
         input_text: 'Filmmaking Event',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
       },
       {
         label: 'Event Location',

@@ -9,6 +9,10 @@ const page = href.split('/aypad/');
 page.shift();
 //console.log('page: ', page); //story.html / story_event.html?id=waste
 
+let todaysDate = new Date().toLocaleDateString();
+//testing
+//console.log(todaysDate);
+
 //------------------STORY----------------------------//
 if (page == 'story.html') {
   //-------------html replacement for story.html
@@ -230,8 +234,85 @@ if (page == 'story.html') {
   }
   newProject += '</section>';
   //event information
+  //calculating dates
+  let todaysDate = new Date().toLocaleDateString();
+  let startDate = projectList[a].event_information[2].input_text;
+  let endDate = projectList[a].event_information[3].input_text;
+
+  let today = new Date(todaysDate);
+  let firstDay = new Date(startDate);
+  let lastDay = new Date(endDate);
+
+  const year = new Date();
+  let thisYear = year.getFullYear();
+
+  const yearNext = new Date(endDate);
+  let nextYear = yearNext.getFullYear();
+
+  //calculating days of the year/ todat, startDate, and endDate
+  let hoy =
+    Math.ceil((today - new Date(today.getFullYear(), 0, 1)) / 86400000) + 1;
+
+  let futureStartDate = Math.ceil(
+    (firstDay - new Date(firstDay.getFullYear(), 0, 1)) / 86400000 + 1
+  );
+
+  let futureEndDate = Math.ceil(
+    (lastDay - new Date(lastDay.getFullYear(), 0, 1)) / 86400000 + 1
+  );
+
+  //testing
+  //let hoy = 300;
+  // console.log('todaysDate:', todaysDate);
+  // console.log('startDate:', startDate);
+  // console.log('endDate:', endDate);
+  // console.log('thisYear: ', thisYear);
+  // console.log('nextYear: ', nextYear);
+  // console.log('hoy: ', hoy);
+  // console.log('futureStartDate: ', futureStartDate);
+  // console.log('futureEndDate: ', futureEndDate);
+
   newProject += '<section id="event"><div class="event_info">';
-  for (var evt = 0; evt < projectList[a].event_information.length; evt++) {
+
+  newProject +=
+    '<div><label>' + projectList[a].event_information[0].label + '</label>';
+  newProject +=
+    '<p style="text-transform: uppercase;"><b>&nbsp;' +
+    projectList[a].event_information[0].input_text +
+    '</b></p></div>';
+  newProject +=
+    '<div><label>' + projectList[a].event_information[1].label + '</label>';
+
+  if (
+    (todaysDate == startDate || hoy >= futureStartDate) &&
+    hoy <= futureEndDate
+  ) {
+    newProject +=
+      '<p style="color:green;text-transform: uppercase;"><b>&nbsp;Ongoing </b></p>';
+  } else if (hoy > futureEndDate) {
+    newProject +=
+      '<p style="color:red; text-transform: uppercase;"><b>&nbsp;Completed </b></p>';
+  } else {
+    newProject +=
+      '<p style="color:#eeb847;text-transform: uppercase;"><b>&nbsp;Upcoming </b></p>';
+  }
+  newProject += '</div>';
+  newProject +=
+    '<div><div><label>' +
+    projectList[a].event_information[2].label +
+    '</label>';
+  newProject +=
+    '<p><b>&nbsp;' +
+    projectList[a].event_information[2].input_text +
+    '</b></p></div>';
+  newProject +=
+    '<div><label>' + projectList[a].event_information[3].label + '</label>';
+  newProject +=
+    '<p><b>&nbsp;' +
+    projectList[a].event_information[3].input_text +
+    '</b></p></div></div>';
+
+  for (var evt = 4; evt < projectList[a].event_information.length; evt++) {
     newProject +=
       '<div><label>' + projectList[a].event_information[evt].label + '</label>';
     newProject +=
