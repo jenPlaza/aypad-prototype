@@ -392,6 +392,8 @@ if (projectId == 'snail') {
   x = 14;
 } else if (projectId == 'film') {
   x = 15;
+} else if (projectId == 'trainerIntl') {
+  x = 16;
 }
 
 //5.- STORY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.  SEE listEntry_example.js FILE FOR AN EXAMPLE.
@@ -1872,6 +1874,69 @@ var projectList = [
     donate: {
       goal: 'to harness the creative potential of youth in the film industry, providing training in storytelling, production, and editing, and enabling them to voice their stories and advocate for social change.',
       href: 'https://rb.gy/rdjlhx',
+    },
+  },
+  {
+    id: 'trainerIntl',
+    cover: 'assets/images/photo_gallery/trainerIntl.png',
+    caption: 'Trainer International Project',
+    banner: '',
+    flow_element: [
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/photo_gallery/trainerIntl.png',
+        elementAlt: 'photo of corn crop',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/photo_gallery/image_placeholder-min.png',
+        elementAlt: 'image placeholder',
+      },
+    ],
+    page_title: 'Trainer International Project',
+    mission:
+      'Derived from the phrase Training in Research and Implementation in the New-world Era, Trainer International is a web-based educational programme offering short courses to students and young professionals through an international class environment wanting to improve their research and implementation skills.',
+    pdf: {
+      title: '',
+      link: '',
+    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'text',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '9/8/2024',
+      },
+      {
+        label: 'Event Location',
+        input_text: 'text',
+      },
+      {
+        label: 'Contact Name',
+        input_text: 'Larry Smith',
+      },
+      {
+        label: 'Contact Phone',
+        input_text: '(234)567-5678',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'larry@nomail.com',
+      },
+    ],
+    donate: {
+      goal: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.',
+      href: 'https://www.google.com/',
     },
   },
 ];
