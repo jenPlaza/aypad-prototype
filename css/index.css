@@ -91,9 +91,10 @@ div#top_banner figure {
   width: 100%;
   height: 100%;
   flex-wrap: wrap;
-  padding: 10% 3% 2% 3%;
+  padding: 3%;
   position: relative;
   display: flex;
+  align-content: space-evenly;
 }
 #story header h1,
 #story header h3 {
@@ -344,10 +345,10 @@ div#top_banner figure {
     height: 500px;
   }
   #story header {
-    height: 30vh;
+    height: 300px;
   }
   #story header h2 {
-    margin: 0% auto 0 auto;
+    margin: 2% auto 0 auto;
     order: inherit;
   }
   .row {
@@ -528,5 +529,24 @@ div#top_banner figure {
   }
   #contact .form iframe {
     height: 475px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #story header {
+    width: 75%;
+  }
+  div#top_banner {
+    height: 650px;
+  }
+  div#top_banner figure {
+    background-position: right 0px top -270px;
+  }
+}
+@media screen and (min-width: 2400px) {
+  div#top_banner {
+    height: 650px;
+  }
+  div#top_banner figure {
+    background-position: right 0px top -360px;
   }
 }

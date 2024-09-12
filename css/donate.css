@@ -355,3 +355,24 @@ section#donate_gallery p {
     width: 18%;
   }
 }
+@media screen and (min-width: 1600px) {
+  a.donateBtn:first-of-type {
+    margin-top: -4%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  section#about div figure {
+    height: 400px;
+    margin-top: -5%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  section#donate_gallery ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 50px;
+  }
+  section#donate_gallery ul li article div a.donateBtn {
+    width: 25%;
+  }
+}

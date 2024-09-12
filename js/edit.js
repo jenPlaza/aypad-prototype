@@ -157,6 +157,24 @@ var flyerArray = [
     event_contact_phone: '(234)567-5678',
     event_contact_email: 'larry@nomail.com',
   },
+  {
+    id: '6_volunteer',
+    web_flyer_img_style:
+      'background: url(./assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner.jpg) no-repeat top center / 100% 100%;background-size: cover; margin-bottom: 3%; margin-bottom: 3%;',
+    flyer_img_src:
+      '////' +
+      newPath +
+      '/aypad/assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner.jpg" width="100%" height="35%',
+    flyer_img_alt: 'pieces of newspapers around the world',
+    flyer_event_desc:
+      'True Talk News is looking for volunteers. If you are Interested in  joining our team, we would love to have you.',
+    event_address: 'Freetown, Sierra Leone',
+    event_time: 'TBA',
+    event_title: 'VOLUNTEER WITH US - AN ONGOING PROJECT',
+    event_contact_name: 'True Talk Team',
+    event_contact_phone: 'N/A',
+    event_contact_email: 'truetalknews1@gmail.com',
+  },
 ];
 
 //2.- True Talk articles
@@ -394,6 +412,8 @@ if (projectId == 'snail') {
   x = 15;
 } else if (projectId == 'trainerIntl') {
   x = 16;
+} else if (projectId == 'truetalk') {
+  x = 17;
 }
 
 //5.- STORY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.  SEE listEntry_example.js FILE FOR AN EXAMPLE.
@@ -1967,6 +1987,75 @@ var projectList = [
     donate: {
       goal: 'to be a global leader in fostering cutting-edge research and catalyzing its practical implementation, empowering societies worldwide with innovative solutions that drive progress and positive change.',
       href: 'https://rb.gy/rdjlhx',
+    },
+  },
+  {
+    id: 'truetalk',
+    cover:
+      'assets/images/photo_gallery/roman-kraft-_Zua2hyvTBk-unsplash-min.jpg',
+    caption: 'True Talk News',
+    banner:
+      'assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner.jpg',
+    flow_element: [
+      {
+        elementClass: 'imagenes',
+        elementSrc:
+          'assets/images/photo_gallery/roman-kraft-_Zua2hyvTBk-unsplash-min.jpg',
+        elementAlt: 'photo of true talk landing page section',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/TrueTalk/trueTalkVision.png',
+        elementAlt: 'get Mobile app',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/TrueTalk/getMobile.png',
+        elementAlt: 'get Mobile app',
+      },
+      {
+        elementClass: 'imagenes',
+        elementSrc: 'assets/images/story_event/TrueTalk/contactTrueTalk.png',
+        elementAlt: 'true talk contact information',
+      },
+    ],
+    page_title: 'True Talk News',
+    mission:
+      'True Talk News is developed by Africa Youth for Peace and Development in Partnership with The United nations. The goal of this  is to provide credible news reports to our numerous readers around the world. With a team of qualified, and dedicated , reporters, journalist and editors, we make the news worth reading and watching.  Participants are constantly on the ground, and make sure every story on our website is confirmed.',
+    pdf: {
+      title: 'SEE ALL ARTICLES',
+      link: 'https://www.truetalknews.org/blog',
+    },
+    event_information: [
+      {
+        label: 'Event Title',
+        input_text: 'Volunteer With Us An Ongoing Project',
+      },
+      {
+        label: 'Event',
+        input_text: 'upcoming',
+      },
+      {
+        label: 'Start Date',
+        input_text: '9/9/2024',
+      },
+      {
+        label: 'End Date',
+        input_text: '12/31/2025',
+      },
+      {
+        label: 'Get In Touch',
+        input_text:
+          'TrueTalk News Is Looking For Volunteers If You Are Interested In Joining Our Team',
+      },
+      {
+        label: 'Contact Email',
+        input_text: 'truetalknews1@gmail.com',
+      },
+    ],
+    donate: {
+      goal: 'to provide credible news reports to our numerous readers around the world. With a team of qualified, and dedicated , reporters, journalist and editors, we make the news worth reading and watching.  Participants are constantly on the ground, and make sure every story on our website is confirmed.',
+      href: 'https://www.truetalknews.org/donate',
     },
   },
 ];

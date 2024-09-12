@@ -35,10 +35,12 @@ section#story_banner figure {
 }
 #story p {
   text-align: justify;
+  font-size: 22px;
 }
 #story a {
   text-align: center;
   color: #fe9933;
+  font-size: 22px;
 }
 /*-----------------------GALLERY ----*/
 #projects_gallery {
