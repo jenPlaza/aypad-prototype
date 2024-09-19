@@ -2,7 +2,7 @@
 
 **Volunteer project through the UN Volunteers<br />Contact: Jim Tamuro & Philip Salis Bangura**
 
-Africa Youth for Peace and Development(AYPAD) is a fully responsive html prototype. AYPAD was created using HTML,CSS, and Vanilla Javascript. Developed from conception AYPAD manages 65% of its content using multiple object arrays that parses data, passing those values, into conditions and functions. Finally the changes are displayed, on screen, by modifying the selected HTML element with new innerhtml content. Visit https://jenplaza.github.io/aypad/index.html. To view Adobe XD Wireframes https://jennplaza.wordpress.com/wp-content/uploads/2024/07/aypad-lofi.png / https://jennplaza.wordpress.com/wp-content/uploads/2024/08/hifi-min.png
+Africa Youth for Peace and Development(AYPAD) is a fully responsive html prototype. AYPAD was created using HTML,CSS, and Vanilla Javascript. Developed from conception AYPAD manages 65% of its content using multiple object arrays that parses data, passing those values, into conditions and functions. Finally the changes are displayed, on screen, by modifying the selected HTML element with new innerhtml content. Visit https://aypad.org. To view Adobe XD Wireframes https://jennplaza.wordpress.com/wp-content/uploads/2024/07/aypad-lofi.png / https://jennplaza.wordpress.com/wp-content/uploads/2024/08/hifi-min.png
 
 ## About AYPAD
 
