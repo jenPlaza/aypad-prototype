@@ -1,0 +1,95 @@
+form input[type='submit'] {
+  width: 100%;
+  color: white;
+  font: normal small-caps normal 20px/1.4 'Fraunces', serif;
+  justify-self: center;
+  cursor: pointer;
+  height: 46px;
+}
+form input {
+  width: 95%;
+  height: 46px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  line-height: 2;
+  padding: 0 2%;
+}
+
+/*-----------------------CONTACT FORM----*/
+body:has(form[class='contact']) {
+  display: flex;
+  justify-content: center;
+}
+form.contact {
+  width: 90%;
+  display: grid;
+}
+
+#message {
+  width: 95%;
+  height: 100px;
+  border-radius: 11px;
+  border: 1px solid silver;
+  line-height: 2;
+  padding: 2%;
+}
+
+form.contact input[type='submit'] {
+  background-color: #044235;
+  height: 52px;
+}
+label {
+  font: normal small-caps normal 20px/1 'Fraunces', serif;
+  color: #432e41;
+}
+
+/*-----------------------SUBSCRIBE FORM----*/
+
+form.subscribe input {
+  margin-bottom: 3%;
+}
+
+form.subscribe input[type='submit'] {
+  background-color: red;
+  border: 1px solid red;
+}
+
+@media screen and (min-device-width: 992px) {
+  form.subscribe {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 100%;
+  }
+  form.subscribe input {
+    /* height: 9px; */
+    margin-bottom: 0;
+  }
+  form.subscribe input[type='submit'] {
+    width: 400px;
+    /* padding: 2%; */
+    line-height: 0;
+  }
+}
+@media screen and (min-device-width: 1200px) {
+  form.subscribe {
+    width: 100%;
+  }
+  body:has(form[class='subscribe']) {
+    display: flex;
+    align-items: center;
+    height: 115px;
+  }
+  form.subscribe input {
+    margin-left: 1%;
+  }
+  form.subscribe input[type='submit'] {
+    width: 150px;
+  }
+}
+@media screen and (min-device-width: 1400px) {
+  form.subscribe {
+    padding: 3%;
+    width: 95%;
+  }
+}

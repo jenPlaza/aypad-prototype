@@ -1,0 +1,141 @@
+{
+          "@context": "https://schema.org/",
+          "@type": "Organization",
+          "name": "Africa Youth for Peace and Development",
+          "logo": "https://aypad.org/assets/images/icons/logo_sml-min.png",
+          "description": "AYPAD is a youth serving, empowerment, and advocacy movement with a mission and vision of ensuring peace and development among youth around the world through enabling empowerment activities such as capacity building and leadership training, formal and non-formal education, social soft skills activities, environmental health, IT skills and sporting activities.",
+          "address": "Freetown, Sierra Leonne, WAFR",
+          "telephone": "+232 75 769929",
+          "areaServed": "Freetown, Sierra Leonne, WAFR",
+          "mainEntityOfPage": "https://aypad.org/assets/pdf/aypad_profile-compressed.pdf",
+          "event": [
+                    {
+                              "@type": "Event",
+                              "location": "Freetown, Sierra Leonne, WAFR",
+                              "url": "https://www.truetalknews.org/volunteer"
+                    }
+          ],
+          "makesOffer": [
+                    {
+                              "@type": "Offer",
+                              "itemOffered": {
+                                        "@type": "Service",
+                                        "serviceType": "Community Service",
+                                        "audience": "Young Adults",
+                                        "provider": "Africa Youth for Peace and Development",
+                                        "serviceOutput": [
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Snail Farming Project",
+                                                            "description": "The Snail Farming Project is on a mission to empower economically disadvantaged youth by providing them with sustainable farming skills through snail farming, promoting food security, entrepreneurship, and self-reliance in local communities.",
+                                                            "url": "https://aypad.org/story-event?id=snail",
+                                                            "mainEntityOfPage": "https://aypad.org/assets/pdf/snailFarming_profile-compressed.pdf"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Waste Management Project",
+                                                            "description": "The Waste Management Project is on a mission to transform youth into environmental stewards by equipping them with the knowledge and skills to manage waste effectively, fostering a culture of recycling, innovation, and sustainability for a cleaner, greener future.",
+                                                            "url": "https://aypad.org/story-event?id=waste"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Piggery Project",
+                                                            "description": "The Piggery Project is on a mission to enable youth to create sustainable livelihoods through pig farming by providing training in animal husbandry, business management, and sustainable agricultural practices, contributing to food security and economic independence.",
+                                                            "url": "https://aypad.org/story-event?id=piggery"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Cultural Project",
+                                                            "description": "The Cultural Program is on a mission to celebrate and preserve cultural heritage by engaging youth in cultural programs that promote understanding, unity, and the sharing of traditions, fostering a sense of identity and belonging in diverse communities.",
+                                                            "url": "https://aypad.org/story-event?id=culture"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Basic Education Project",
+                                                            "description": "The Basic Education Project is on a mission to ensure that every youth has access to quality basic education, equipping them with essential knowledge and skills to overcome economic challenges and participate actively in the development of their communities.",
+                                                            "url": "https://aypad.org/story-event?id=edu",
+                                                            "mainEntityOfPage": "https://aypad.org/assets/pdf/school_profile_-compressed.pdf"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Art and Craft Project",
+                                                            "description": "The Arts and Crafts Project is on a mission to nurture creative talents in youth by providing opportunities for artistic expression and crafts, fostering innovation, entrepreneurship, and cultural preservation through skill development.",
+                                                            "url": "https://aypad.org/story-event?id=arts"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Tree Planting Project",
+                                                            "description": "The Tree Planting Project is on a mission to cultivate environmental consciousness among youth by involving them in tree planting initiatives that combat climate change, promote biodiversity, and ensure a healthier planet for future generations.",
+                                                            "url": "https://aypad.org/story-event?id=tree"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Beautification Project",
+                                                            "description": "The Beautification Project is on a mission to empower youth to enhance their communities by leading beautification projects that instill pride, foster creativity, and promote a clean and welcoming environment for all.",
+                                                            "url": "https://aypad.org/story-event?id=beauty"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Sports Program",
+                                                            "description": "The Sports Program is on a mission to harness the power of sports to inspire, motivate, and unify youth, promoting physical fitness, teamwork, leadership, and healthy competition for personal and communal growth.",
+                                                            "url": "https://aypad.org/story-event?id=sports"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Skills Training Center",
+                                                            "description": "The Skills Training Center is on a mission to provide youth with comprehensive vocational training and skill development opportunities that bridge the gap between education and employment, empowering them to become self-reliant and economically productive.",
+                                                            "url": "https://aypad.org/story-event?id=skills"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Street Children Program",
+                                                            "description": "The Street Children Program is on a mission to offer street children a pathway out of poverty and marginalization by providing shelter, education, and life skills, helping them build a better future and reintegrate into society.",
+                                                            "url": "https://aypad.org/story-event?id=children"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Hockey Project",
+                                                            "description": "The Hockey Project is on a mission to introduce youth to the sport of hockey as a means of building discipline, teamwork, and resilience, fostering a sense of community, and promoting both physical and mental well-being.",
+                                                            "url": "https://aypad.org/story-event?id=hockey"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Micro-Credit Project",
+                                                            "description": "The Micro-Credit Project is on a mission to empower youth entrepreneurs with access to micro-credit, enabling them to launch or expand small businesses, create jobs, and contribute to economic development in their communities.",
+                                                            "url": "https://aypad.org/story-event?id=micro_credit"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Youth Farming Project",
+                                                            "description": "The Youth Farming Project is on a mission to engage youth in sustainable farming practices, providing training and resources to cultivate crops and promote food security, economic stability, and self-sufficiency",
+                                                            "url": "https://aypad.org/story-event?id=youth_farming"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Fish Frenzy Project",
+                                                            "description": "The Fish Farming Project goal is to train youth in aquaculture techniques, providing sustainable income opportunities while promoting food security and reducing reliance on traditional farming methods.",
+                                                            "url": "https://aypad.org/story-event?id=fish_farming"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Filmmaking Project",
+                                                            "description": "The Filmmaking Project is on a mission to amplify youth voices through the art of filmmaking, nurturing creativity while addressing social issues and promoting cultural exchange.",
+                                                            "url": "https://aypad.org/story-event?id=film"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "Trainer International Project",
+                                                            "description": "FISORI is committed to nurturing a dynamic ecosystem of research excellence and practical application across borders. We empower scholars, practitioners, and policymakers to collaborate, innovate, and implement sustainable solutions addressing the worlds most pressing challenges.",
+                                                            "url": "https://www.fisori.org/"
+                                                  },
+                                                  {
+                                                            "@type": "Thing",
+                                                            "name": "True Talk News",
+                                                            "description": "True Talk News is developed by Africa Youth for Peace and Development in Partnership with The United nations. The goal of this is to provide credible news reports to our numerous readers around the world. With a team of qualified, and dedicated , reporters, journalist and editors, we make the news worth reading and watching. Participants are constantly on the ground, and make sure every story on our website is confirmed.",
+                                                            "url": "https://www.truetalknews.org/"
+                                                  }
+                                        ]
+                              }
+                    }
+          ]
+}

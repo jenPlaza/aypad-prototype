@@ -132,6 +132,72 @@ if (page == 'story.html') {
   partnersAndAffiliations();
   //footer social media
   footerMedia();
+} else if (page == 'news.html') {
+  //-------------html replacement for news.html
+  //navigation menu
+  navMenu();
+
+  var newNewsletter = '<section><h3>Quarterly Newsletters</h3>';
+  if (
+    newsletterArray[0].current.length === 0 ||
+    newsletterArray[0].current.length === undefined
+  ) {
+    newNewsletter +=
+      '<h4 style="color:#dcdcdc; text-align: center;">No published newsletters</h4>';
+  } else {
+    newNewsletter += '<ul class="cnews">';
+    for (var i = 0; i < newsletterArray[0].current.length; i++) {
+      newNewsletter += '<li><article class="quarterlies">';
+      newNewsletter +=
+        '<a href="' + newsletterArray[0].current[i].news_href + '">';
+      newNewsletter +=
+        '<section><h4><em>' +
+        newsletterArray[0].current[i].news_Title +
+        '</em></h4>';
+      newNewsletter +=
+        '<h5><em>' + newsletterArray[0].current[i].news_subTitle + '</em></h5>';
+      newNewsletter +=
+        '<h5><b>' +
+        newsletterArray[0].current[i].news_feature +
+        '</b></h5></section></a>';
+      newNewsletter +=
+        '<figure><img src="' +
+        newsletterArray[0].current[i].news_feature_img +
+        '" alt="' +
+        newsletterArray[0].current[i].news_feature_alt +
+        '"></figure>';
+      newNewsletter += '</article></li>';
+    }
+    newNewsletter += '</ul></section>';
+  }
+  newNewsletter += '<section><h3>Past Newsletters</h3>';
+  if (
+    newsletterArray[1].past.length === 0 ||
+    newsletterArray[1].past.length === undefined
+  ) {
+    newNewsletter +=
+      '<h4 style="color:#dcdcdc; text-align: center; ">No published newsletters</h4>';
+  } else {
+    newNewsletter += '<div><ul class="pnews">';
+    for (var i = 0; i < newsletterArray[1].past.length; i++) {
+      newNewsletter +=
+        '<li><a href="' + newsletterArray[1].past[i].archive_href + '">';
+      newNewsletter +=
+        '<p><cite>' +
+        newsletterArray[1].past[i].archive_Title +
+        '</cite></p></a></li>';
+    }
+    newNewsletter += '</ul></div>';
+  }
+  newNewsletter += '</section>';
+  document.getElementById('current_past_news').innerHTML = newNewsletter;
+
+  //upcoming events
+  comingEvents();
+  //partners & affiliations
+  partnersAndAffiliations();
+  //footer social media
+  footerMedia();
 } else {
   //-------------html replacement for story_event.html
   //navigation menu

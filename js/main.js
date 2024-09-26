@@ -129,7 +129,7 @@ function comingEvents() {
         '" alt="' +
         flyerArray[n].flyer_img_alt +
         '" style="object-fit: cover;" width="100%" height="35%" />';
-      newflyer += '<div><h1>' + flyerArray[n].event_title + '</h1>';
+      newflyer += '<div><h2>' + flyerArray[n].event_title + '</h2>';
       newflyer += '<p>Address: ' + flyerArray[n].event_address + '</p>';
       newflyer += '<p>Time: ' + flyerArray[n].event_time + '</p><br />';
       newflyer += '<p>To Register/Get More Information</p>';
@@ -240,4 +240,35 @@ function footerMedia() {
   }
   media += '</ul>';
   document.getElementById('socialM').innerHTML = media;
+}
+//Newsletters for the Home page
+function newsletters() {
+  var newNews = '<div>';
+  if (
+    newsletterArray[0].current.length === 0 ||
+    newsletterArray[0].current.length === undefined
+  ) {
+    var newNews =
+      '<h4 style="color:#dcdcdc; text-align: center; position:absolute; bottom:5%; left:3%">No published newsletters</h4>';
+  } else {
+    newNews += '<ul>';
+    for (var n = 0; n < newsletterArray[0].current.length; n++) {
+      newNews +=
+        '<li id="' +
+        newsletterArray[0].current[n].news_id +
+        '" "><a href="' +
+        newsletterArray[0].current[n].news_href +
+        '"><article>';
+      newNews +=
+        '<section><h5>' + newsletterArray[0].current[n].news_Title + '</h5>';
+      newNews +=
+        '<p>' + newsletterArray[0].current[n].news_subTitle + '</p></section>';
+      newNews +=
+        '<p><b>' + newsletterArray[0].current[n].news_feature + '</b></p>';
+      newNews += '</article></a></li>';
+    }
+    newNews += '</ul>';
+  }
+  newNews += '</div>';
+  document.getElementById('newsletter').innerHTML = newNews;
 }

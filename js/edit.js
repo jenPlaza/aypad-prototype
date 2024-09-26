@@ -28,6 +28,11 @@ var navMenuArray = [
     link_href: './story.html',
   },
   {
+    link_id: 'news',
+    link_name: 'News',
+    link_href: './news.html',
+  },
+  {
     link_id: 'contact',
     link_name: 'Contact',
     link_href: './index.html#contact',
@@ -377,7 +382,136 @@ var logoArray = [
   },
 ];
 
-//4. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format). SEE listEntry_example.js FILE FOR AN EXAMPLE.
+//4. - NEWSLETTER LIST for Home Page
+//example...copy lines 388 - 394 (for current news)and paste in between the brackets on line 402; copy lines 396 - 399 (for past news)and paste in between the brackets on line 438
+//current news
+// {
+//   news_id: 'jan2025',
+//   news_Title: 'January 2025',
+//   news_subTitle: 'AYPADs Newsletter',
+//   news_feature: 'Featuring Africas Art',
+//   news_href: '/',
+// },
+//past news
+//{
+// archive_Title: 'January 2023 Featuring Lorem Ipsium',
+//archive_href: '/',
+//},
+var newsletterArray = [
+  {
+    current: [
+      {
+        news_id: 'oct2024',
+        news_Title: 'October 2024',
+        news_subTitle: 'AYPADs Newsletter',
+        news_feature: 'Featuring Trainers Intl',
+        news_feature_img:
+          './assets/images/news/edouard-tamba-Aa8U6Z9HsFE-unsplash-min.jpg',
+        news_feature_alt: 'lorem ipsium',
+        news_href: '/',
+      },
+      {
+        news_id: 'jul2024',
+        news_Title: 'July 2024',
+        news_subTitle: 'AYPADs Newsletter',
+        news_feature: 'Featuring Trees of Life',
+        news_feature_img:
+          './assets/images/banner/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min.jpg',
+        news_feature_alt: 'lorem ipsium',
+        news_href: '/',
+      },
+      {
+        news_id: 'apr2024',
+        news_Title: 'April 2024',
+        news_subTitle: 'AYPADs Newsletter',
+        news_feature: 'Featuring Skills Training',
+        news_feature_img: './assets/images/banner/suits-min.png',
+        news_feature_alt: 'lorem ipsium',
+        news_href: '/',
+      },
+      {
+        news_id: 'jan2024',
+        news_Title: 'January 2024',
+        news_subTitle: 'AYPADs Newsletter',
+        news_feature: 'Featuring World News',
+        news_feature_img:
+          './assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner.jpg',
+        news_feature_alt: 'lorem ipsium',
+        news_href: '/',
+      },
+    ],
+  },
+  {
+    past: [
+      {
+        archive_Title: 'January 2023 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'April 2023 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'July 2023 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'October 2023 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'January 2022 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'April 2022 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'July 2022 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'October 2022 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'January 2021 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'April 2021 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'July 2021 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'October 2021 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'January 2020 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'April 2020 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'July 2020 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+      {
+        archive_Title: 'October 2020 Featuring Lorem Ipsium',
+        archive_href: '/',
+      },
+    ],
+  },
+];
+
+//5. - STORY GALLERY ID CONDITIONALS ....When adding new projects a new id must be created (the same id is ued for project list and project id conditionals.... VERY IMPORTANT!!!!!! follow same format). SEE listEntry_example.js FILE FOR AN EXAMPLE.
 if (projectId == 'snail') {
   x = 0;
 } else if (projectId == 'waste') {
@@ -416,7 +550,7 @@ if (projectId == 'snail') {
   x = 17;
 }
 
-//5.- STORY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.  SEE listEntry_example.js FILE FOR AN EXAMPLE.
+//6.- STORY PROJECT LIST ....all fields must be created except for banner. Only projects that do not include the word project includes a banner. See list item Sport / Skills. e.g. banner must be filled in as banner:"", for project items.  SEE listEntry_example.js FILE FOR AN EXAMPLE.
 var projectList = [
   {
     id: 'snail',
@@ -536,19 +670,20 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/wasteMgmt/boyCleaningWaste.png',
+        elementSrc:
+          'assets/images/story_event/wasteMgmt/boyCleaningWaste-min.png',
         elementAlt: 'photo of young boy on a mountain of waste',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/wasteMgmt/boyWithWheelBarrelFullOfWaste.png',
+          'assets/images/story_event/wasteMgmt/boyWithWheelBarrelFullOfWaste-min.png',
         elementAlt: 'photo of young boy with a wheel barrel full of waste',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/wasteMgmt/GroupPictureOfwasteMangmentTeamCleaningtrash.jpeg',
+          'assets/images/story_event/wasteMgmt/GroupPictureOfwasteMangmentTeamCleaningtrash-min.jpeg',
         elementAlt: 'Group Picture Of waste Mangment Team Cleaning trash',
       },
     ],
@@ -749,13 +884,13 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/cultural/culturalDance.png',
+        elementSrc: 'assets/images/story_event/cultural/culturalDance-min.png',
         elementAlt: 'cultural dance at an event exposition',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/cultural/menPlayingAfricanDrums.png',
+          'assets/images/story_event/cultural/menPlayingAfricanDrums-min.png',
         elementAlt: 'cultural music played by men on African drums',
       },
     ],
@@ -876,7 +1011,8 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/basicEdu/ChildrenInClass.png',
+        elementSrc:
+          'assets/images/story_event/basicEdu/ChildrenInClass-min.png',
         elementAlt: 'Children in classroom',
       },
       {
@@ -958,36 +1094,37 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/arts/artsCraftsGathering.png',
+        elementSrc:
+          'assets/images/story_event/arts/artsCraftsGathering-min.png',
         elementAlt: 'Gathering of local artists at an Arts and Crafts event',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/arts/EventPicture.jpeg',
+        elementSrc: 'assets/images/story_event/arts/EventPicture-min.jpeg',
         elementAlt: 'Event Picture',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/arts/artsAndCraftsEvent_measuringPlasticContinerWidth.jpeg',
+          'assets/images/story_event/arts/artsAndCraftsEvent_measuringPlasticContinerWidth-min.jpeg',
         elementAlt: 'arts And Crafts Event measuring Plastic Continer Width',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/arts/ACEvent_wrapingPlasticContainerWidthCloth.jpeg',
+          'assets/images/story_event/arts/ACEvent_wrapingPlasticContainerWidthCloth-min.jpeg',
         elementAlt: 'ACEvent wraping Plastic Container Width Cloth',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/arts/ACEvent_measuringPlasticContainerWidth.jpeg',
+          'assets/images/story_event/arts/ACEvent_measuringPlasticContainerWidth-min.jpeg',
         elementAlt: 'ACEvent measuring Plastic Container Width',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/arts/ACEvent_childrenTakingPhotgraphOfFinishedShakerBottlesProject.jpeg',
+          'assets/images/story_event/arts/ACEvent_childrenTakingPhotgraphOfFinishedShakerBottlesProject-min.jpeg',
         elementAlt:
           'ACEvent children Taking Photgraph Of Finished Shaker Bottles Project',
       },
@@ -1051,25 +1188,25 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/tree/TreePlantingEvent.png',
+        elementSrc: 'assets/images/story_event/tree/TreePlantingEvent-min.png',
         elementAlt: 'photo of young tree stems',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/tree/treePlantingEventTeamGettingFieldReadyForPlanting.jpeg',
+          'assets/images/story_event/tree/treePlantingEventTeamGettingFieldReadyForPlanting-min.jpeg',
         elementAlt: 'tree Planting Event Team Getting Field Ready For Planting',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/tree/MenPrePrepNewFiledforPlanting.jpeg',
+          'assets/images/story_event/tree/MenPrePrepNewFiledforPlanting-min.jpeg',
         elementAlt: 'Men Prepping New Filed for Planting',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/tree/ManPreparingNewFieldForPlanting.jpeg',
+          'assets/images/story_event/tree/ManPreparingNewFieldForPlanting-min.jpeg',
         elementAlt: 'Man Preparing New Field For Planting',
       },
     ],
@@ -1382,24 +1519,25 @@ var projectList = [
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/street/streetChildrengathering.png',
+          'assets/images/story_event/street/streetChildrengathering-min.png',
         elementAlt: 'photo of children gathered for a project',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/street/streetChildrenProject.png',
+          'assets/images/story_event/street/streetChildrenProject-min.png',
         elementAlt: 'photo of children gathered for a project 2',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/street/streetChildrenTogether.png',
+          'assets/images/story_event/street/streetChildrenTogether-min.png',
         elementAlt: 'photo of group of children',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/street/streetChildrenPhoto.png',
+        elementSrc:
+          'assets/images/story_event/street/streetChildrenPhoto-min.png',
         elementAlt: 'photo of children',
       },
     ],
@@ -1462,37 +1600,37 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/hockey/hockeyPractice.png',
+        elementSrc: 'assets/images/story_event/hockey/hockeyPractice-min.png',
         elementAlt: 'photo of young hockey team practice ',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/hockey/hockeyTournament_children.png',
+          'assets/images/story_event/hockey/hockeyTournament_children-min.png',
         elementAlt: 'photo of young hockey team tournament ',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/hockey/hockeyTournamentYoungAdults.png',
+          'assets/images/story_event/hockey/hockeyTournamentYoungAdults-min.png',
         elementAlt: 'photo of young adult hockey team tournament ',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/hockey/photoBeforeHockeyTornament.jpeg',
+          'assets/images/story_event/hockey/photoBeforeHockeyTornament-min.jpeg',
         elementAlt: 'photo Before Hockey Tornament',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/hockey/photobeforeHockeyTornament_2.jpeg',
+          'assets/images/story_event/hockey/photobeforeHockeyTornament_2-min.jpeg',
         elementAlt: 'photo before Hockey Tornament 2',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/hockey/groupPictureOfHockeyTeamPlayer.jpeg',
+          'assets/images/story_event/hockey/groupPictureOfHockeyTeamPlayer-min.jpeg',
         elementAlt: 'group Picture Of Hockey Team Player',
       },
     ],
@@ -1825,28 +1963,29 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/film/filmakingEvent.png',
+        elementSrc: 'assets/images/story_event/film/filmakingEvent-min.png',
         elementAlt: 'photo of filmmaking team meeting',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/film/filmingAVideo.png',
+        elementSrc: 'assets/images/story_event/film/filmingAVideo-min.png',
         elementAlt: 'photo of filmmaking team making a video',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/film/ViewFromTheCamera.jpeg',
+        elementSrc: 'assets/images/story_event/film/ViewFromTheCamera-min.jpeg',
         elementAlt: 'View From The Camera',
       },
       {
         elementClass: 'imagenes',
         elementSrc:
-          'assets/images/story_event/film/closeupOfChildrenFilmingSomething.jpeg',
+          'assets/images/story_event/film/closeupOfChildrenFilmingSomething-min.jpeg',
         elementAlt: 'closeup Of Children Filming Something',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/film/boysFilmingFromCamera.jpeg',
+        elementSrc:
+          'assets/images/story_event/film/boysFilmingFromCamera-min.jpeg',
         elementAlt: 'boys Filming From camera',
       },
     ],
@@ -1909,38 +2048,39 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/objectives.png',
+        elementSrc: 'assets/images/story_event/trainerIntl/objectives-min.png',
         elementAlt: 'objectives',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/classSchedule.png',
-        elementAlt: 'classSchedule.png',
+        elementSrc:
+          'assets/images/story_event/trainerIntl/classSchedule-min.png',
+        elementAlt: 'classSchedule-min.png',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/duhaye.png',
+        elementSrc: 'assets/images/story_event/trainerIntl/duhaye-min.png',
         elementAlt: 'photo of Ms. duhaye',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/josephMbuga.png',
+        elementSrc: 'assets/images/story_event/trainerIntl/josephMbuga-min.png',
         elementAlt: 'photo of Mr. josephMbuga',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/nkhoma.png',
+        elementSrc: 'assets/images/story_event/trainerIntl/nkhoma-min.png',
         elementAlt: 'photo of Mr. nkhoma',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/twinamasiko.png',
+        elementSrc: 'assets/images/story_event/trainerIntl/twinamasiko-min.png',
         elementAlt: 'photo of Mr. twinamasiko',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/trainerIntl/contact.png',
-        elementAlt: 'contact.png',
+        elementSrc: 'assets/images/story_event/trainerIntl/contact-min.png',
+        elementAlt: 'contact-min.png',
       },
     ],
     page_title: 'Trainer International Project',
@@ -1995,7 +2135,7 @@ var projectList = [
       'assets/images/photo_gallery/roman-kraft-_Zua2hyvTBk-unsplash-min.jpg',
     caption: 'True Talk News',
     banner:
-      'assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner.jpg',
+      'assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner-min.jpg',
     flow_element: [
       {
         elementClass: 'imagenes',
@@ -2005,17 +2145,18 @@ var projectList = [
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/TrueTalk/trueTalkVision.png',
+        elementSrc: 'assets/images/story_event/TrueTalk/trueTalkVision-min.png',
         elementAlt: 'get Mobile app',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/TrueTalk/getMobile.png',
+        elementSrc: 'assets/images/story_event/TrueTalk/getMobile-min.png',
         elementAlt: 'get Mobile app',
       },
       {
         elementClass: 'imagenes',
-        elementSrc: 'assets/images/story_event/TrueTalk/contactTrueTalk.png',
+        elementSrc:
+          'assets/images/story_event/TrueTalk/contactTrueTalk-min.png',
         elementAlt: 'true talk contact information',
       },
     ],
@@ -2060,7 +2201,7 @@ var projectList = [
   },
 ];
 
-//6.- STORY EVENT SOCIAL MEDIA & FOOTER Social Media
+//7.- STORY EVENT SOCIAL MEDIA & FOOTER Social Media
 //to add more social media links...VERY IMPORTANT!!!!!! follow same format
 //icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow color hex formula #EEB847 (for story event / gray color hex formula #dcdcdc(for footer)).
 // SEE listEntry_example.js FILE FOR AN EXAMPLE.
