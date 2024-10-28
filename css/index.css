@@ -54,6 +54,7 @@ div#top_banner figure {
   margin: 0;
   padding: 0;
   position: relative;
+  z-index: 0;
 }
 .parallex {
   background-repeat: no-repeat;
@@ -106,9 +107,6 @@ div#top_banner figure {
 .parallex-section section#newsletter {
   display: none;
 }
-/* .parallex-section > div > div h2:last-child {
-  border: 1px solid red;
-} */
 
 .parallex-section > div > div h2:last-child:hover {
   color: #432e41;

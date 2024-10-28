@@ -62,12 +62,10 @@ form.subscribe input[type='submit'] {
     width: 100%;
   }
   form.subscribe input {
-    /* height: 9px; */
     margin-bottom: 0;
   }
   form.subscribe input[type='submit'] {
     width: 400px;
-    /* padding: 2%; */
     line-height: 0;
   }
 }

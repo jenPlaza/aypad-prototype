@@ -1,18 +1,8 @@
-console.log('service-worker');
-//if (navigator.serviceWorker) {
-// navigator.serviceWorker.register('./service-worker.js')
-//  .then(() => {
-//    console.log('ServiceWorker registration successful');
-//  })
-//  .catch(err => {
-//    console.log('ServiceWorker registration failed', err);
-//  })
-//}
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/service-worker.js');
   });
-}
+};
 
 // Core assets
 let coreAssets = [
@@ -23,7 +13,7 @@ let coreAssets = [
   './js/replace.js',
   './assets/images/icons/logo_sml-min.png',
   './assets/images/banner/martin-bekerman-2KxyxmXOjPs-unsplash-min.jpg',
-  './assets/images/banner/manolo-chretien-RpC-9e0ORNM-unsplash-min-banner.jpg',
+  './assets/images/photo-gallery/hockey-min.png',
   './assets/images/parallex/doug-linstedt-jEEYZsaxbH4-unsplash-min.jpg',
   './css/reusableComponents.css',
   './css/index.css',
@@ -51,10 +41,7 @@ self.addEventListener('fetch', function (event) {
 
   // Bug fix
   // https://stackoverflow.com/a/49719964
-  if (
-    event.request.cache === 'only-if-cached' &&
-    event.request.mode !== 'same-origin'
-  )
+  if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin')
     return;
 
   // HTML files
@@ -85,10 +72,7 @@ self.addEventListener('fetch', function (event) {
 
   // CSS & JavaScript
   // Offline-first
-  if (
-    request.headers.get('Accept').includes('text/css') ||
-    request.headers.get('Accept').includes('text/javascript')
-  ) {
+  if (request.headers.get('Accept').includes('text/css') || request.headers.get('Accept').includes('text/javascript')) {
     event.respondWith(
       caches.match(request).then(function (response) {
         return (
@@ -102,10 +86,8 @@ self.addEventListener('fetch', function (event) {
     );
     return;
   }
-
-  // Images
+// Images
   // Offline-first
-  // if (request.headers.get('Accept').includes('image')) {
   if (request.url.match(/\.(jpe?g|png|gif|svg)$/)){
      event.respondWith(
        caches.match(request).then(function (response) {
@@ -128,3 +110,6 @@ self.addEventListener('fetch', function (event) {
      );
    }
 });
+
+
+

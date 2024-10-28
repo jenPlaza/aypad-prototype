@@ -4,27 +4,6 @@ const a = x;
 
 let elementIndex = 0;
 
-//NAVIGATION MENU
-function navMenu() {
-  var header =
-    '<a href="' +
-    navMenuArray[0].link_href +
-    '"><figure class="logo"><img src="./assets/images/icons/logo_sml-min.png" alt="small logo" width="100%" height="100%"/></figure></a>';
-  header += '<nav><ul>';
-  for (var k = 0; k < navMenuArray.length; k++) {
-    header += '<li>';
-    header +=
-      '<a href="' +
-      navMenuArray[k].link_href +
-      '"><h5>' +
-      navMenuArray[k].link_name +
-      '</h5></a>';
-    header += ' </li>';
-  }
-  header += '</ul></nav>';
-  document.getElementById('navigation_menu').innerHTML = header;
-}
-
 //PAGINATION
 var btnArray = [
   {
@@ -224,23 +203,6 @@ function trueTalkArticles() {
   }
 }
 
-function footerMedia() {
-  var media = '<ul>';
-  for (var k = 0; k < socialArray.length; k++) {
-    media += '<li>';
-    media +=
-      '<a href="' + socialArray[k].media_link + '" target="_blank"><figure>';
-    media +=
-      '<img src="' +
-      socialArray[k].media_src[0] +
-      '" alt="' +
-      socialArray[k].media_alt +
-      '"/></figure></a>';
-    media += '</li>';
-  }
-  media += '</ul>';
-  document.getElementById('socialM').innerHTML = media;
-}
 //Newsletters for the Home page
 function newsletters() {
   var newNews = '<div>';

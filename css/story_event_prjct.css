@@ -102,6 +102,10 @@ section#story {
 #event h5 {
   padding: 3% 0;
 }
+#event section.social_media ul {
+  display: flex;
+  gap: 20px;
+}
 /*-----------------------FUNDRAISE ----*/
 
 section#fundraise p b {

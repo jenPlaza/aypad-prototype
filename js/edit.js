@@ -16,33 +16,7 @@ let projectId = id;
 let x;
 
 //NAVIGATION MENU
-var navMenuArray = [
-  {
-    link_id: 'home',
-    link_name: 'Home',
-    link_href: './index.html',
-  },
-  {
-    link_id: 'story',
-    link_name: 'Story',
-    link_href: './story.html',
-  },
-  {
-    link_id: 'news',
-    link_name: 'News',
-    link_href: './news.html',
-  },
-  {
-    link_id: 'contact',
-    link_name: 'Contact',
-    link_href: './index.html#contact',
-  },
-  {
-    link_id: 'donate',
-    link_name: 'Donate',
-    link_href: './donate.html',
-  },
-];
+//navigation array on aypadEdit.js file
 
 //1.- UPCOMING Events
 //to add more event flyers...VERY IMPORTANT!!!!!! follow same format
@@ -318,69 +292,7 @@ var articleArray = [
 //3.- PARTNERS & AFFILIATIONS LOGOS
 //to add more logos ...VERY IMPORTANT!!!!!! follow same format
 //SEE listEntry_example.js FILE FOR AN EXAMPLE.
-var logoArray = [
-  {
-    link_href: 'https://www.facebook.com/CommunityYouthNetworkProgramcynpInc/',
-    img_src: './assets/images/partners/communityYouthNetworkProgram.png',
-    img_alt: 'Community Youth Network Program logo',
-    img_caption: 'Community Youth Network Program',
-  },
-  {
-    link_href: 'https://www.fisori.org/',
-    img_src: './assets/images/partners/freya_logo-min.png',
-    img_alt: 'Freya logo',
-    img_caption: 'Freya',
-  },
-  {
-    link_href: 'https://gyan.tigweb.org/',
-    img_src: './assets/images/partners/gyan.png',
-    img_alt: 'Global Youth Action Network logo',
-    img_caption: 'Global Youth Action Network Program',
-  },
-  {
-    link_href: 'https://bitcoin.org/en/',
-    img_src: './assets/images/partners/bitcoin.png',
-    img_alt: 'Bitcoin logo',
-    img_caption: 'Bitcoin',
-  },
-  {
-    link_href: 'https://tools4change.org/',
-    img_src: './assets/images/partners/tools4Change-Logo.png',
-    img_alt: 'Tools 4 Change logo',
-    img_caption: 'Tools 4 Change',
-  },
-  {
-    link_href: 'https://www.truetalknews.org/',
-    img_src: './assets/images/partners/trueTalk_logo-min.png',
-    img_alt: 'True talk logo',
-    img_caption: 'True Talk',
-  },
-  {
-    link_href: 'https://www.warchild.net/',
-    img_src: './assets/images/partners/war-child-ic.png',
-    img_alt: 'War Child logo',
-    img_caption: 'War Child',
-  },
-  {
-    link_href: 'http://yppdatwork.org/',
-    img_src:
-      './assets/images/partners/youthPartnershipForPeaceAndDevelopment_logo.png',
-    img_alt: 'Youth Partnership for Peace and Development logo',
-    img_caption: 'Youth Partnership for Peace and Development',
-  },
-  {
-    link_href: 'https://www.un.org/en/',
-    img_src: './assets/images/partners/uniteNations_logo.png',
-    img_alt: 'United Nations logo',
-    img_caption: 'United Nations',
-  },
-  {
-    link_href: 'https://www.unv.org/',
-    img_src: './assets/images/partners/UNV_logo.jpg',
-    img_alt: 'United Nations Volunteers logo',
-    img_caption: 'United Nations Volunteers',
-  },
-];
+//logo array on aypadEdit.js file
 
 //4. - NEWSLETTER LIST for Home Page
 //example...copy lines 388 - 394 (for current news)and paste in between the brackets on line 402; copy lines 396 - 399 (for past news)and paste in between the brackets on line 438
@@ -2198,77 +2110,5 @@ var projectList = [
       goal: 'to provide credible news reports to our numerous readers around the world. With a team of qualified, and dedicated , reporters, journalist and editors, we make the news worth reading and watching.  Participants are constantly on the ground, and make sure every story on our website is confirmed.',
       href: 'https://www.truetalknews.org/donate',
     },
-  },
-];
-
-//7.- STORY EVENT SOCIAL MEDIA & FOOTER Social Media
-//to add more social media links...VERY IMPORTANT!!!!!! follow same format
-//icons can be downloaded from https://www.iconsdb.com/white-icons/ (yellow color hex formula #EEB847 (for story event / gray color hex formula #dcdcdc(for footer)).
-// SEE listEntry_example.js FILE FOR AN EXAMPLE.
-var socialArray = [
-  {
-    media_id: 'email',
-    media_link: 'mailto:aypadorg@gmail.com',
-    media_src: [
-      './assets/images/icons/socialMedia/new-post_grey.png',
-      './assets/images/icons/socialMedia/message_yellow.png',
-    ],
-    media_alt: 'email icon',
-  },
-  {
-    media_id: 'phone',
-    media_link: 'tel:1-232-75-769929',
-    media_src: [
-      './assets/images/icons/socialMedia/phone_grey.png',
-      './assets/images/icons/socialMedia/phone_yellow.png',
-    ],
-    media_alt: 'phone icon',
-  },
-  {
-    media_id: 'linkedIn',
-    media_link:
-      'https://www.linkedin.com/company/africa-youth-for-peace-and-development/',
-    media_src: [
-      './assets/images/icons/socialMedia/linkedin_grey.png',
-      './assets/images/icons/socialMedia/linkedin_yellow.png',
-    ],
-    media_alt: 'linkedIn icon',
-  },
-  {
-    media_id: 'facebook',
-    media_link:
-      'https://www.facebook.com/people/Africa-Youth-for-Peace-and-DevelopmentAYPAD/100065081730525/',
-    media_src: [
-      './assets/images/icons/socialMedia/facebook_grey.png',
-      './assets/images/icons/socialMedia/facebook_yellow.png',
-    ],
-    media_alt: 'facebook icon',
-  },
-  {
-    media_id: 'twitter',
-    media_link: 'https://x.com/aypadorg1',
-    media_src: [
-      './assets/images/icons/socialMedia/twitter_grey.png',
-      './assets/images/icons/socialMedia/twitter_yellow.png',
-    ],
-    media_alt: 'twitter icon',
-  },
-  {
-    media_id: 'instgram',
-    media_link: 'https://www.instagram.com/aypadorganization/',
-    media_src: [
-      './assets/images/icons/socialMedia/instagram_grey.png',
-      './assets/images/icons/socialMedia/instagram_yellow.png',
-    ],
-    media_alt: 'instgram icon',
-  },
-  {
-    media_id: 'youtube',
-    media_link: 'https://www.youtube.com/@aypadorganization877',
-    media_src: [
-      './assets/images/icons/socialMedia/youtube_grey.png',
-      './assets/images/icons/socialMedia/youtube_yellow.png',
-    ],
-    media_alt: 'youtube icon',
   },
 ];

@@ -16,6 +16,7 @@
       empowerment, and advocacy movement
     </title>
     <link rel="stylesheet" href="./css/reusableComponents.css" />
+    <link rel="stylesheet" href="./css/aypadComponents.css" />
     <link rel="stylesheet" href="./css/story.css" />
     <link rel="stylesheet" href="./css/story_event_prjct.css" />
     <link rel="stylesheet" href="./css/story_event_prgm.css" />
@@ -30,8 +31,8 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header id="navigation_menu"></header>
+  <body onload="displayBrands();">
+    <header id="AYPAD" class="in-place"></header>
     <main id="inAction">
       <!-- banner -->
       <div id="top_banner">
@@ -103,36 +104,15 @@
           </div>
         </section>
         <!--footer -->
-        <footer id="footer">
-          <span>
-            <div>
-              <a href="#home"
-                ><figure>
-                  <img
-                    src="./assets/images/icons/logo_sml-min.png"
-                    alt="small logo"
-                  /></figure
-              ></a>
-              <h4><em>Africa Youth for Peace and Development</em></h4>
-            </div>
-            <div>
-              <address>Freetown JM00000, Sierra Leonne, WAFR</address>
-              <p>+232 75 769929</p>
-            </div>
-          </span>
-          <section class="map">
-            <div>
-              <a href="./index.html"><h5>Home</h5></a>
-              <a href="./story.html"><h5>Story</h5></a>
-              <a href="./donate.html"><h5>Donate</h5></a>
-            </div>
-          </section>
-          <section id="socialM" class="social_media"></section>
+        <footer>
+          <section id="location"></section>
+          <section id="map"></section>
+          <section id="socialM"></section>
         </footer>
-    <script type="text/javascript" src="./js/edit.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+        <script type="text/javascript" src="./js/edit.js"></script>
+        <script type="text/javascript" src="./js/aypad/aypadEdit.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+        <script type="text/javascript" src="./js/aypad/aypadFunctions.js"></script>
     <script type="text/javascript" src="./js/replace.js"></script>
-
-
   </body>
 </html>

@@ -1,9 +1,14 @@
 //PASSING VARIABLE VIA URL
 //finding the windows' url
-//console.log('href: ', window.location.href);
-var href = window.location.href;
+//var href = window.location.href;
+//var origin = window.location.origin;
+var pathname = window.location.pathname;
+//var relative = window.location.relative;
+//console.log('href: ', href);
+//console.log('origin: ', origin);
+//console.log('pathname: ', pathname);
 //remove the url pathname and the varaible declaration
-const page = href.split('/aypad/');
+let page = pathname.split('/');
 //console.log('page: ', page);
 //remove the first item of the array
 page.shift();
@@ -16,9 +21,6 @@ let todaysDate = new Date().toLocaleDateString();
 //------------------STORY----------------------------//
 if (page == 'story.html') {
   //-------------html replacement for story.html
-  //navigation menu
-  navMenu();
-
   var newGallery = '<ul>';
   for (var i = 0; i < projectList.length; i++) {
     newGallery +=
@@ -44,13 +46,8 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
-  //footer social media
-  footerMedia();
 } else if (page == 'donate.html') {
   //-------------html replacement for donate.html
-  //navigation menu
-  navMenu();
-
   var optionList = [
     {
       imgSrc: 'assets/images/icons/donation/piggy-bank.png',
@@ -130,12 +127,8 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
-  //footer social media
-  footerMedia();
 } else if (page == 'news.html') {
   //-------------html replacement for news.html
-  //navigation menu
-  navMenu();
 
   var newNewsletter = '<section><h3>Quarterly Newsletters</h3>';
   if (
@@ -196,12 +189,8 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
-  //footer social media
-  footerMedia();
 } else {
   //-------------html replacement for story_event.html
-  //navigation menu
-  navMenu();
 
   const newId = (projectId = id);
   const a = x;
@@ -403,7 +392,7 @@ if (page == 'story.html') {
       socialArray[ca].media_src[1] +
       '" alt="' +
       socialArray[ca].media_alt +
-      '" /></figure></a></li>';
+      '" width="40px" height="40px"/></figure></a></li>';
   }
   newProject += '</ul></section></section>';
   newProject += '</section>'; //event end
@@ -414,6 +403,4 @@ if (page == 'story.html') {
   comingEvents();
   //partners & affiliations
   partnersAndAffiliations();
-  //footer social media
-  footerMedia();
 }

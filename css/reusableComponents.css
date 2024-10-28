@@ -54,52 +54,9 @@ p {
   font: normal normal normal 18px/1.2 'Darker Grotesque', sans-serif;
   color: #000;
 }
-/*-----------------------HEADER ----*/
-body > header {
-  background-color: rgba(36, 17, 8, 0.4);
-}
-header {
-  width: 100%;
-  height: 4rem;
-  position: absolute;
-  top: 0;
-  padding-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 1;
-}
-.logo {
-  width: auto;
-  height: auto;
-  position: relative;
-  top: -13px;
-  left: 5px;
-  display: none;
-}
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: end;
-}
-nav ul {
-  display: flex;
-  text-align: center;
-  /* margin-right: 7%; */
-}
-nav li {
+ul li {
   list-style: none;
-  width: 5.5rem;
-}
-nav a,
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-nav a h5 {
-  text-decoration: none;
-  color: #d2d2d2;
-  filter: drop-shadow(2px 4px 6px black);
-  min-width: 80px;
+  height: auto;
 }
 nav a h5:active {
   color: #fe9933;
@@ -243,7 +200,7 @@ section#partners_gallery {
   padding: 0 0 0 7%;
 }
 section#partners_gallery h3 {
-  white-space: nowrap;
+  white-space: wrap;
   font-size: 40px;
 }
 ul.rotate {
@@ -477,7 +434,6 @@ ul.rotate li > article a > figure figcaption {
   align-items: center;
 }
 #signUp div > div {
-  /* width: 100%; */
   width: 95%;
   display: flex;
   align-items: flex-start;
@@ -492,111 +448,12 @@ ul.rotate li > article a > figure figcaption {
   height: auto;
   overflow: auto;
 }
-/*-----------------------Footer ----*/
-footer {
-  width: 100%;
-  height: auto;
-  margin-top: -1%;
-  background-color: #432e41;
-  padding: 0 5%;
-  display: flex;
-  flex-wrap: inherit;
-  flex-direction: column;
-  justify-content: space-evenly;
-  bottom: 0;
-}
-#footer span {
-  flex-direction: column;
-  width: auto;
-  color: #dcdcdc;
-  margin: 5% 0;
-  display: flex;
-  align-items: flex-end;
-  text-align: start;
-}
-
-#footer span div:nth-child(2) {
-  flex-direction: column;
-  width: 80%;
-  color: #dcdcdc;
-  align-items: flex-start;
-  margin-top: 1%;
-}
-#footer span div:nth-child(2) p,
-#footer span div address {
-  color: #dcdcdc;
-}
-footer div {
-  display: flex;
-  width: 100%;
-  margin-bottom: 0;
-}
-footer img {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
-  margin-top: -8px;
-}
-footer h4 em {
-  color: #d2d2d2;
-  font-size: 20px;
-}
-.social_media {
-  width: 100%;
-  margin: 5% 10%;
-  align-self: center;
-}
-.social_media ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-.social_media li {
-  list-style: none;
-}
-.social_media img {
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-}
-.map {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: center;
-}
-.map a {
-  text-decoration: none;
-}
-.map a h5 {
-  color: #dcdcdc !important;
-}
-#footer section.map > div {
-  width: 75%;
-  display: flex;
-  justify-content: space-evenly;
-}
-@media screen and (max-width: 575px) {
-  nav ul {
-    overflow: scroll;
-  }
-}
 @media screen and (min-width: 576px) {
   h2:not(#flyer h2) {
     font-size: 56px;
   }
-  nav ul {
-    margin-right: 7%;
-  }
   main {
     margin-bottom: 6%;
-  }
-  .logo {
-    width: 80px;
-    height: 80px;
-    display: block;
-  }
-  nav {
-    width: 35%;
   }
   section#upcoming_events > h3 {
     margin-bottom: 2%;
@@ -611,15 +468,9 @@ footer h4 em {
     width: 55%;
     margin: 5% 0;
   }
-  #footer span div:nth-child(2) {
-    width: 87%;
-    margin-top: -2%;
-  }
-  .map {
-    width: 100%;
-  }
-  #footer section.map > div {
-    width: 50%;
+  section#partners_gallery h3 {
+    white-space: nowrap;
+    font-size: 40px;
   }
 }
 
@@ -630,52 +481,12 @@ footer h4 em {
   div#top_banner {
     height: 400px;
   }
-  .logo {
-    width: 90px;
-    height: 90px;
-  }
   #upcoming_events {
     padding: 5% 0 0 7%;
     margin-bottom: 5%;
   }
   ul.rotate {
     font-size: 300px;
-  }
-  footer {
-    padding: 1% 3%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    padding-bottom: 3%;
-    height: auto;
-  }
-  footer span {
-    width: 100%;
-  }
-  #footer span div:nth-child(2) {
-    width: 85%;
-  }
-  .map {
-    width: 38%;
-    justify-content: flex-end;
-  }
-  #signUp div > div h3:first-child {
-    margin-bottom: 0;
-  }
-  #footer section.map > div {
-    height: auto;
-    width: 79%;
-    justify-content: space-between;
-  }
-  .social_media {
-    width: 100%;
-    margin: -1% 0;
-    justify-content: center;
-    display: flex;
-  }
-  .social_media ul {
-    width: 65%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -696,55 +507,6 @@ footer h4 em {
   }
   #signUp h3:first-child {
     margin-bottom: 0;
-  }
-  footer {
-    /* height: 70px; */
-    padding: 0 1% 1% 1%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  footer div {
-    width: 35%;
-    margin: 0;
-    padding: 0;
-  }
-  footer img {
-    margin-top: 0px;
-  }
-  #footer span {
-    margin: 0 0 3% 0;
-    width: 35%;
-  }
-  #footer span div:first-child {
-    width: 100%;
-  }
-  #footer span div:first-child h4 {
-    white-space: nowrap;
-  }
-  #footer span div:nth-child(2) {
-    margin-top: -8%;
-    width: 81%;
-  }
-  footer div h4 {
-    line-height: 0.5;
-  }
-  .map {
-    width: 50%;
-    justify-content: center;
-    padding: 0;
-  }
-  #footer section.map > div {
-    height: auto;
-    width: 65%;
-  }
-  .social_media {
-    width: 50%;
-    justify-content: space-between;
-  }
-  .social_media ul {
-    width: 108%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -779,39 +541,6 @@ footer h4 em {
     width: auto;
     overflow: auto;
   }
-  footer {
-    height: auto;
-    margin-top: -1%;
-    padding: 1%;
-  }
-  #footer span {
-    margin: 0;
-    width: 46%;
-  }
-  footer div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
-  }
-  #footer span div:nth-child(2) {
-    width: 88%;
-    margin-top: -3%;
-  }
-  .social_media {
-    width: 25%;
-    display: flex;
-    justify-content: end;
-  }
-  .map {
-    width: 20%;
-  }
-  #footer section.map > div {
-    width: 100%;
-    justify-content: space-between;
-  }
-  .social_media ul {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 1400px) {
   #partners {
@@ -825,53 +554,19 @@ footer h4 em {
     -moz-animation: none;
   }
   #signUp {
-    padding: 3% 4% 3% 6%;
+    padding: 3% 4% 3% 4.5%;
     margin-bottom: -3%;
   }
   #signUp div > div {
     width: 48%;
   }
-  footer {
-    padding-bottom: 1%;
-  }
-  #footer span div:nth-child(2) {
-    width: 89%;
-    margin-top: -2%;
-  }
-  #footer span {
-    width: 42%;
-  }
-  .map {
-    width: 20%;
-  }
-  #footer section.map > div {
-    width: 100%;
-  }
-  .social_media {
-    width: 30%;
-  }
-  .social_media ul {
-    width: 85%;
-  }
 }
 @media screen and (min-width: 1600px) {
-  #signUp {
-    padding: 3% 4% 3% 5%;
-  }
   #signUp div > div {
     width: 49%;
   }
   #signUp h3:nth-child(2) {
     margin-left: 8%;
-  }
-  #footer span div:nth-child(2) {
-    width: 90%;
-  }
-  .map {
-    width: 18%;
-  }
-  #footer section.map > div {
-    width: 80%;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -880,27 +575,11 @@ footer h4 em {
     margin-bottom: 0;
   }
   #signUp {
-    padding: 1% 4% 3% 4%;
-  }
-  #footer span div:nth-child(2) {
-    width: 92%;
-  }
-  .map {
-    width: 20%;
-    justify-content: flex-start;
-  }
-  #footer section.map > div {
-    width: 74%;
-    justify-content: space-around;
-    margin: 0 auto;
-  }
-  #footer span div:nth-child(2) {
-    width: 89%;
-    margin-top: -1%;
+    padding: 1% 4% 3% 3.5%;
   }
 }
 @media screen and (min-width: 2400px) {
-  #footer span div:nth-child(2) {
-    width: 93.5%;
+  #signUp {
+    padding: 1% 4% 3% 3%;
   }
 }
