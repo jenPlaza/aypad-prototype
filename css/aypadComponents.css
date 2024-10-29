@@ -568,8 +568,8 @@ footer section#socialM ul li a figure img {
     display: block;
   }
   nav#nav section.logo_container {
-    left: -159px;
-    top: 68px;
+    left: -160px;
+    top: 66px;
     height: 350px;
     padding: 2% 4% 6% 4%;
   }
@@ -777,8 +777,7 @@ footer section#socialM ul li a figure img {
 @media screen and (min-width: 2000px) {
   nav#nav section.logo_container {
     padding: 0 3%;
-    left: -185px;
-    top: 75px;
+    top: 64px;
   }
   body > header#AYPAD > div nav#nav section.logo_container header {
     max-width: 20%;
@@ -814,11 +813,17 @@ footer section#socialM ul li a figure img {
   }
 }
 @media screen and (min-width: 2200px) {
+  nav#nav section.logo_container {
+    left: -182px;
+  }
   body > header#AYPAD > div nav#nav section.logo_container header {
     max-width: 25%;
   }
 }
 @media screen and (min-width: 2400px) {
+  nav#nav section.logo_container {
+    left: -184px;
+  }
   /*-----------------------Partners ----*/
   main.partners header {
     margin: 0 3% 1% 3%;
