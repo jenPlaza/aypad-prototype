@@ -20,9 +20,9 @@ for (var i = 1; i < navigationArray.length; i++) {
 aypadHeader += '</ul>';
 aypadHeader += '<section class="logo_container" style="display: none">';
 aypadHeader += '<header><div id="close" onclick="closeBranList()">Close</div>';
-aypadHeader += '<h3>Lorem Ipsium</h3>';
+aypadHeader += '<h3>Building an amazing tool box!</h3>';
 aypadHeader +=
-  '<h5>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and  visual mockups.</h5></header>';
+  '<h5>Dr. Philip S. Bangura is the founder of Africa Youth for Peace and Development(AYPAD), an organization that empowers youth through transparency. Having decades of experience and a passion for social work, Dr Philip has put his vision into action through the implementation of Africa Youth for Peace and Development, Freya, True Talk, and DIM Studio Audio Beats.</h5></header>';
 aypadHeader += '<ul id="brands"></ul>';
 aypadHeader += '</section></nav></div>';
 document.getElementById('AYPAD').innerHTML = aypadHeader;

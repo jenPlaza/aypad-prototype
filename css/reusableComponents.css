@@ -64,6 +64,13 @@ nav a h5:active {
 nav a h5:hover {
   color: #eeb847;
 }
+nav#nav a h5,
+nav#nav h5 {
+  filter: drop-shadow(0px 0px 1px #fae9d8);
+}
+body > header#AYPAD > div nav#nav > ul {
+  background: var(--white);
+}
 /*-----------------------TOP BANNER ----*/
 div#top_banner {
   width: 100%;
