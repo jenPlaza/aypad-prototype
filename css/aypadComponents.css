@@ -173,10 +173,6 @@ nav#nav ul li.dropdown:hover .brandbtn {
 /*-----------------------AYPAD logo container ----*/
 
 nav#nav section.logo_container {
-  /*
-  height: 350px;
-  padding: 2% 4% 6% 4%;
- */
   position: absolute;
   background-color: #fff;
   min-width: 100%;
@@ -194,10 +190,6 @@ nav#nav section.logo_container {
 }
 
 section.logo_container > header {
-  /* 
-  min-width: 345px;
-  top: 22px;
-  height: 225px; */
   width: auto;
   min-width: 340px;
   position: relative;
@@ -223,13 +215,8 @@ section.logo_container > header h3,
 section.logo_container > header h5 {
   color: black;
 }
-/* section.logo_container > header h3 {
-  white-space: nowrap;
-} */
 
 nav#nav section.logo_container > ul {
-  /* 
-  top: 60px; */
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -244,8 +231,6 @@ nav#nav section.logo_container > ul {
 }
 
 section.logo_container ul#brands li {
-  /* 
-  position: static; */
   list-style: none;
   width: auto;
   height: auto;
@@ -269,9 +254,6 @@ section.logo_container ul#brands li h5 {
 }
 
 section.logo_container ul#brands li article figure {
-  /* width: 300px;
-  height: 275px;
-  justify-content: center; */
   width: 275px;
   height: 250px;
   position: relative;
@@ -337,7 +319,8 @@ main.partners header {
   height: 225px;
 }
 
-main.partners header h3 {
+main.partners header h3,
+section.logo_container > header h3 {
   font: 40px / 1.4 'Fraunces', sans-serif;
   color: black;
 }
