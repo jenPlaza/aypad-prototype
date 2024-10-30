@@ -140,6 +140,9 @@ body > header#AYPAD > div nav#nav > ul {
   align-items: center;
   margin: 0 auto;
 }
+body > header#AYPAD > div nav#nav > ul {
+  background-color: white;
+}
 body > header#AYPAD > div nav#nav > ul li {
   display: flex;
   flex-wrap: nowrap;
@@ -210,6 +213,7 @@ nav#nav section.logo_container > header > div {
   font-size: 18px;
   text-decoration: underline;
   cursor: pointer;
+  z-index: 1;
 }
 section.logo_container > header h3,
 section.logo_container > header h5 {
@@ -314,14 +318,14 @@ body div.back a h5 {
 main.partners header {
   width: 90%;
   position: relative;
-  margin: 0px 3% 0% 3%;
-  top: 50px;
+  margin: 0 3% 50px 3%;
+  top: 30px;
   height: 225px;
 }
 
 main.partners header h3,
 section.logo_container > header h3 {
-  font: 40px / 1.4 'Fraunces', sans-serif;
+  font: 38px / 1.4 'Fraunces', sans-serif;
   color: black;
 }
 main.partners header h4 {
@@ -469,6 +473,9 @@ footer section#socialM ul li a figure img {
     width: 100vw;
     margin: 0 auto;
   }
+  nav#nav section.logo_container > header > div {
+    z-index: 1;
+  }
   .logo {
     width: 150px;
     height: auto;
@@ -479,8 +486,7 @@ footer section#socialM ul li a figure img {
   }
   main.partners header {
     top: 0;
-    height: 160px;
-    margin: 0 3% 3% 3%;
+    margin: 0 3% 0 3%;
   }
   main.partners ul {
     top: 75px;
@@ -554,10 +560,11 @@ footer section#socialM ul li a figure img {
     left: -160px;
     top: 66px;
     height: 350px;
-    padding: 2% 4% 6% 4%;
+    padding: 6% 4% 6% 4%;
   }
   nav#nav section.logo_container > header > div {
     top: 85px;
+    z-index: 1;
   }
   /*-----------------------AYPAD logo container ----*/
 
@@ -574,7 +581,7 @@ footer section#socialM ul li a figure img {
     padding: 2%;
   }
   main.partners header {
-    height: 150px;
+    height: 205px;
   }
   main.partners {
     top: 100px;
@@ -695,7 +702,7 @@ footer section#socialM ul li a figure img {
     min-height: 90%;
   }
   main.partners header {
-    height: 115px;
+    height: 175px;
   }
   /*-----------------------Footer ----*/
   footer {
